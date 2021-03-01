@@ -1,5 +1,6 @@
 #--------------------------------------------------------------------------------
 export EDITOR=nvim
+export VISUAL=nvim
 
 CYAN="\[\e[01;36m\]"
 WHITE="\[\e[01;37m\]"
@@ -13,6 +14,16 @@ export PS1="${CYAN}[${BLUE}${TIME}${WHITE} ${CURRENT_PATH}${CYAN}]${ROOT_OR_NOT}
 alias vim="nvim"
 alias vi="nvim"
 alias oldvim="vim"
+
 alias ls="ls --color=auto"
+alias grep="grep --color=auto"
 alias cat="bat"
+alias rg="ripgrep"
+
+alias p="sudo pacman"
+alias pi="sudo pacman -Syu"
+
+alias github_ssh="~/.scripts/github_ssh.sh"
+#--------------------------------------------------------------------------------
+set -o vi
 #--------------------------------------------------------------------------------
