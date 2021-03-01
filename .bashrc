@@ -1,6 +1,8 @@
 #--------------------------------------------------------------------------------
-export EDITOR=nvim
-export VISUAL=nvim
+export EDITOR="nvim"
+export VISUAL="nvim"
+export TERMINAL="konsole"
+export BROWSER="brave"
 
 CYAN="\[\e[01;36m\]"
 WHITE="\[\e[01;37m\]"
@@ -10,6 +12,10 @@ TIME="\t"
 CURRENT_PATH="\W"
 ROOT_OR_NOT="\$"
 export PS1="${CYAN}[${BLUE}${TIME}${WHITE} ${CURRENT_PATH}${CYAN}]${ROOT_OR_NOT}${TEXT_RESET} "
+#--------------------------------------------------------------------------------
+shopt -s autocd
+HISTSIZE= HISTFILESIZE=
+set -o vi
 #--------------------------------------------------------------------------------
 alias vim="nvim"
 alias vi="nvim"
@@ -24,6 +30,4 @@ alias p="sudo pacman"
 alias pi="sudo pacman -Syu"
 
 alias github_ssh="~/.scripts/github_ssh.sh"
-#--------------------------------------------------------------------------------
-set -o vi
 #--------------------------------------------------------------------------------
