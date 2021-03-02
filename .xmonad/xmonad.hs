@@ -19,7 +19,7 @@ main = xmonad defaultConfig
         , borderWidth = 5
         , normalBorderColor  = "#dddddd"
         , focusedBorderColor = "ff0000"
-        , workspaces = ["1", "2", "3", "4", "5", "6", "8", "9", "10"]
+        , workspaces = ["1", "2", "3", "4", "5", "6", "8", "9"]
         , keys = myKeys
         }
 --------------------------------------------------------------------------------
