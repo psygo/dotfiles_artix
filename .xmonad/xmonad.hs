@@ -11,6 +11,7 @@ import qualified Data.Map        as M
 
 import XMonad.Prompt
 import XMonad.Prompt.Shell
+import XMonad.Prompt.FuzzyMatch
 --------------------------------------------------------------------------------
 main = xmonad defaultConfig
         { modMask = mod4Mask
@@ -18,27 +19,27 @@ main = xmonad defaultConfig
         , borderWidth = 5
         , normalBorderColor  = "#dddddd"
         , focusedBorderColor = "ff0000"
-        , workspaces = ["1", "2", "3", "4", "5"]
+        , workspaces = ["1", "2", "3", "4", "5", "6", "8", "9", "10"]
         , keys = myKeys
         }
 --------------------------------------------------------------------------------
 myXPConfig :: XPConfig
 myXPConfig = def
       {
-        font                = "xft:Fira Code Bold Font:size=14"
+        font                = "xft:Fira Code:style=Bold:pixelsize=16"
       , bgColor             = "#292d3e"
       , fgColor             = "#d0d0d0"
       , bgHLight            = "#c792ea"
       , fgHLight            = "#000000"
       , borderColor         = "#535974"
       , promptBorderWidth   = 1
-      , position            = Top
-      , height              = 20
+      , position            = CenteredAt { xpCenterY = 0.3, xpWidth = 0.3 }
+      , height              = 40
       , historySize         = 256
       , historyFilter       = id
       , defaultText         = []
       , showCompletionOnTab = False
-      , searchPredicate     = isPrefixOf
+      , searchPredicate     = fuzzyMatch
       , alwaysHighlight     = True
       , maxComplRows        = Nothing
       }
@@ -64,16 +65,19 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm              , xK_comma ), sendMessage (IncMasterN 1))
     , ((modm              , xK_period), sendMessage (IncMasterN (-1)))
       --------------------------------------------------------------------------
-      -- XMonad Help and Management
-    , ((modm .|. shiftMask, xK_q     ), io (exitWith ExitSuccess))
-    , ((modm              , xK_q     ), spawn "xmonad --recompile; xmonad --restart")
-    , ((modm .|. shiftMask, xK_slash ), spawn ("echo \"" ++ help ++ "\" | xmessage -file -"))
-      --------------------------------------------------------------------------
-      -- Workspace and Window Management
+      -- Workspace and Screen Management
     , ((modm,               xK_Down),  nextWS)
     , ((modm,               xK_Up),    prevWS)
+    , ((modm .|. shiftMask, xK_Down),  shiftToNext)
+    , ((modm .|. shiftMask, xK_Up),    shiftToPrev)
     , ((modm,               xK_Right), nextScreen)
     , ((modm,               xK_Left),  prevScreen)
+    , ((modm .|. shiftMask, xK_Right), shiftNextScreen)
+    , ((modm .|. shiftMask, xK_Left),  shiftPrevScreen)
+      --------------------------------------------------------------------------
+      -- XMonad Management
+    , ((modm .|. shiftMask, xK_q     ), io (exitWith ExitSuccess))
+    , ((modm              , xK_q     ), spawn "xmonad --recompile; xmonad --restart")
       --------------------------------------------------------------------------
     ]
 --------------------------------------------------------------------------------
