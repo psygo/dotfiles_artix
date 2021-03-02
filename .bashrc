@@ -14,7 +14,7 @@ COMMAND_TEXT_COLOR="\[\e[01;38;5;243m\]"
 DIVIDER="|"
 TIME="\t"
 CURRENT_PATH="\w"
-BRANCH="git branch --show-current"
+BRANCH="git status >/dev/null 2>&1 && git branch --show-current"
 ROOT_OR_NOT="\$"
 TEXT_RESET="\[\e[00m\]"
 

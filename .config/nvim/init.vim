@@ -3,18 +3,28 @@
 
 call plug#begin('~/.config/nvim/plugged')
 
+" Editor
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'preservim/nerdtree'
-Plug 'vim-airline/vim-airline'
+Plug 'neoclide/coc.nvim'
+Plug 'mattn/emmet-vim'
+Plug 'rbgrouleff/bclose.vim' " mandatory dependency to ranger.vim
+Plug 'francoiscabrol/ranger.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'liuchengxu/vim-which-key'
 
+" Themes
 Plug 'joshdick/onedark.vim'
+Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'lilydjwg/colorizer'
 
 call plug#end()
 
 colorscheme onedark
-let g:airline_theme='onedark'
+let g:airline_theme = 'onedark'
 let g:airline#extensions#tabline#enabled = 1
 "-------------------------------------------------------------------------------
 " Global Editor Configs
@@ -51,4 +61,5 @@ nmap <C-j> <C-w>j
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 nmap <leader>w :w!<CR>
+nmap <leader>q :q!<CR>
 "-------------------------------------------------------------------------------
