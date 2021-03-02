@@ -52,6 +52,8 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_c     ), kill)
     , ((modm              , xK_b     ), spawn "brave")
     , ((modm              , xK_p     ), shellPrompt myXPConfig)
+    , ((modm              , xK_d     ), spawn "setxkbmap -layout us -variant intl; xmodmap ~/.Xmodmap")
+    , ((modm              , xK_u     ), spawn "setxkbmap -layout us; xmodmap ~/.Xmodmap")
       --------------------------------------------------------------------------
       -- Window Management
     , ((modm,               xK_space ), sendMessage NextLayout)
