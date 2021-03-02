@@ -34,4 +34,5 @@ alias pi="sudo pacman -Syu"
 alias github_ssh="~/.scripts/github_ssh.sh"
 
 alias bashrc="vim .bashrc"
+alias xmonadrc="vim .xmonad/xmonad.hs"
 #--------------------------------------------------------------------------------

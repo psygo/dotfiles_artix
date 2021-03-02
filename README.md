@@ -6,7 +6,7 @@ These are my configuration files for Linux, I focus a lot on minimalism. Anyway,
 - Neovim
 - Emacs, mostly for some notes in Org-mode &mdash; might fully transition from [Notion][notion]
 - [XMonad][xmonad] as a Window Manager
-- dmenu as an application launcher
+- ~~dmenu~~ `XMonad.Prompt` as an application launcher
 - ranger as an in-terminal file manager
 - Nemo as my GUI file manager
 - Brave as my default browser
