@@ -30,6 +30,7 @@ alias rg="ripgrep"
 
 alias p="sudo pacman"
 alias pi="sudo pacman -Syu"
+alias pq="sudo pacman -Ss"
 
 alias github_ssh="~/.scripts/github_ssh.sh"
 
