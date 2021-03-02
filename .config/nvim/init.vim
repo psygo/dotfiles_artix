@@ -1,9 +1,26 @@
 "-------------------------------------------------------------------------------
-" Global Configs
-set nocompatible
-filetype on
+" Plugins & Themes
+
+call plug#begin('~/.config/nvim/plugged')
+
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-vinegar'
+Plug 'preservim/nerdtree'
+Plug 'vim-airline/vim-airline'
+
+Plug 'joshdick/onedark.vim'
+Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
+
+colorscheme onedark
+let g:airline_theme='onedark'
+let g:airline#extensions#tabline#enabled = 1
 "-------------------------------------------------------------------------------
 " Global Editor Configs
+
+set nocompatible
+filetype on
 syntax on
 set number
 set hlsearch
@@ -16,8 +33,6 @@ set hidden
 set history=500
 set bg=dark
 set clipboard=unnamedplus
-"-------------------------------------------------------------------------------
-" Some General Editor Coding Configs
 set shiftwidth=2
 set tabstop=2
 set expandtab
@@ -25,17 +40,15 @@ set list
 set ruler
 set showcmd
 set scrolloff=5
+set lbr
+set ai
+set si
 "-------------------------------------------------------------------------------
-" Remapping
+" Remappings
+
 nmap <C-k> <C-w>k
 nmap <C-j> <C-w>j
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 nmap <leader>w :w!<CR>
-"-------------------------------------------------------------------------------
-" Coding
-"set lbr
-set ai
-set si
-"color onedark
 "-------------------------------------------------------------------------------
