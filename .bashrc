@@ -15,8 +15,8 @@ ROOT_OR_NOT="\$"
 BRANCH="git branch --show-current"
 export PS1="${CYAN}[${BLUE}${TIME}${WHITE} ${CURRENT_PATH}${CYAN}] ${BRANCH_COLOR}| \$(${BRANCH}) | ${ROOT_OR_NOT}${TEXT_RESET} "
 
+# Flutter and Dart
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
-export _JAVA_AWT_WM_NONREPARENTING=1
 export PATH="${PATH}:/home/philippe/Code/Flutter/bin"
 #--------------------------------------------------------------------------------
 shopt -s autocd
