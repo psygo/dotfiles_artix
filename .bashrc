@@ -50,6 +50,7 @@ alias pq="sudo pacman -Ss"
 alias github_ssh="~/.scripts/github_ssh.sh"
 
 alias bashrc="vim ~/.bashrc"
-alias xmonadrc="vim ~/.xmonad/xmonad.hs"
 alias vimrc="vim ~/.config/nvim/init.vim"
+alias xmonadrc="vim ~/.xmonad/xmonad.hs"
+alias xinitrc="vim ~/.xinitrc"
 #--------------------------------------------------------------------------------
