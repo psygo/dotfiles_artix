@@ -16,7 +16,7 @@ import XMonad.Prompt.FuzzyMatch
 main = xmonad defaultConfig
         { modMask = mod4Mask
         , terminal = "konsole"
-        , borderWidth = 5
+        , borderWidth = 3
         , normalBorderColor  = "#dddddd"
         , focusedBorderColor = "ff0000"
         , workspaces = ["1", "2", "3", "4", "5", "6", "8", "9"]
@@ -52,8 +52,8 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_c     ), kill)
     , ((modm              , xK_b     ), spawn "brave")
     , ((modm              , xK_p     ), shellPrompt myXPConfig)
-    , ((modm              , xK_d     ), spawn "setxkbmap -layout us -variant intl; xmodmap ~/.Xmodmap")
-    , ((modm              , xK_u     ), spawn "setxkbmap -layout us; xmodmap ~/.Xmodmap")
+    , ((modm              , xK_d     ), spawn deadKeysLayout)
+    , ((modm              , xK_u     ), spawn usLayout)
       --------------------------------------------------------------------------
       -- Window Management
     , ((modm,               xK_space ), sendMessage NextLayout)
@@ -79,7 +79,11 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
       --------------------------------------------------------------------------
       -- XMonad Management
     , ((modm .|. shiftMask, xK_q     ), io (exitWith ExitSuccess))
-    , ((modm              , xK_q     ), spawn "xmonad --recompile; xmonad --restart")
+    , ((modm              , xK_q     ), spawn restartRecompile)
       --------------------------------------------------------------------------
     ]
+
+restartRecompile = "xmonad --recompile; xmonad --restart"
+deadKeysLayout = "setxkbmap -layout us -variant intl; xmodmap ~/.Xmodmap"
+usLayout = "setxkbmap -layout us; xmodmap ~/.Xmodmap"
 --------------------------------------------------------------------------------

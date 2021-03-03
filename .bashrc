@@ -38,6 +38,7 @@ alias vim="nvim"
 alias vi="nvim"
 alias oldvim="vim"
 
+alias cls="clear"
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 alias cat="bat"
