@@ -7,7 +7,7 @@ export BROWSER="brave"
 DIVIDER_COLOR="\[\e[01;38;5;250m\]"
 TIME_COLOR="\[\e[01;38;5;011m\]"
 PATH_COLOR="\[\e[01;38;5;002m\]"
-BRANCH_COLOR="\[\e[01;38;5;009m\]"
+BRANCH_COLOR="\[\e[01;38;5;033m\]"
 ROOT_OR_NOT_COLOR="\[\e[01;38;5;013m\]"
 COMMAND_TEXT_COLOR="\[\e[01;38;5;243m\]"
 
@@ -26,12 +26,11 @@ COMPLETE_ROOT_OR_NOT="${ROOT_OR_NOT_COLOR}${ROOT_OR_NOT}"
 
 export PS1="${COMPLETE_TIME} ${COMPLETE_PATH} ${COMPLETE_BRANCH} ${COMPLETE_ROOT_OR_NOT} ${TEXT_RESET}"
 
-# Flutter and Dart
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
 export PATH="${PATH}:/home/philippe/Code/Flutter/bin"
 export PATH="${PATH}:/home/philippe/.emacs.d/bin"
 #--------------------------------------------------------------------------------
-#shopt -s autocd
+shopt -s autocd
 HISTSIZE= HISTFILESIZE=
 set -o vi
 #--------------------------------------------------------------------------------
