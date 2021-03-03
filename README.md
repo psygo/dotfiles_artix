@@ -4,7 +4,7 @@ These are my configuration files for Linux, I focus a lot on minimalism. Anyway,
 
 - Konsole as my terminal &mdash; mostly because it supports font ligatures
 - Neovim
-- Emacs, mostly for some notes in Org-mode &mdash; might fully transition from [Notion][notion]
+- Emacs &mdash; [Doom Emacs][doom_emacs] &mdash;, mostly for some notes in Org-mode &mdash; might fully transition from [Notion][notion]
 - [XMonad][xmonad] as a Window Manager
 - ~~dmenu~~ `XMonad.Prompt` as an application launcher
 - ranger as an in-terminal file manager
@@ -15,6 +15,7 @@ I also have some custom command-line programs which help create a more modern en
 
 
 [bat]: https://github.com/sharkdp/bat
+[doom_emacs]: https://github.com/hlissner/doom-emacs
 [exa]: https://github.com/ogham/exa
 [notion]: https://notion.so/
 [xmonad]: https://xmonad.org/
