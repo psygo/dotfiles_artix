@@ -29,8 +29,9 @@ export PS1="${COMPLETE_TIME} ${COMPLETE_PATH} ${COMPLETE_BRANCH} ${COMPLETE_ROOT
 # Flutter and Dart
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
 export PATH="${PATH}:/home/philippe/Code/Flutter/bin"
+export PATH="${PATH}:/home/philippe/.emacs.d/bin"
 #--------------------------------------------------------------------------------
-shopt -s autocd
+#shopt -s autocd
 HISTSIZE= HISTFILESIZE=
 set -o vi
 #--------------------------------------------------------------------------------

@@ -62,4 +62,5 @@ nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
 nmap <leader>w :w!<CR>
 nmap <leader>q :q!<CR>
+nmap <leader>wq :wq!<CR>
 "-------------------------------------------------------------------------------
