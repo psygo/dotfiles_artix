@@ -12,8 +12,6 @@ Plug 'mattn/emmet-vim'
 Plug 'rbgrouleff/bclose.vim' " mandatory dependency to ranger.vim
 Plug 'francoiscabrol/ranger.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-Plug 'liuchengxu/vim-which-key'
 
 " Themes
 Plug 'joshdick/onedark.vim'
@@ -23,6 +21,7 @@ Plug 'lilydjwg/colorizer'
 
 call plug#end()
 
+" Plugins Customizations
 colorscheme onedark
 let g:airline_theme = 'onedark'
 let g:airline#extensions#tabline#enabled = 1
@@ -37,7 +36,6 @@ set hlsearch
 set incsearch
 set relativenumber
 set splitbelow splitright
-set nocompatible
 set wildmenu
 set hidden
 set history=500
@@ -63,4 +61,20 @@ nmap <C-l> <C-w>l
 nmap <leader>w :w!<CR>
 nmap <leader>q :q!<CR>
 nmap <leader>wq :wq!<CR>
+nmap <leader>N :NERDTree<CR>
+"-------------------------------------------------------------------------------
+" Coc
+
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? coc#_select_confirm() :
+      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+let g:coc_snippet_next = '<tab>'
 "-------------------------------------------------------------------------------
