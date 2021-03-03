@@ -12,6 +12,7 @@ Plug 'mattn/emmet-vim'
 Plug 'rbgrouleff/bclose.vim' " mandatory dependency to ranger.vim
 Plug 'francoiscabrol/ranger.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " Themes
 Plug 'joshdick/onedark.vim'
@@ -31,9 +32,9 @@ let g:airline#extensions#tabline#enabled = 1
 set nocompatible
 filetype on
 syntax on
-set number
 set hlsearch
 set incsearch
+set number
 set relativenumber
 set splitbelow splitright
 set wildmenu
@@ -58,10 +59,12 @@ nmap <C-k> <C-w>k
 nmap <C-j> <C-w>j
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
+nmap <F5> :source ~/.config/nvim/init.vim<CR>
 nmap <leader>w :w!<CR>
 nmap <leader>q :q!<CR>
 nmap <leader>wq :wq!<CR>
 nmap <leader>N :NERDTree<CR>
+nmap <leader>n :FZF<CR>
 "-------------------------------------------------------------------------------
 " Coc
 

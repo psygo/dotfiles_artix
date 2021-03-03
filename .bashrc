@@ -55,3 +55,6 @@ alias vimrc="vim ~/.config/nvim/init.vim"
 alias xmonadrc="vim ~/.xmonad/xmonad.hs"
 alias xinitrc="vim ~/.xinitrc"
 #--------------------------------------------------------------------------------
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+export FZF_DEFAULT_OPS="--extended"
+#--------------------------------------------------------------------------------
