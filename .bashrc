@@ -48,7 +48,7 @@ alias p="sudo pacman"
 alias pi="sudo pacman -Syu"
 alias pq="sudo pacman -Ss"
 
-alias github_ssh="~/.scripts/github_ssh.sh"
+alias github_ssh="eval $(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
 
 alias bashrc="vim ~/.bashrc"
 alias vimrc="vim ~/.config/nvim/init.vim"
