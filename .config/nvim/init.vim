@@ -17,6 +17,7 @@ Plug 'francoiscabrol/ranger.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
+Plug 'jiangmiao/auto-pairs'
 
 " Themes
 Plug 'joshdick/onedark.vim'
@@ -73,7 +74,7 @@ nmap <F5> :source ~/.config/nvim/init.vim<CR>
 nmap <leader>w :w!<CR>
 nmap <leader>q :q!<CR>
 nmap <leader>wq :wq!<CR>
-nmap <leader>N :NERDTree<CR>
+nmap <leader>N :NERDTreeToggle<CR>
 nmap <leader>n :FZF<CR>
 nmap <leader>v :vs<CR>
 nmap <leader>h :sp<CR>
