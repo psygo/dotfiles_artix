@@ -46,6 +46,7 @@ alias cat="bat"
 alias p="sudo pacman"
 alias pi="sudo pacman -Syu"
 alias pq="sudo pacman -Ss"
+alias pr="sudo pacman -Rns"
 
 alias github_ssh="eval \$(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
 

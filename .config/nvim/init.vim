@@ -9,6 +9,7 @@ Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-projectionist'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim'
 Plug 'mattn/emmet-vim'
@@ -74,8 +75,7 @@ nmap <F5> :source ~/.config/nvim/init.vim<CR>
 nmap <leader>w :w!<CR>
 nmap <leader>q :q!<CR>
 nmap <leader>wq :wq!<CR>
-nmap <leader>N :NERDTreeToggle<CR>
-nmap <leader>n :FZF<CR>
+nmap <leader>n :NERDTreeToggle<CR>
 nmap <leader>v :vs<CR>
 nmap <leader>h :sp<CR>
 nmap <leader>o o<Esc>k
@@ -86,6 +86,8 @@ nmap ]b :bprevious<CR>
 
 map <C-n> :Files<CR>
 map <C-l> :Lines<CR>
+
+nnoremap c* *Ncgn
 "-------------------------------------------------------------------------------
 " CoC
 
