@@ -7,6 +7,8 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim'
 Plug 'mattn/emmet-vim'
@@ -55,6 +57,9 @@ set scrolloff=5
 set lbr
 set ai
 set si
+set backspace=indent,eol,start
+set complete-=i
+set smarttab
 "-------------------------------------------------------------------------------
 " Remappings
 
