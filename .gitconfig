@@ -7,8 +7,6 @@
 	lca = !git add -A && git commit
   st = !git status --short
   pom = !git push origin master
-  ssh = !eval $(ssh-agent -s) && ssh-add ~/.ssh/github_ssh
-  poms = !git ssh && git pom
 [color]
 	ui = true
 [core]
