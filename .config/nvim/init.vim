@@ -6,6 +6,7 @@ call plug#begin('~/.config/nvim/plugged')
 " Editor
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
+Plug 'tpope/vim-commentary'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim'
 Plug 'mattn/emmet-vim'
@@ -13,6 +14,7 @@ Plug 'rbgrouleff/bclose.vim' " mandatory dependency to ranger.vim
 Plug 'francoiscabrol/ranger.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'easymotion/vim-easymotion'
 
 " Themes
 Plug 'joshdick/onedark.vim'
@@ -26,6 +28,7 @@ call plug#end()
 colorscheme onedark
 let g:airline_theme = 'onedark'
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 "-------------------------------------------------------------------------------
 " Global Editor Configs
 
@@ -59,14 +62,26 @@ nmap <C-k> <C-w>k
 nmap <C-j> <C-w>j
 nmap <C-h> <C-w>h
 nmap <C-l> <C-w>l
+
 nmap <F5> :source ~/.config/nvim/init.vim<CR>
+
 nmap <leader>w :w!<CR>
 nmap <leader>q :q!<CR>
 nmap <leader>wq :wq!<CR>
 nmap <leader>N :NERDTree<CR>
 nmap <leader>n :FZF<CR>
+nmap <leader>v :vs<CR>
+nmap <leader>h :sp<CR>
+nmap <leader>o o<Esc>k
+nmap <leader>O O<Esc>j
+
+nmap [b :bnext<CR>
+nmap ]b :bprevious<CR>
+
+map <C-n> :Files<CR>
+map <C-l> :Lines<CR>
 "-------------------------------------------------------------------------------
-" Coc
+" CoC
 
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? coc#_select_confirm() :
@@ -80,4 +95,27 @@ function! s:check_back_space() abort
 endfunction
 
 let g:coc_snippet_next = '<tab>'
+
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  elseif (coc#rpc#ready())
+    call CocActionAsync('doHover')
+  else
+    execute '!' . &keywordprg . " " . expand('<cword>')
+  endif
+endfunction
+
+autocmd CursorHold * silent call CocActionAsync('highlight')
+
+nmap <leader>rn <Plug>(coc-rename)
+
+command! -nargs=0 Format :call CocAction('format')
 "-------------------------------------------------------------------------------
