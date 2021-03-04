@@ -54,5 +54,5 @@ alias vimrc="vim ~/.config/nvim/init.vim"
 alias xmonadrc="vim ~/.xmonad/xmonad.hs"
 alias xinitrc="vim ~/.xinitrc"
 
-alias fanaro.io="cd ~/Code/FanaroEngineering/fanaro.io"
+alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io"
 #--------------------------------------------------------------------------------
