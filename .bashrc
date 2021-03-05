@@ -44,7 +44,7 @@ alias grep="grep --color=auto"
 alias cat="bat"
 
 alias p="sudo pacman"
-alias pi="sudo pacman -Syu"
+alias pi="sudo pacman -Syyu"
 alias pq="sudo pacman -Ss"
 alias pr="sudo pacman -Rns"
 
