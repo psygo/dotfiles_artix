@@ -90,6 +90,9 @@ map <C-n> :Files<CR>
 map <C-l> :Lines<CR>
 
 nnoremap c* *Ncgn
+
+nnoremap <S-Del> a<Del><Esc>
+nnoremap <S-BS> i<BS><Esc>`^
 "-------------------------------------------------------------------------------
 " CoC
 
