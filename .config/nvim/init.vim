@@ -19,6 +19,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'jiangmiao/auto-pairs'
+Plug 'matze/vim-move'
 
 " Themes
 Plug 'joshdick/onedark.vim'
@@ -33,6 +34,7 @@ colorscheme onedark
 let g:airline_theme = 'onedark'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:move_key_modifier = 'S'
 "-------------------------------------------------------------------------------
 " Global Editor Configs
 
