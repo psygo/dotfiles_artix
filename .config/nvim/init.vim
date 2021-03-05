@@ -10,13 +10,15 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-projectionist'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim'
 Plug 'mattn/emmet-vim'
 Plug 'rbgrouleff/bclose.vim' " mandatory dependency to ranger.vim
 Plug 'francoiscabrol/ranger.vim'
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'jiangmiao/auto-pairs'
 Plug 'matze/vim-move'
@@ -35,6 +37,7 @@ let g:airline_theme = 'onedark'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:move_key_modifier = 'S'
+let g:limelight_conceal_ctermfg = 'gray'
 "-------------------------------------------------------------------------------
 " Global Editor Configs
 

@@ -1,3 +1,4 @@
+#!/bin/bash
 #--------------------------------------------------------------------------------
 export EDITOR="nvim"
 export VISUAL="nvim"
@@ -8,7 +9,6 @@ TIME_COLOR="\[\e[01;38;5;011m\]"
 PATH_COLOR="\[\e[01;38;5;002m\]"
 BRANCH_COLOR="\[\e[01;38;5;033m\]"
 ROOT_OR_NOT_COLOR="\[\e[01;38;5;013m\]"
-COMMAND_TEXT_COLOR="\[\e[01;38;5;243m\]"
 
 TIME="\t"
 CURRENT_PATH="\w"
@@ -33,6 +33,7 @@ export FZF_DEFAULT_OPS="--extended"
 shopt -s autocd
 HISTSIZE= HISTFILESIZE=
 set -o vi
+bind -m vi-insert '"\C-x\C-e": edit-and-execute-command'
 #--------------------------------------------------------------------------------
 alias vim="nvim"
 alias vi="nvim"
