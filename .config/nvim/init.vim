@@ -51,7 +51,7 @@ let g:indentLine_char_list = ['|', '┊', '┆', '¦']
 
 set nocompatible
 filetype on
-syntax on
+syntax enable
 set hlsearch
 set incsearch
 set number
@@ -75,6 +75,9 @@ set si
 set backspace=indent,eol,start
 set complete-=i
 set smarttab
+set mouse=a
+
+au! BufWritePost $MYVIMRC source %
 "-------------------------------------------------------------------------------
 " Remappings
 
