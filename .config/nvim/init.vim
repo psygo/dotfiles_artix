@@ -14,6 +14,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
+Plug 'junegunn/gv.vim'
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim'
 Plug 'mattn/emmet-vim'
