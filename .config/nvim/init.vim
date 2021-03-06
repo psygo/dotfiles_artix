@@ -100,8 +100,10 @@ nmap <leader>O O<Esc>j
 nmap [b :bnext<CR>
 nmap ]b :bprevious<CR>
 
-map <C-n> :Files<CR>
-map <C-l> :Lines<CR>
+nmap <C-f> :Files<CR>
+nmap <C-r> :Rg<CR>
+nmap <C-l> :Lines<CR>
+nmap <C-b> :Buffers<CR>
 
 nnoremap c* *Ncgn
 
