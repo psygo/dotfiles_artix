@@ -22,6 +22,7 @@ Plug 'francoiscabrol/ranger.vim'
 Plug 'easymotion/vim-easymotion'
 Plug 'jiangmiao/auto-pairs'
 Plug 'matze/vim-move'
+Plug 'jpalardy/vim-slime'
 
 " Themes
 Plug 'joshdick/onedark.vim'

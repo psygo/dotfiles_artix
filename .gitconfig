@@ -1,13 +1,13 @@
 [user]
-	name = Philippe Fanaro
-	email = philippefanaro@gmail.com
+  name = Philippe Fanaro
+  email = philippefanaro@gmail.com
 [alias]
-	aac = !git add -A && git commit -m
-	coa = aac
-	lca = !git add -A && git commit
+  aac = !git add -A && git commit -m
+  coa = aac
+  lca = !git add -A && git commit
   st = !git status --short
   pom = !git push origin master
 [color]
-	ui = true
+  ui = true
 [core]
-	editor = nvim
+  editor = nvim

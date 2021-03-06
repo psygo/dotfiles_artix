@@ -12,3 +12,9 @@ For more info, check the [Arch Wiki Fonts][arch_wiki_fonts] web page.
 
 
 [arch_wiki_fonts]: https://wiki.archlinux.org/index.php/fonts
+
+## Emojis
+
+```sh
+sudo pacman -S noto-fonts-emoji
+```
