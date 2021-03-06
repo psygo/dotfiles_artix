@@ -25,6 +25,9 @@ Plug 'matze/vim-move'
 Plug 'jpalardy/vim-slime'
 Plug 'machakann/vim-highlightedyank'
 Plug 'Yggdroot/indentLine'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'wincent/scalpel'
+Plug 'itspriddle/vim-shellcheck'
 
 " Themes
 Plug 'joshdick/onedark.vim'
