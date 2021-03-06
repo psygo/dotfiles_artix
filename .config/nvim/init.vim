@@ -24,6 +24,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'matze/vim-move'
 Plug 'jpalardy/vim-slime'
 Plug 'machakann/vim-highlightedyank'
+Plug 'Yggdroot/indentLine'
 
 " Themes
 Plug 'joshdick/onedark.vim'
@@ -41,6 +42,7 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:move_key_modifier = 'S'
 let g:limelight_conceal_ctermfg = 'gray'
 let g:highlightedyank_highlight_duration = 500
+let g:indentLine_char_list = ['|', '┊', '┆', '¦']
 "-------------------------------------------------------------------------------
 " Global Editor Configs
 
@@ -99,6 +101,9 @@ nnoremap c* *Ncgn
 
 nnoremap <S-Del> a<Del><Esc>
 nnoremap <S-BS> i<BS><Esc>`^
+
+cnoremap vimrc e /home/philippe/.config/nvim/init.vim
+cnoremap bashrc e /home/philippe/.bashrc
 "-------------------------------------------------------------------------------
 " CoC
 
