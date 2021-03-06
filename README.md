@@ -27,6 +27,7 @@ I also have some custom command-line programs which help create a more modern en
 - [X] Go through the major topics of [Greg Hurrel's screen casts][greg_hurrel_sc]
 - [ ] Fix bluetooth with OpenRC
 - [ ] Fix blanking of the screen after being idle for some time
+- [X] Cedilla isn't working under the US Intl with Dead Keys layout &mdash; it's currently being mapped to `ć`
 
 
 [greg_hurrel_sc]: https://www.youtube.com/playlist?list=PLwJS-G75vM7kFO-yUkyNphxSIdbi_1NKX
