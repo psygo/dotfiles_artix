@@ -1,4 +1,4 @@
-# Philippe Fanaro's Dotfiles
+# My Dotfiles
 
 These are my configuration files for Linux, I focus a lot on minimalism. Anyway, I currently use:
 
