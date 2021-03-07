@@ -11,11 +11,12 @@ These are my configuration files for Linux, I focus a lot on minimalism. Anyway,
 - Nemo as my GUI file manager
 - Brave as my default browser
 
-I also have some custom command-line programs which help create a more modern environment, like Rust's [`exa`][exa] and [`bat`][bat].
+I also have some custom command-line programs which help create a more modern environment, like Rust's [`exa`][exa] and [`bat`][bat]. Another strong recommendation I have is the amazing [`fzf`][fzf] multi-tool, which also happens to have Vim integration via a plugin.
 
 
 [bat]: https://github.com/sharkdp/bat
 [doom_emacs]: https://github.com/hlissner/doom-emacs
 [exa]: https://github.com/ogham/exa
+[fzf]: https://github.com/junegunn/fzf
 [notion]: https://notion.so/
 [xmonad]: https://xmonad.org/
