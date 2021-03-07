@@ -5,15 +5,20 @@
 !.gitignore
 !.bashrc
 !.config/
-
-!.config/nvim/
-!.config/nvim/init.vim
 #-------------------------------------------------------------------------------
 !.xinitrc
 !.Xmodmap
 
 !.xmonad/
 !.xmonad/xmonad.hs
+#-------------------------------------------------------------------------------
+!.local/
+!.local/share/
+!.local/share/konsole/
+!.local/share/konsole/philippe.profile
+
+!.config/nvim/
+!.config/nvim/init.vim
 
 !.doom.d/
 !.doom.d/*
