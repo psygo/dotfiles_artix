@@ -16,6 +16,8 @@ Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'junegunn/gv.vim'
 Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim'
 Plug 'mattn/emmet-vim'
 Plug 'rbgrouleff/bclose.vim' " mandatory dependency to ranger.vim
@@ -29,6 +31,18 @@ Plug 'Yggdroot/indentLine'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'wincent/scalpel'
 Plug 'itspriddle/vim-shellcheck'
+Plug 'airblade/vim-gitgutter'
+Plug 'kshenoy/vim-signature'
+Plug 'prettier/vim-prettier', {
+    \ 'do': 'yarn install',
+    \ 'for': ['javascript', 'typescript', 'css','scss', 'json', 'markdown', 'yaml', 'html'] }
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
+" Dart
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
+Plug 'natebosch/dartlang-snippets'
 
 " Themes
 Plug 'joshdick/onedark.vim'
@@ -47,6 +61,12 @@ let g:move_key_modifier = 'S'
 let g:limelight_conceal_ctermfg = 'gray'
 let g:highlightedyank_highlight_duration = 500
 let g:indentLine_char_list = ['|', '┊', '┆', '¦']
+
+" Dart Configs
+let g:lsc_auto_map = v:true
+let dart_html_in_string=v:true
+let g:dart_style_guide = 2
+let g:dart_format_on_save = 1
 "-------------------------------------------------------------------------------
 " Global Editor Configs
 
@@ -102,7 +122,7 @@ nmap [b :bnext<CR>
 nmap ]b :bprevious<CR>
 
 nmap <C-f> :Files<CR>
-nmap <C-r> :Rg<CR>
+nmap <C-R> :Rg<CR>
 nmap <C-l> :Lines<CR>
 nmap <C-b> :Buffers<CR>
 
@@ -134,7 +154,7 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-nnoremap <silent> K :call <SID>show_documentation()<CR>
+nnoremap <silent><C-k> :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)

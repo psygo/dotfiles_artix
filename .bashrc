@@ -26,6 +26,7 @@ export PS1="${COMPLETE_TIME} ${COMPLETE_PATH} ${COMPLETE_BRANCH} ${COMPLETE_ROOT
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
 export PATH="${PATH}:/home/philippe/Code/Flutter/bin"
 export PATH="${PATH}:/home/philippe/.emacs.d/bin"
+export DART_SDK="/home/philippe/Code/Flutter/bin/dart"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_OPS="--extended"
@@ -58,4 +59,5 @@ alias xinitrc="vim ~/.xinitrc"
 alias README="vim ~/README.md"
 
 alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io"
+alias brnhk="cd ~/Code/BrasilNihonKiin/nihonkiin.com.br"
 #--------------------------------------------------------------------------------
