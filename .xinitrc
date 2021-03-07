@@ -1,6 +1,6 @@
 xset r rate 300 40
-xset s off
-xset s noblank
+xset -dpms
+
 xmodmap ~/.Xmodmap
 
 xmonad
