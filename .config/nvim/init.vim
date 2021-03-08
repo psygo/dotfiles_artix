@@ -117,6 +117,7 @@ nmap <leader>v :vs<CR>
 nmap <leader>h :sp<CR>
 nmap <leader>o o<Esc>k
 nmap <leader>O O<Esc>j
+nmap <leader>P :Prettier<CR>
 
 nmap [b :bnext<CR>
 nmap ]b :bprevious<CR>

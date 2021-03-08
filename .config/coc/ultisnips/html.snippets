@@ -34,6 +34,39 @@ endsnippet
 snippet p "HTML paragraph" b
 <p>$1</p>
 endsnippet
+
+snippet code "HTML code" b
+<code>$1</code>
+endsnippet
+
+snippet pre "HTML pre" b
+<pre>$1</pre>
+endsnippet
+
+snippet kbd "HTML kbd" b
+<kbd>$1</kbd>
+endsnippet
+
+snippet blockquote "HTML blockquote" b
+<blockquote>$1</blockquote>
+endsnippet
+#-------------------------------------------------------------------------------
+# Other HTML Tools
+
+snippet highlightjs "HighlightJS Import" b
+<link
+	rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/atom-one-dark.min.css"
+/>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.min.js"></script>
+<script defer>
+	hljs.initHighlightingOnLoad();
+</script>
+endsnippet
+
+snippet pre_code "HighlightJS Pre Code with Class" b
+<pre><code class="$1">$2</code></pre>
+endsnippet
 #-------------------------------------------------------------------------------
 # fanaro.io
 
@@ -53,5 +86,9 @@ endsnippet
 
 snippet local_link "Local Link" b
 <local-link text="$1" link="$2"></local-link>
+endsnippet
+
+snippet foot_note "A custom footnote" b
+<foot-note text="$1"></footnote>
 endsnippet
 #-------------------------------------------------------------------------------
