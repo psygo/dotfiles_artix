@@ -110,6 +110,8 @@ nmap <C-l> <C-w>l
 
 nmap <F5> :source ~/.config/nvim/init.vim<CR>
 
+nnoremap <SPACE> <Nop>
+let mapleader = " "
 nmap <leader>w :w!<CR>
 nmap <leader>q :q!<CR>
 nmap <leader>wq :wq!<CR>
