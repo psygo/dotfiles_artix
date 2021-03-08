@@ -24,8 +24,25 @@
 #
 # Online reference: https://github.com/SirVer/ultisnips/blob/master/doc/UltiSnips.txt
 
+#-------------------------------------------------------------------------------
+# Generic HTML
+
+snippet section "HTML Section" b
+<section>$1</section>
+endsnippet
+
+snippet p "HTML paragraph" b
+<p>$1</p>
+endsnippet
+#-------------------------------------------------------------------------------
+# fanaro.io
+
 snippet custom_h2 "Custom H2 for fanaro.io" b
 <custom-h2 text="$1"></custom-h2>
+endsnippet
+
+snippet custom_h2 "Custom H2 for fanaro.io" b
+<custom-h3 text="$1"></custom-h3>
 endsnippet
 
 snippet custom_h2_section "Custom H2 Section for fanaro.io" b
@@ -33,3 +50,8 @@ snippet custom_h2_section "Custom H2 Section for fanaro.io" b
 	<custom-h2 text="$1"></custom-h2>
 </section>
 endsnippet
+
+snippet local_link "Local Link" b
+<local-link text="$1" link="$2"></local-link>
+endsnippet
+#-------------------------------------------------------------------------------
