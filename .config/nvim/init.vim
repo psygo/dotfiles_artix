@@ -37,6 +37,7 @@ Plug 'prettier/vim-prettier', {
     \ 'do': 'yarn install',
     \ 'for': ['javascript', 'typescript', 'css','scss', 'json', 'markdown', 'yaml', 'html'] }
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+Plug 'turbio/bracey.vim'
 
 " Dart
 Plug 'dart-lang/dart-vim-plugin'
