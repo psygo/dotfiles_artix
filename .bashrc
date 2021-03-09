@@ -44,6 +44,7 @@ alias cls="clear"
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 alias cat="bat"
+alias trc="transmission-cli"
 
 alias p="sudo pacman"
 alias pi="sudo pacman -Syyu"
