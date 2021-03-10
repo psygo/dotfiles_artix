@@ -17,5 +17,11 @@
     ```
 1. Use `tremc` then `:a` to add a torrent.
 
+Some other tips for `tremc`:
+
+- `tremc` is a replacement for `transmission-remote-cli`, so you can access all of the older version with `transmission -- [--trc-old-options]`
+    - For example, `transmission -- -a <torrent-link>` to add a torrent.
+- Once the torrent is added, you can move its contents by pressing <kbd>m</kbd> inside the TUI.
+
 
 [brodie_tutorial]: https://youtu.be/MXKGLTSS4Z0
