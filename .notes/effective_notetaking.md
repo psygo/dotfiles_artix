@@ -100,3 +100,56 @@ The cognitive load is the extent to which the material makes demands on working 
 - Extrinsic (how it's presented)
 
 Research suggests that the format of the material is only important when the intrinsic load is high.
+
+# Selection Strategies
+
+> Anything that helps you select the most important information is good.
+
+Distinguishing the important from the unimportant information is arguably the most critical skill in successful studying. Unfortunately, no one has yet come up with an effective way of teaching this skill.
+
+(...) You do, however, need a certain degree of background knowledge. This is why most students take lots of notes when they are new to the subject and become more selective with time. It's also why it helps to read relevant material before a lecture.
+
+There are a number of strategies which may be considered selection strategies:
+
+- highlighting
+- headings
+- summaries
+
+## Highlighting Important Information
+
+Highlighting also depends on the person doing the highlighting having the same goals as you.
+
+Highlighting important terms is better than nothing, but quite excessive anyway. More colors might help in creating a layered database, but it might also overload your brain anyway.
+
+Dense material, which end up requiring too much highlighting should actually be accompanied by a notebook.
+
+> The text on Benjamin Franklin is actually quite interesting. Franklin was a dubious man.
+
+It's hard to know what's important when you don't know what you're supposed to be interested in. A specific purpose &mdash; a goal &mdash; makes it much easier.
+
+Highlighting causes you to direct more attention to the selected words. Such words are more likely to be recalled. However, there are a number of provisos:
+
+- If the material is familiar to you, it won't be affected by the highlighting.
+- If the text is brief, particular details won't be helped by highlighting.
+- Highlighting should be simple, using different methods doesn't necessarily improve the result but might actually harm it.
+
+In other words, you should only highlight details you don't already know, and only when the text is long enough to benefit from it.
+
+**Highlighting acts to direct attention. It doesn't improve recall as such, what it does is improve recall of those parts highlighted &mdash; at the expense of the rest of the text. It is therefore vital that the right information be highlighted.**
+
+### What Should Be Highlightet?
+
+Selection can be a problem when the teacher or writer is doing the highlighting, because the details that should be selected will be different depending on the goals of the reader and their familiarity with the material.
+
+> If almost all the material is highlighted, what's actually being highlighted is the text that's not highlighted.
+
+- Restrict highlighting to at most 10% of the text &mdash; one line in 10
+- Select those details that you want to remember, and *don't think you will*.
+- In information-dense text, or where the text is difficult, use highlighting only as an adjunct to other strategies.
+- Highlighting is also likely to be ineffective when you are working under severe time constraints.
+
+The main value of highlighting (as a strategy) appears to lie in its encouragement to spend more time with the material. It also helps in aiding concentration.
+
+## Headings highlight structure
+
+
