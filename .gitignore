@@ -22,6 +22,9 @@
 
 !.doom.d/
 !.doom.d/*
+
+!.config/zathura/
+!.config/zathura/zathurarc
 #-------------------------------------------------------------------------------
 !README.md
 !.notes/

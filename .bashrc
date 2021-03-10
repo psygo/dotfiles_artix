@@ -45,9 +45,10 @@ alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 alias cat="bat"
 alias trc="transmission-cli"
+alias tremca="tremc -- -a"
 
 alias p="sudo pacman"
-alias pi="sudo pacman -Syyu"
+alias pi="sudo pacman -Syu"
 alias pq="sudo pacman -Ss"
 alias pr="sudo pacman -Rns"
 

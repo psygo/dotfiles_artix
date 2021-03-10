@@ -152,4 +152,35 @@ The main value of highlighting (as a strategy) appears to lie in its encourageme
 
 ## Headings highlight structure
 
+Placing summarized headings on a complex text might help you get a better top-bottom view of its contents.
+
+The presence of headings has been found to produce better summaries, better outlines, and better memory for the main points of a text.
+
+> Headings are organizational signals. Other organizational signals are overviews and topical summaries.
+
+Headings usually help readers remember *more topics, but less about each topic*.
+
+A comparison of the effects of an overview, a topical summary, and headings, found no difference in the amount of information remembered without specific prompts (free recall).
+
+However, signalizng doesn't always help your ability to recall information. It seems it actually also isn't very helpful when it comes to recognition (which is the type of memory you may be relying on in multi-choice tests).
+
+## How do headings help memory?
+
+**How easily you remember details you've read in a text depends heavily on the degree to which the details have been integrated with the rest of the material.** In expository texts, the connection between items is usually less predictable.
+
+The difficulty you experience in remembering a text is directly a consequence of the extent to which the information flows in a "logical" order. (That's probably why large stories, like the Odyssey, could still be repeated by so many people trhoughout all Greece.)
+
+You can counteract the failure of many texts to provide headings, or to provide effective headings, by using a topic structure strategy. Organizational signals like headings appear to help recall by encouraging you to choose the more effective topic structure strategy. They do this by emphasizing the transitions between topics, and by articulating the topics, that is, summing them up in a pithy phrase.
+
+## Learning to use the topic structure strategy
+
+Different types of text structure:
+
+1. Description: extension or clarification of main ideas through explanations, examples, or information about attributes. *in particular, for instance, for example, is defined*
+1. Collections: a list of facts or elements. *in addition to, and, and, a number of, many, one, two, three*
+1. Classification: where items are grouped in classes. *belongs to, types, classes, categories, group*
+1. Sequence: a connecting series of events or steps, possibly causally related. *first, second... finally, therefore, consequently, the next, if... then, leads, to, causes, because*
+1. Comparison: where two or more things are compared or contrasted. *likewise, similarly, same, in comparison*
+1. Problem: discussion of a problem and its solution, or a question and its answer. (Comparison: *likewise, similarly, same, in comparison*, Contrast: *in contrast, but, on the other hand, on the contrary, different*)
+
 
