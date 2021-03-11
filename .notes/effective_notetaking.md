@@ -183,4 +183,53 @@ Different types of text structure:
 1. Comparison: where two or more things are compared or contrasted. *likewise, similarly, same, in comparison*
 1. Problem: discussion of a problem and its solution, or a question and its answer. (Comparison: *likewise, similarly, same, in comparison*, Contrast: *in contrast, but, on the other hand, on the contrary, different*)
 
+The text structure:
 
+- cues you to what is important
+- helps you ask the right questions
+- tells you how the ideas in the text are related
+- provides a structure for your notes
+- cues you to the best format for your notes.
+
+> The consolidation text on page ~42-45 is quite nice when it comes to understanding better how memories move around the brain.
+
+### A further effect of signals
+
+Remembering is not only about putting information in; it's also about getting it out again. Signals also are potentially helpful in recalling.
+
+When there are no signals, recall tends to be strongly affected by standard memory factors such as:
+
+- serial position
+- familiarity
+- elaboration
+
+In other words, if you don’t use the text structure to encode and recall the information, you’re most likely to preferentially remember the information that you already knew, information that appeared at the start or end of the text, and information that was discussed a lot.
+
+Characteristics of a skilled reader
+
+Skilled readers demonstrate their sensitivity to topic structure in
+several ways:
+
+- they read topic-introducing sentences more slowly
+- they read topic sentences that are difficult to relate to the topic more slowly1
+- they recall more superordinate items than subordinate (e.g., categories rather than category members).
+
+> Headings != Topics. Headings talk about the text itself, while topics might be definitions, classifications, etc.
+
+### Readiness to think
+
+The pleasure you take in engaging your mind
+
+It's assumed that this occurs because students who readily engage in effortful processing are more inclined to use the structure strategy when confronted with a text without signals.
+
+It has also been suggested that headings only help when students already have a high knowledge of the subject discussed in the text. This is consistent with the theory that headings work by activating prior knowledge.
+
+Headings may, however, have other benefits for students with little prior knowledge &mdash; in helping them organize the information contained in the text, and in helping them search for specific items
+
+When are headings most useful?
+
+- When the text has several topics and is not clearly organized.
+- When other cues to the structure of the text and the relative importance of details aren’t available.
+- When the reader needs assistance in understanding the organization of the text, or the relative importance of details.
+
+# 5. Summaries
