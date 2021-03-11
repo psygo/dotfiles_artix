@@ -233,3 +233,49 @@ When are headings most useful?
 - When the reader needs assistance in understanding the organization of the text, or the relative importance of details.
 
 # 5. Summaries
+
+> Summarizing is the heart of note-taking.
+
+Summaries you create != summaries that are given to you
+
+Different types:
+
+- Topical: summarize the main points without adding any new information, this is usually provided after the text.
+- Outlines, graphic organizers, multimedia, maps: usually provided after sections of text.
+- Overview: usually given before the text.
+
+Summaries are a great priming tool.
+
+The first step in taking notes is not to read the text, but to prepare yourself for it.
+
+> It's difficult to prime yourself when you have 3-5 lectures in a row to attend to everyday.
+
+**What do you need to know?**
+
+If there's no summary at the beginning, maybe there's one at the end. Maybe reading it first is the right way to go.
+
+Advance organizers are typically written at a higher level of abstraction, it's less detailed. Overviews, like summaries, say nothing that is not in the text; advance organizers do.
+
+Interestingly, it seems that the benefit of an advance organizer is greter if students don't read the text immediately after reading the organizer, but have a short delay before doing so.
+
+- A topical summary is a straightforward string of factual statements.
+- Topical summaries summarize the main points without adding any new
+- information or offering a new perspective.
+- Topical summaries have the same functions and disadvantages as headings.
+- An overview is a topical summary that precedes the text.
+- Overviews make it easier to read and understand text.
+- Like overviews, advance organizers precede the text.
+- Advance organizers are concerned with the big picture.
+- Advance organizers help you connect new facts and ideas to knowledge you already have.
+
+## Creating Summaries
+
+Although summarizing is an effective strategy for learning from text, it’s been estimated that perhaps half of all college students can’t do it effectively.
+
+A good summary:
+
+- is short
+- contains only, and all, the most important information
+- is in your own words
+
+Identifying or creating topic sentences is a critical part of summarizing, and it is the most difficult
