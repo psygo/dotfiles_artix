@@ -279,3 +279,64 @@ A good summary:
 - is in your own words
 
 Identifying or creating topic sentences is a critical part of summarizing, and it is the most difficult
+
+1. delete trivial material
+1. delete redundant material
+1. replace lists of items with a superordinate term
+1. select a topic sentence
+1. if no topic sentence given, create one
+
+Clearly, the most difficult part is the last one.
+
+## Summarizing step-by-step
+
+If there's no summary or headings, you could start by skimming the text. Skimming involves looking for *signal* words and phrases, skipping all the information that provides background or supporting information.
+
+**Don't summarize as you go, do it after the text**
+
+**The best summaries are made without reference to the text.**
+
+Check that the idea you had while priming is the same after you read the text, if not, update it.
+
+It may be that the text has confused you. You thought you knew what the theme of the text was; now, drowning in details, you’re not sure. If you’re having trouble figuring out the main idea, look for repetition &mdash; references that are repeated throughout the text. How often a writer refers to an idea is a good clue to how important she thinks it is. Also look for opportunities for generalization. If there are lists of items, categorize them. Sometimes the main idea is hidden among the details.
+
+Once you’ve worked out the main idea of the text, you need to identify the supporting ideas. Do that by grouping together paragraphs on the same topic and labelling them.
+
+Even if the ideas are described clearly in a single sentence, you should still try to put in your own words — only then will you know you understand it.
+
+The checklist:
+
+- Have you stated the main idea of the passage?
+- Do you have all the important information?
+- Have you included any information that is not important?
+- Is it in your own words?
+
+The most difficult part of this process is certainly constructing the main idea when it isn’t succinctly expressed in a single topic sentence — remember, this is the step that even college students managed only half the time. The part students find easiest is deleting the unimportant information7
+
+> **To summarize effectively requires you to look beyond the surface words &mdash; to understand the text in more abstract terms than those in which the text is expressed.**
+
+It’s worth noting, too, that summarizing after a delay has been shown to be dramatically more effective in terms of the student understanding how well they’ve learned the material.
+
+Rules for more effective summarizing:
+
+1. Preview and reflect
+1. Read
+1. Identify the main idea, and put it in your own words (without looking at the text)
+1. Identify the important supporting ideas, and put them in your own words
+1. Check
+
+> Google minor details you're missing and that are impairing you from answering the big questions.
+
+You are not trying to record everything you read / hear — you are recording what you need help to remember.
+
+Repetition of words is an indication of importance.
+
+> **This is a useful lesson, and points to something you should take to heart: the
+less you understand, the fuller your notes will tend to be — because you can’t
+tell what’s important and what’s not. The more you understand, the more
+scanty your notes will be — because you have captured the gist, you have
+recorded only what is important.**
+
+# Graphic Summaries
+
+

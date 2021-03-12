@@ -139,6 +139,8 @@ nnoremap <S-BS> i<BS><Esc>`^
 
 cnoremap vimrc e /home/philippe/.config/nvim/init.vim
 cnoremap bashrc e /home/philippe/.bashrc
+
+nnoremap gJ gJi <Esc>
 "-------------------------------------------------------------------------------
 " CoC
 
