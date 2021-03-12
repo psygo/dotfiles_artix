@@ -339,4 +339,138 @@ recorded only what is important.**
 
 # Graphic Summaries
 
+Graphic summaries reorganize the text.
 
+They are typically either:
+
+- Trees
+- Matrices
+
+Basically, graphic organizers are visual outlines showing relationships. Both outlines and graphic organizers are useful strategies for hierarchical information. However, while an outline does pick out the most important information and does show hierarchical relations (and, as you may have noticed, can include more detail more easily), it is not as effective in showing the relationships between concepts.
+
+In general, graphic organizers are more effective than outlines &mdash; but not invariably. In a study involving text summaries, graphic organizers were superior only when the students had enough time to study them properly.
+
+But **sometimes graphic organizers are less effective than outlines**, and this may be because graphic organizers can make it too easy to see the relations. Because of this, the reader doesn’t need to work as hard to understand the material, with the consequence that the material isn’t processed to the extent that it needs to be for lasting memory. This doesn’t apply, of course, if you’re constructing the graphic organizer yourself.
+
+Graphic organizers have an advantage over outlines in terms of **cognitive load**. Remember how I said working memory is thought to have two sub- systems — one that is essentially visual, and one essentially auditory. When we read text, notwithstanding we are receiving the information through our visual sense, we tend to encode it through auditory working memory (because words are fundamentally sound-based). There is evidence that graphic organizers use visual working memory more than auditory, while outlines use auditory more than visual. The advantage of a graphic organizer, therefore, may lie partly in its reduction of cognitive load — that is, by spreading the load on working memory between both systems3
+
+Additionally, the use of visual information in addition to verbal information creates more retrieval paths (paths along the connected links from initial cue to the memory you’re looking for), increasing the chances of finding the information again.
+
+If you’re simply aiming to learn the “facts” (i.e., you’re not trying to develop your understanding), then research indicates an outline will be just as productive as a graphic organizer5. If the text is short (1000 words or less), an outline is probably better6. But with longer and more complex material, it would seem that graphic organizers are worth the trouble. In such cases, research also suggests that several graphic organizers are most effective 7 — a warning that we shouldn’t try to cram too much information into a graphic organizer.
+
+Outlines are useful for showing hierarchical information and relationships within clusters, but not for displaying relationships between clusters.
+
+Constructing a graphic organizer:
+
+1. Divide your text into passages of around 1500 words
+1. Outline the main ideas in the passage
+1. Choose a graphical organizer format that fits the
+structure of the information
+1. Fit your main ideas into the format
+1. If it doesn’t work, reconsider the structure of the
+information
+1. Try again!
+
+## Multimedia Summaries
+
+In multimedia summaries, pictures and words are combined.
+
+Illustrations are most useful when they portray a series of steps, in a cause-and-effect chain, with explanatory text that is integrated with the illustrations.
+
+Illustrations can help learning:
+
+- when the text contains a cause-and-effect chain rather than a list of facts
+- when the illustration contain a series of frames showing the steps, together with integrated labels, rather than a one-frame static image
+- when the students are unfamiliar with the subject
+- when the students are tested on their understanding rather than their ability to simply regurgitate rote-learned material
+
+The best graphic multimedia summaries are:
+
+- concise
+- coherent
+- coordinated
+
+> Page 105 for *implementation intentions*.
+
+One problem with many illustrations is that they include a lot of irrelevant information, which gets in the way of learning.
+
+> The example broken diagram on page 99 and the corrected one on page 104 are great illustrations of the process. But I think that, in the end, the image where everything is happening at once should also be included because it helps in developing a top-down, big picture view.
+
+Rules for effective multimedia summaries:
+
+- Be very concise.
+- Use a minimum of text.
+- Coordinate words and images.
+
+## Maps
+
+There’s quite a lot of evidence that when a geographic map is provided, students remember more of the text information that is referenced in the map than they would if only given the text12 (but best if the map is examined before reading the text).
+
+> Maps + Memory Palaces
+
+**On maps, you pay attention to the relationships, not the features themselves.**
+
+Maps seem to be particularly useful as a kind of visual advance organizer, suggesting that if a map is provided, you are advised to study it before reading the text. But you can also use maps as a means of taking notes. One study has found that students who drew a map as they read about a fictitious country understood and remembered much more. Copying details onto a blank map has also been found to be useful.
+
+The most important of these conditions, it has been suggested, is that the information can be chunked together in such a way as not to exceed working memory capacity.
+
+This argument suggests that maps with only a limited number of features on them are useful. One study suggested the optimum number of features is between 12 and 16.
+
+Visual Language is a term Robert Horn uses to refer to "language based on tight integration of words and visual elements". Horn has tried to create a grammar for this language, and given the number and usefulness of note- taking formats that use visual language,
+
+Information block ~ paragraph
+
+4 principles for constructing information blocks:
+
+- Chunking
+- Relevance
+- Consistency
+- Labeling
+(- Hierarch)
+
+Criteria for labeling:
+
+- Clear
+- Brief
+- Consistent
+- Familiar
+- Appropriate
+- Independent
+
+Labels should be like advance organizers, preparing the reader for what's in the block.
+
+## Arranging information
+
+**Gestalt Principles**:
+
+- Proximity
+- Similarity
+- Common region
+- Connectedness
+- Continuation
+- Closure
+
+Horn's major arrangement classes:
+
+- Matrix
+- Concentric
+- Level
+- Proximity grouping
+- Boundary
+- Network (Graphs and Trees)
+
+## Information Classes
+
+- Procedure: involves sequential steps for accomplishing a task
+- Process: involves sequential events leading to a specific end
+- Structure: defines the parts of something
+- Classification: involves dividing things into classes
+- Concept: defines a group of things
+- Fact: bare information that states something without providing any evidence
+- Principle: such as rules and guidelines
+
+A procedure is most commonly a linear activity, while a process is equally (if not more) likely to be a loop.
+
+> And to think that people would dislike me for creating hierarchical structures when talking about classes in OOP...
+
+> Page 119 features everything in a diagram.
