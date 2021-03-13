@@ -474,3 +474,85 @@ A procedure is most commonly a linear activity, while a process is equally (if n
 > And to think that people would dislike me for creating hierarchical structures when talking about classes in OOP...
 
 > Page 119 features everything in a diagram.
+
+According to one analysis, people fall into two types: *visualizers* and *verbalizers*. Of course, this is a continuum not a dichotomy; we all visualize, and we all verbalize. “Visualizers” are defined as people who rely mainly on imagery processes when performing cognitive tasks, while “verbalizers” are those who prefer to process information verbally.
+
+2 types of visualizers:
+
+- Iconic: detailed images
+- Spatial: images to represent spatial relations
+
+Another very relevant finding of that study was that, in general, people had a good idea of their learning style and their spatial ability.
+
+Drawing helps comprehension and free recall rather than recognition. There’s evidence that drawing helps you construct an integrated mental model, while simply looking at illustrations with text may produce a verbal and a visual mental representation, but not an integrated one. Integration (which helps both memory and comprehension) doesn’t seem to happen naturally, but requires some active task that forces you to integrate the two.
+
+# Part II - Connection Strategies
+
+Connection, not selection, is the heart of what makes information meaningful.
+
+In particular, it's about those strategies that help you make connections that
+foster understanding.
+
+- asking questions
+- making comparisons
+- looking for similarities and differences
+- making analogies
+- drawing concept maps
+- drawing mind maps
+
+Mnemonics don't make connections that help you build your understanding. They make connections that help you memorize details, which is a very different thing.
+
+## 7. Understanding Connection
+
+You can learn info by *rote* (simple repetition) or by using *mnemonic* aid, but you will remember information much better for longer if you *understand the connections* between facts.
+
+One of the best ways of creating connections is through *questions*. And one of the most powerful questions to ask is *why*.
+
+Don't just answer questions, connect them.
+
+Facts that you already know very well and have no trouble remembering act as anchor points. **The more anchor points you can connect to, the more meaningful the new information becomes, and the more easily you will remember it.**
+
+If we don’t understand something, it’s much more difficult to remember. Accordingly, effective note-taking not only involves selecting the important information, it also involves making it meaningful to you.
+
+Counterintuitively:
+
+> Making information meaningful is about connecting new information to existing knowledge. The more connections you make, the better you will understand the information. Moreover, the more connections you have, the more entry points you have to the information, therefore the easier it will be to find in your memory.
+
+This then, is how you can judge the value of a particular note-taking strategy in a particular situation — ask yourself:
+
+- Does it help me connect the facts together?
+- Does it help me connect the new information with information I already have?
+- Does it make any connection with facts I already know very well, and am unlikely to forget?
+
+## 8. Elaboration Strategies
+
+Elaboration is what enables you to connect new information to the information already in your mental database.
+
+How to elaborate:
+
+- Comparisons
+    - Look for *differences*(alignable and nonalignable) and *similarities*.
+    - People find it easier to list differences for things that are similar. And listing differences between similar objects *increases* their perceived similarity.
+    - Making analogies is hard: in a study where people were given a problem to solve after reading a story in which an analogous problem was solved, 80% didn’t think of using the story to solve the problem until the analogy was pointed out to them9.
+        - Analogy requires more effort and more examples than simple similarity. Running comparisons on structure is no simple task. And you also need to take *context* into account.
+        - You can also create analogies, when you're not familiar with the topic, by aligning structures, analogical encoding or mutual alignment:
+            1. View examples side by side
+            1. Assign specific correspondences between the elements of each example (correspondence list)
+            1. describe them as a unit, by comparing one to the other (joint interpreation)
+- Asking questions
+    - Bad questions can be worse than no questions at all. Rote questions that direct your attention to unimportant details are better not asked.
+    - Effective questions *prepare* you to pay attention to the important details in the text. The best questions not only direct your attention appropriately, but also require you to *integrate* the details in the text.
+    - Elaborative interrogation guides you to construct reasons for the relationships between bits of information, taking you beyond the information given to you.
+        - Elaborative interrogation = asking *why* questions.
+        - The key is to focus on questions **consistent** and **coherent** with the information you're trying to learn.
+    - Several studies have found that creating interactive images is just as effective as elaborative interrogation. Imagery, through the creation of interactive images, makes connections, and also promotes distinctiveness.
+        - Imagery is a better strategy when concepts are unfamiliar.
+    - Self-explanation: probably only effective when the text is demanding
+        - Self-explanation, because its emphasis is on clearly describing the material presented, is also thought to rely less on prior knowledge than elaborative interrogation. This makes it the better strategy for a novice.
+- Mnemonics
+
+In other words, digging into examples to see their structure not only means that the material you are currently working on is more effectively encoded, but that relevant examples in memory become better encoded (memory is not simply a matter of construction but of re-construction; there is nothing final about a memory code, you tweak it every time you retrieve it).
+
+What’s the difference between similarity and analogy? Analogy is a very specialized type of similarity &mdash; a similarity solely of relations. A computer screen and a keyboard may be considered analogous to paper and pen, but they are not similar.
+
+Analogies are worth seeking out, because they are a very effective means of developing understanding. But they are difficult to come up with on your own, so don’t worry too much if you can’t.

@@ -61,6 +61,7 @@ alias xinitrc="vim ~/.xinitrc"
 alias zathurarc="vim ~/.config/zathura/zathurarc"
 alias README="vim ~/README.md"
 
-alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io"
-alias brnhk="cd ~/Code/BrasilNihonKiin/nihonkiin.com.br"
+alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io/"
+alias brnhk="cd ~/Code/BrasilNihonKiin/nihonkiin.com.br/"
+alias courses="cd ~/Code/Courses/"
 #--------------------------------------------------------------------------------
