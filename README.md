@@ -10,7 +10,7 @@ These are my configuration files for Linux, I focus a lot on minimalism. Anyway,
 - ranger as an in-terminal file manager
 - Nemo as my GUI file manager &mdash #shameless
 - Brave as my default browser
-- Zathura as a Vim-like way of viewing PDFs
+- Zathura as a Vim-like way of viewing PDFs &mdash; though Okular is still a big part of my workflow
 
 I also have some custom command-line programs which help create a more modern environment, like Rust's [`exa`][exa] and [`bat`][bat]. Another strong recommendation I have is the amazing [`fzf`][fzf] multi-tool, which also happens to have Vim integration via a plugin.
 
