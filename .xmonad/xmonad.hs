@@ -23,7 +23,7 @@ main = xmonad defaultConfig
         , focusedBorderColor = "ff0000"
         , workspaces         = ["1", "2", "3", "4", "5", "6", "8", "9"]
         , keys               = myKeys
-        , layoutHook          = myLayout
+        , layoutHook         = myLayout
         }
 --------------------------------------------------------------------------------
 myXPConfig :: XPConfig
