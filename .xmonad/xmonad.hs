@@ -12,15 +12,18 @@ import qualified Data.Map        as M
 import XMonad.Prompt
 import XMonad.Prompt.Shell
 import XMonad.Prompt.FuzzyMatch
+
+import XMonad.Layout.ThreeColumns
 --------------------------------------------------------------------------------
 main = xmonad defaultConfig
-        { modMask = mod4Mask
-        , terminal = "konsole"
-        , borderWidth = 3
+        { modMask            = mod4Mask
+        , terminal           = "konsole"
+        , borderWidth        = 3
         , normalBorderColor  = "#dddddd"
         , focusedBorderColor = "ff0000"
-        , workspaces = ["1", "2", "3", "4", "5", "6", "8", "9"]
-        , keys = myKeys
+        , workspaces         = ["1", "2", "3", "4", "5", "6", "8", "9"]
+        , keys               = myKeys
+        , layoutHook          = myLayout
         }
 --------------------------------------------------------------------------------
 myXPConfig :: XPConfig
@@ -43,6 +46,14 @@ myXPConfig = def
       , alwaysHighlight     = True
       , maxComplRows        = Nothing
       }
+--------------------------------------------------------------------------------
+myLayout = tiled ||| Mirror tiled ||| Full ||| threeCol
+  where
+     tiled    = Tall nmaster delta ratio
+     nmaster  = 1
+     ratio    = 1/2
+     delta    = 2/100
+     threeCol = ThreeCol 1 (3/100) (1/2)
 --------------------------------------------------------------------------------
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     [
@@ -84,6 +95,6 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     ]
 
 restartRecompile = "xmonad --recompile; xmonad --restart"
-deadKeysLayout = "setxkbmap -layout us -variant intl; xmodmap ~/.Xmodmap"
-usLayout = "setxkbmap -layout us; xmodmap ~/.Xmodmap"
+deadKeysLayout   = "setxkbmap -layout us -variant intl; xmodmap ~/.Xmodmap"
+usLayout         = "setxkbmap -layout us; xmodmap ~/.Xmodmap"
 --------------------------------------------------------------------------------

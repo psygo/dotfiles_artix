@@ -550,9 +550,15 @@ How to elaborate:
     - Self-explanation: probably only effective when the text is demanding
         - Self-explanation, because its emphasis is on clearly describing the material presented, is also thought to rely less on prior knowledge than elaborative interrogation. This makes it the better strategy for a novice.
 - Mnemonics
+    - Mnemonic strategies are “artificial” memory aids such as stories, rhymes, acronyms, and more complex strategies involving verbal mediators or visual imagery.
+    - They do **not** help you understand the material.
 
 In other words, digging into examples to see their structure not only means that the material you are currently working on is more effectively encoded, but that relevant examples in memory become better encoded (memory is not simply a matter of construction but of re-construction; there is nothing final about a memory code, you tweak it every time you retrieve it).
 
 What’s the difference between similarity and analogy? Analogy is a very specialized type of similarity &mdash; a similarity solely of relations. A computer screen and a keyboard may be considered analogous to paper and pen, but they are not similar.
 
 Analogies are worth seeking out, because they are a very effective means of developing understanding. But they are difficult to come up with on your own, so don’t worry too much if you can’t.
+
+## 9. Concept Maps
+
+

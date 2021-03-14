@@ -139,6 +139,7 @@ nnoremap <S-BS> i<BS><Esc>`^
 
 cnoremap vimrc e /home/philippe/.config/nvim/init.vim
 cnoremap bashrc e /home/philippe/.bashrc
+cnoremap xmonadrc e /home/philippe/.xmonad/xmonad.hs
 
 nnoremap gJ gJi <Esc>
 "-------------------------------------------------------------------------------
