@@ -28,8 +28,7 @@ main = xmonad defaultConfig
 --------------------------------------------------------------------------------
 myXPConfig :: XPConfig
 myXPConfig = def
-      {
-        font                = "xft:Fira Code:style=Bold:pixelsize=16"
+      { font                = "xft:Fira Code:style=Bold:pixelsize=16"
       , bgColor             = "#292d3e"
       , fgColor             = "#d0d0d0"
       , bgHLight            = "#c792ea"
