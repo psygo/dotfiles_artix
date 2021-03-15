@@ -716,3 +716,36 @@ Another study 13 interspersed a 21-minute video lecture with three 3-minutebreak
 A fascinating finding was that, despite all this, the students in the testedgroup actually found the lecture less mentally taxing than those in the other two groups.
 
 Another possible strategy for reducing mindwandering is meditation. There’ssome evidence14 that a brief (6 minutes) period of focused meditation beforethe lecture reduces mindwandering. The focused meditation simply involved closing one’s eyes and counting breaths.
+
+## 11. Using your notes
+
+- to provide a record
+    - Important when you will not be able to recover what's being exposed.
+    - However it's important to say that the lecture itself is an *opportunity to find out what the lecturer thinks is important*.
+- to focus attention
+    - Particularly important when the information is boring or dull.
+- to reduce cognitive load
+    - Note-taking strategies, like any strategies, can also add to your cognitiveload, in the initial stages, when you are still unskilled at using the strategies.This is why less successful learners so often use less effective strategies —because they are less demanding. And why are they less demanding? Not because of any inherent demands of the strategy — successful learners are using them without any trouble — but because any skill is more demanding when you are learning it.
+    - How much time you spend studying doesn't have much relationship to how well you do academically.
+    - Research into expertise has provided convincing evidence that experts, bethey musicians or chess masters or top sportspeople, achieve their expertiseby engaging in a considerable amount of deliberate practice — a term coinedby the foremost researcher in the field to refer to high quality, focused practice.
+    - What distinguishes deliberate practice from less productive practice?
+        - The acquisition of expert performance needs to be broken down into a sequence of attainable training tasks.
+        - Each of these tasks requires a well-defined goal.
+        - Feedback for each step must be provided.
+        - Repetition is needed — but that repetition is not simple; rather thestudent should be provided with opportunities that gradually refine his performance.
+        - Attention is absolutely necessary — it is not enough to simply mechanically “go through the motions”.
+        - The aspiring expert must constantly and attentively monitor her progress, adjusting and correcting her performance as required.
+    - It's been found that the habit of studying alone in a quiet environment is associated with better academic performance.
+    - Use deliberate effort on what you feel most difficult.
+    - Less effort != less enjoyable. And students conflate them, it's usually the latter that causes the most trouble.
+    - The more organized you are when encoding information, the more easily it will be remembered.
+- to organize information
+    - Take conscious control over it.
+- to help you select what’s important
+    - Typically that's not a given when studying, but, in the context of a lecture, that's usually set by the lecturer, if he/she is a good one. So you better focus on the cues and unwritten important remarks.
+- to help you make connections
+- to help you review
+    - You won't be able to take it at the first go.
+    - Do not simply re-read your notes, paraphrase them and reshape them.
+    - But basically the process of review involves a repeated selection of important information until you are left with one single brief sentence or keyword for each coherent unit of information.
+    - Reviewing after a delay will give you a much better sense of how well you really understand the material.
