@@ -5,6 +5,7 @@ import XMonad
 import System.Exit
 
 import XMonad.Actions.CycleWS
+import qualified XMonad.Actions.DynamicWorkspaceOrder as DWO
 
 import qualified XMonad.StackSet as W
 import qualified Data.Map        as M
@@ -78,10 +79,10 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm              , xK_period), sendMessage (IncMasterN (-1)))
       --------------------------------------------------------------------------
       -- Workspace and Screen Management
-    , ((modm,               xK_Up    ), nextWS)
-    , ((modm,               xK_Down  ), prevWS)
-    , ((modm .|. shiftMask, xK_Up    ), shiftToNext)
-    , ((modm .|. shiftMask, xK_Down  ), shiftToPrev)
+    , ((modm,               xK_Up    ), DWO.moveTo Next HiddenWS)
+    , ((modm,               xK_Down  ), DWO.moveTo Prev HiddenWS)
+    , ((modm .|. shiftMask, xK_Up    ), DWO.shiftTo Next HiddenWS)
+    , ((modm .|. shiftMask, xK_Down  ), DWO.shiftTo Prev HiddenWS)
     , ((modm,               xK_Right ), nextScreen)
     , ((modm,               xK_Left  ), prevScreen)
     , ((modm .|. shiftMask, xK_Right ), shiftNextScreen)
