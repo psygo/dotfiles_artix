@@ -561,4 +561,88 @@ Analogies are worth seeking out, because they are a very effective means of deve
 
 ## 9. Concept Maps
 
+Concept maps were developed by Joseph D. Novak in 1972.
+
+The technique is based on the idea that meaningful learning requires you to connect new concepts to existing knowledge1. Broadly speaking, a concept map is a graphic display that attempts to show how concepts are connected to each other. More specifically, a concept map is a diagram in which labeled nodes represent concepts, and lines connecting them show the relationships between concepts.
+
+Mind maps are a specialized form of concept map popularized very successfully by Tony Buzan.
+
+> A popular open software for creating concept maps is `Cmap`.
+
+The second thing to note is that all the links are labeled. It’s onething to realize that two concepts are connected; it’s quite another to be ableto articulate the nature of that connection.
+
+There are 3 stages when concept maps are useful:
+
+- At the beginning &mdash; remember priming and advance organizers
+- At the end, for reviewing.
+- As a way of taking notes.
+
+> Another piece of software for creating concept maps: SmartDraw
+
+The more references to a node the more important it likely is.
+
+Whe there's no obvious place to start, we have a symptom of a deeper malaise:
+
+- We should have started by framing a question.
+- Sort concepts hierarchically, from top to bottom &mdash; though not everyone obeys this rule.
+
+Constructing the map is inherently iterative.
+
+We don’t have to include all possible connections; in fact, we shouldn’t. What we need to do is select what’s important in the context of our focal question.
+
+## When to use concept maps
+
+- Great for sorting out and the big picture
+- Terrible for details
+    - Nested maps might help.
+
+But not all information lends itself to concept mapping. Sequential information, for example, is more appropriately represented in a linear structure.
+
+Break things down into 4-item chunks, which will gradually become your building blocks.
+
+## Mind Maps vs Concept Maps
+
+4 essential characteristics:
+
+- the subject is crystallized in a central image
+- main themes radiate from it as branches
+- the branches comprise a key image or key word
+- the branches form a connected nodal structure
+
+Keywords — what Buzan calls BOIs (Basic Ordering Ideas) —are basically concepts, as we’ve used them in concept maps. Basically, what mind maps dois display keywords in a memorable format. So, again, like concept maps,they’re about the big picture, not the detail.
+
+The **essential difference** between a mind map and the more general conceptmap is that in a mind map the main themes are connected only to this singlecentral image — not to each other. In a concept map, there are no restrictions on the links between concepts.
+
+The connections between concepts in a concept map are labeled — they have meaning; they’re a particular kind of connection. In a mind map,connections are simply links; they could mean anything.
+
+Images are also far more ambiguous than words.
+
+> Buzan greatly emphasizes the creative aspect of mind maps. Along with the pictures, he wants lots of color. Basically, he sees a mind map as a work of art, and talks about the noncreative, stultifying nature of linear notes.
+
+Mind maps are good for:
+
+- generating ideas
+- getting your head in the right space preparatory to listening to a
+lecture or reading a text
+- doing a quick review — checking that you have all the main points
+down before a test.
+
+> Mind maps are very personal, and reflect the point of view you have at the time of its construction.
+
+**Mind maps are best as a thinking aid rather than a note-taking strategy**.
+
+> You need to be more focused when summarizing than when brainstorming.
+
+The relative disorganization of a mind map also makes it harder to know ifyou’ve covered everything. The only answer to that is to check it against amore structured outline.
+
+If there are too many connections between nodes, then a mind map isprobably not the best way to represent the topic. A concept map would be better. Remember that in a mind map, the subtopics (the BOIs) are only connected to the main topic (the Central Image), not to each other. Of course this means the mind map is generally a gross simplification of a topic, since subtopics rarely only connect to each other through the main idea.
+
+> Buzan suggests you need to create 100 mind maps before you can really understand them well enough to do them right!
+
+> Maybe using the export as outline tool on XMind is an alternative, not a replacement.
+
+# Part III - Applying your Strategies
+
+## 10. Taking notes in lectures
+
 
