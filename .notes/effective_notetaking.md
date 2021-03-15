@@ -645,4 +645,74 @@ If there are too many connections between nodes, then a mind map isprobably not 
 
 ## 10. Taking notes in lectures
 
+### How taking notes in lectures is different from taking notes from text
 
+So far, I have talked almost exclusively about notetaking from text. That is partly because far more research has been done on this topic than on notetaking from lectures, and partly because it’s much easier to teach, and learn, to take effective notes from text.
+
+Differences to text:
+
+- Rate of presentation, i.e., you must keep up with the lecturer
+- You cannot go back
+
+100 words/minute seems to be optimal for lectures, but the normal rate is 150, so good lectures seem slow.
+
+Lecture notetaking helps by encoding information:
+
+- Deepening the processing of the material
+- Generating material to review
+
+Ideally 60% of the information in the lecture is recorded in the notes, but the variability is so high that number becomes a bit meaningless.
+
+In the survey, information that was written on the board was, unsurprisingly, much more likely to be recorded (88% on average, compared to only 52% of information that wasn’t recorded on the board).
+
+> **grades being higher for students who recorded more of the information units not written on the board**.
+
+Students in the study also suggests that students greatly overestimate the adequacy of their notes.
+
+The amount of information recorded in the second twenty minute period was significantly less than that recorded in the first twenty minutes.
+
+One of the problems with lecture notetaking is that some of your attention isspent on your own hand-movements and the writing you’re producing. It’sbeen found that notetaking is best (produces the greatest benefit) whenyou’re taking notes from a purely audio source (a tape recording or a podcast, say), and worst when the source is audio-visual (as in a lecture).
+
+But there is some evidence4 that typing (rather than writing by hand) may partially overcome this problem.
+
+> One comparison found that the average typist can produce 33 words per minute compared to 19 WPM for the average hand writer
+
+This strategy would particularly help students with a low working memory capacity, and also (we may speculate) students with low background knowledge (because they need to take much fuller notes).
+
+Keeping pace means you want to use as many abbreviations as you can.Oddly, most students don’t tend to make much use of abbreviations anddiagrams in their notes. One study5, for example, found that only 40% ofstudents showed any sort of abbreviations, and for the most part these werelimited to ‘e.g.’ and arrows (for ‘therefore’ or ‘leads to’). Another study6,analyzing 25 sets of lecture notes, found that only 20% used abbreviationsand only 12% included diagrams.
+
+> Use autocorrect and aliases to make typing more agile.
+
+Forcing students to take notes only benefits those students with low prior knowledge of the topic; those with greater knowledge show no benefit.
+
+This reworking stage is best done as soon as possible after the lecture, so thatthe information is fresh enough that you can expand on the notes. Indeed,one study8 found that note-taking was even better if students were given three five-minute pauses during the lecture to add to and revise their notes.
+
+When teachers provide support, relax &mdash; though you still need to take notes.
+
+*Teacher notes are actually written text*.
+
+Recording lectures is of great help to taking notes, specially to lower-level ideas.
+
+Better notetakers note more of the important ideas.
+
+Don’t overlook the benefits of collaboration! Because students are, by and large, such poor note-takers in lectures, collaboration can be very useful, especially in the early days.
+
+### Reworking, not recopying
+
+Recopying your notes afterwards is a huge waste of time.
+
+### Preparation is key
+
+Here we come back to your beliefs about the purpose of lectures. If you thinkthe purpose of lectures is to be your sole, or at the very least main, source ofinformation, then you’ll be sceptical of this advice. But if you see lecturesmore as guides, then you’ll realize that the better you understand the topic, the more you reduce the amount of notes you need to take.
+
+### Mindwandering is your enemy
+
+Most of the power toprevent mindwandering is of course with the lecturer — carefully spacedmoments of interaction provide one obvious strategy, and one particularlyeffective activity is getting students to answer questions on the material from the preceding part of the lecture
+
+One study, which found that there was significantly more mindwanderingin the second half (52% vs 35%), and that students got significantly morequestions right on a post-lecture test if the questions came from the first half(71% vs 57%), showed that the simple act of asking whether or not thestudent’s mind had been wandering, was enough to bring their attentionback to the lecture (when some questions were taken from just before themindwandering probes and just after, it was found that the first half vssecond half difference wasn’t there for post-probe questions). Perhaps youcould use your laptop or phone to periodically ask the question.
+
+Another study 13 interspersed a 21-minute video lecture with three 3-minutebreaks, during which students either did arithmetic problems, or did a fewproblems followed by a quick test on the material covered in the previouslecture segment. Those who were tested showed less mindwandering, tookmore notes, and did much better on the test at the end of the lecture (84% vs59%). A follow-up experiment added a group who studied the test answers,but were not actually tested. The performance of this group was notsignificantly different, on any of these measures, from the other non-tested group. Scores on the final test were: 89% vs 70% vs 65% (tested, nontested, restudy groups, respectively).
+
+A fascinating finding was that, despite all this, the students in the testedgroup actually found the lecture less mentally taxing than those in the other two groups.
+
+Another possible strategy for reducing mindwandering is meditation. There’ssome evidence14 that a brief (6 minutes) period of focused meditation beforethe lecture reduces mindwandering. The focused meditation simply involved closing one’s eyes and counting breaths.
