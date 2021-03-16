@@ -823,4 +823,45 @@ Learning preferences encompass personal properties that affect the best conditio
 
 ## 13. Choosing the right strategy
 
+One of the reasons less successfullearners are less successful is because they are often unaware that theyhaven’t understood something, or that they won’t remember somethingwithout deliberate effort.
 
+Defining the problem involves three actions:
+
+- evaluating the text
+    - Assess the density and connectedness of the text.
+    - Assessment tools:
+        - Density
+        - Structure
+        - Connectivity
+        - Signals
+        - Complexity
+        - Readability
+- articulating your goal
+- defining the retrieval context
+
+Strategies table:
+
+| Simple    | highlighting; outline; topical summary                                                                |
+| Complex   | heading; graphic organizer; multimedia summary; map; elaborative interrogation; mind map; concept map |
+| Difficult | self-explanation; concept map                                                                         |
+
+There's also a table for different types of texts.
+
+| Situation                      | Tasks                       |
+| ------------------------------ | --------------------------- |
+| For multi-choice questions     | Recognition                 |
+| For short answers              | Cued recall                 |
+| For essay answers              | Free recall                 |
+| Writing an essay               | Organization; Comprehension |
+| Writing a summary              | Selection                   |
+| Preparing for group discussion | Priming; Cued recall        |
+| Preparing for class            | Priming                     |
+
+To choose the right strategy for a task, you need to know:
+
+- The difficulty of the text
+- The structure of the text
+- Your goal
+- Your personal style
+
+> Learn techniques to counteract your weaknesses.
