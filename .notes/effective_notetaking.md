@@ -1,5 +1,10 @@
 # Effective Notetaking
 
+> I've posted a [review of this book here][review].
+
+
+[review]: https://www.goodreads.com/review/show/3445081518
+
 ## 1. Introduction
 
 Knowing what to expect is a vital factor in getting the most from both books and lecturers.
