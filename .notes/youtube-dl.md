@@ -10,6 +10,8 @@ youtube-dl -f best -ciw --write-description -o "%(title)s.%(ext)s" -v https://ww
 
 You can also use the `--skip-download` to only download the description.
 
+Then you can package everything with something like `tar -cvf myfolder.tar myfolder`.
+
 For more info, check out [this answer on AskUbuntu][ask_ubuntu_1].
 
 
