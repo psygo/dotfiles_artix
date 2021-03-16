@@ -749,3 +749,78 @@ Another possible strategy for reducing mindwandering is meditation. There’ssom
     - Do not simply re-read your notes, paraphrase them and reshape them.
     - But basically the process of review involves a repeated selection of important information until you are left with one single brief sentence or keyword for each coherent unit of information.
     - Reviewing after a delay will give you a much better sense of how well you really understand the material.
+
+## 12. Learning style and individual differences
+
+The main differences:
+
+- Differences in cognitive style
+- Differences in learning preferences
+- Differences in ability
+    - Differences in skills (particularly reading skill, in this context)
+    - Differences in knowledge
+    - Differences in working memory capacity
+- Differences in motivation and interest level
+
+Notice that differences in ability encompass three areas of difference, only one of which is in any way innate.
+
+Differences in working memory capacity are more problematic. Althoughtraining programs to increase working memory capacity have had somemeasure of success, it is very specific to the particular tasks being targeted.This doesn’t mean that there’s no value to such programs, but it does suggestthat adult working memory capacity is less malleable than we hoped(working memory capacity does increase during childhood, as the braindevelops — unfortunately, it also may shrink in old age).
+
+It is important then to be aware of when your WMC isn't working in your favor. Practice in a specific topic might help in lowering the demand on WMC. And paying attention to environmental factors, like silence and worrying, is also key.
+
+### Interest and Motivation
+
+That interest and motivation are linked together. Interest is of course also connected to knowledge — the more you know, the more interested you’ll be, and as your interest in a subject grows, so does the easewith which you acquire more knowledge.
+
+Interest may be an indirect measure of another critical factor: your inclination for effortful processing — that is, the pleasure you take in engaging your mind. Which brings us to motivation.
+
+Students’ motives have been categorized as belonging to one of three categories:
+
+- A pure interest in the subject for its own sake
+- The need to do well (perhaps to gain a qualification, or to look good in front of other people)
+- The need to avoid looking a fool
+
+It’s not surprising that these last two are associated with a tendency to only process information superficially.
+
+Of course, if you’re very competitive, or have a compelling need to do well, you will also be more likely to put the effort in.
+
+> Perhaps that's why the CCP can't get past copying and stealing other people.
+
+> Intrinsic and Extrinsic motives.
+
+3 types of learning:
+
+- Surface
+    - Surface learners also tend to focus on the words rather than the writer’s meaning.
+    - For people who feel incapable, there is a way: take things level by level: words, then propositions then macropropositions.
+- Achieving
+    - Nearly as effective as the deep approach, however the focus is still on the end product.
+- Deep
+    - Search for understanding and connections.
+
+### Cognitive Style
+
+- **Wholist-Analytic**: whether you tend to organize information in wholes or parts
+- **Verbal-Imagery**: whether you tend to represent information in your thoughts verbally or in pictures
+
+These are dimensions, not dichotomies! Few of us will be at the extremes. Though our education system tends to favor an analytical approach.
+
+Wholists, for example, are good at seeing things in context, but may missimportant details and are more likely to have trouble selecting what’simportant. Analytics are good at detail and good at seeing similarities anddifferences, but may focus on one or two aspects to the exclusion of other,equally important, aspects. Analytics like a step-by-step approach, whilewholists can get confused by such an approach, particularly when the stepsare large. Analytics may find overviews confusing; wholists may be confused without an overview. Interestingly, analytics tend to prefer to take control of their learning, but wholists don’t care.
+
+In general, imagers prefer and learn best from pictorial presentations, whileverbalizers prefer and learn best from text. Imagers remember visuallydescriptive text better than acoustically complex and unfamiliar text;verbalizers remember complex and unfamiliar text better than visually descriptive text.
+
+The two dimensions also pair off. Wholist and imager styles go together; analytic and verbalizer styles are similarly compatible.
+
+Interestingly, the same study found that working memory capacity seems tobe of much less importance to wholists than analytics. Analytic processingprobably requires much more capacity than wholist processing. Similarly,although not to the same extent, verbalizers are more affected by workingmemory capacity than imagers. This implies that reducing cognitive load ismuch more important for low working memory analytic-verbalizers thananyone else.
+
+> Strive for integrating all styles.
+
+### Learning preferences
+
+Learning preferences encompass personal properties that affect the best conditions for cognitive processing to take place.
+
+> Take a look at the 5 classes of elements of the Dunn & Dunn style model. Out of all preferences, the perceptual ones may be the most important ones. Most people are affected by 6 to 14 of the 15 elements. If you think about all the different combinations of elements that are possible, you’ll see why no single instructional or learning method can work for everyone.
+
+## 13. Choosing the right strategy
+
+
