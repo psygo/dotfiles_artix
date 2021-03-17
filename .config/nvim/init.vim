@@ -47,6 +47,7 @@ Plug 'natebosch/dartlang-snippets'
 
 " Themes
 Plug 'joshdick/onedark.vim'
+Plug 'sheerun/vim-polyglot'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'lilydjwg/colorizer'
