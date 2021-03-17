@@ -63,6 +63,7 @@ let g:move_key_modifier = 'S'
 let g:limelight_conceal_ctermfg = 'gray'
 let g:highlightedyank_highlight_duration = 500
 let g:indentLine_char_list = ['|', '┊', '┆', '¦']
+set termguicolors
 
 " Dart Configs
 let g:lsc_auto_map = v:true
