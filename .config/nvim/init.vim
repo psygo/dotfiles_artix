@@ -59,6 +59,7 @@ colorscheme onedark
 let g:airline_theme = 'onedark'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
+let g:airline_powerline_fonts = 1
 let g:move_key_modifier = 'S'
 let g:limelight_conceal_ctermfg = 'gray'
 let g:highlightedyank_highlight_duration = 500
@@ -67,7 +68,7 @@ set termguicolors
 
 " Dart Configs
 let g:lsc_auto_map = v:true
-let dart_html_in_string=v:true
+let dart_html_in_string = v:true
 let g:dart_style_guide = 2
 let g:dart_format_on_save = 1
 "-------------------------------------------------------------------------------
