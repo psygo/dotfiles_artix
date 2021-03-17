@@ -15,7 +15,7 @@
 !.local/
 !.local/share/
 !.local/share/konsole/
-!.local/share/konsole/Dracula.colorscheme
+!.local/share/konsole/*.colorscheme
 !.local/share/konsole/philippe.profile
 
 !.config/nvim/
