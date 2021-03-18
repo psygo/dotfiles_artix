@@ -150,4 +150,38 @@ endsnippet
 snippet foot_note "A custom footnote" b
 <foot-note text="$1"></footnote>
 endsnippet
+
+snippet fanaro_post "Fanaro Post" b
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>${1:title}</title>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+
+		<meta name="author" content="Philippe Fanaro" />
+		<meta name="description" content="${1:title}" />
+
+		<meta property="og:image" content="${2:thumbnail.png}" />
+		<meta property="og:description" content="${1:title}" />
+		<meta property="og:title" content="${1:title}" />
+		<meta property="og:site_name" content="fanaro.io" />
+		<meta property="og:type" content="blog" />
+
+		<script src="../../index.js"></script>
+
+		<link rel="stylesheet" href="../../index.css" />
+		<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
+	</head>
+	<body>
+		<article>
+			<img src="${3:thumbnail.png}" alt="${4:Thumbnail}" />
+
+			<h1>${1:title}</h1>
+		</article>
+		</body>
+</html>
+
+endsnippet
 #-------------------------------------------------------------------------------
