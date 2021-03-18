@@ -55,6 +55,7 @@ alias pr="sudo pacman -Rns"
 alias github_ssh="eval \$(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
 
 alias bashrc="vim ~/.bashrc"
+alias gitconfig="vim ~/.gitconfig"
 alias vimrc="vim ~/.config/nvim/init.vim"
 alias xmonadrc="vim ~/.xmonad/xmonad.hs"
 alias xinitrc="vim ~/.xinitrc"

@@ -7,6 +7,7 @@
   lca = !git add -A && git commit
   st = !git status --short
   pom = !git push origin master
+  ql = !git log --oneline -n 5
 [color]
   ui = true
 [core]
