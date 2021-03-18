@@ -71,6 +71,61 @@ endsnippet
 snippet pre_code "HighlightJS Pre Code with Class" b
 <pre><code class="$1">$2</code></pre>
 endsnippet
+
+snippet wgo_import "WGo.js SGF Import" b
+<script type="text/javascript" src="../../assets/wgo/wgo.js"></script>
+<script type="text/javascript" src="../../assets/wgo/kifu.js"></script>
+<script type="text/javascript" src="../../assets/wgo/sgfparser.js"></script>
+<script type="text/javascript" src="../../assets/wgo/player.js"></script>
+<script
+	type="text/javascript"
+	src="../../assets/wgo/basicplayer.js"
+></script>
+<script
+	type="text/javascript"
+	src="../../assets/wgo/basicplayer.component.js"
+></script>
+<script
+	type="text/javascript"
+	src="../../assets/wgo/basicplayer.infobox.js"
+></script>
+<script
+	type="text/javascript"
+	src="../../assets/wgo/basicplayer.commentbox.js"
+></script>
+<script
+	type="text/javascript"
+	src="../../assets/wgo/basicplayer.control.js"
+></script>
+<script
+	type="text/javascript"
+	src="../../assets/wgo/player.editable.js"
+></script>
+<script type="text/javascript" src="../../assets/wgo/scoremode.js"></script>
+<script
+	type="text/javascript"
+	src="../../assets/wgo/player.permalink.js"
+></script>
+<link
+	rel="stylesheet"
+	type="text/css"
+	href="../../assets/wgo/wgo.player.css"
+/>
+endsnippet
+
+snippet wgo_sgf "WGo.js SGF Viewer" b
+<div
+	data-wgo="$1"
+	data-wgo-board="stoneHandler: WGo.Board.drawHandlers.NORMAL,
+									background: '../../assets/wgo/textures/wood2.jpg'"
+	class="SGF"
+>
+	<p>
+		Your browser doesn't support the WGo.js Player. Please use a more
+		modern browser, like Brave, Chrome, Firefox or Edge.
+	</p>
+</div>
+endsnippet
 #-------------------------------------------------------------------------------
 # fanaro.io
 
