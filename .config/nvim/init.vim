@@ -54,6 +54,11 @@ Plug 'lilydjwg/colorizer'
 
 call plug#end()
 
+let g:onedark_color_overrides = {
+\ "black": {"gui": "#21222c", "cterm": "235", "cterm16": "0" },
+\ "purple": { "gui": "#C678DF", "cterm": "170", "cterm16": "5" }
+\}
+
 " Plugins Customizations
 colorscheme onedark
 let g:airline_theme = 'onedark'
