@@ -27,6 +27,10 @@
 
 !.config/zathura/
 !.config/zathura/zathurarc
+
+!.config/Sabaki/
+!.config/Sabaki/themes/
+!.config/Sabaki/themes/*
 #-------------------------------------------------------------------------------
 !README.md
 !.notes/
