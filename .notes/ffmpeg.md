@@ -2,7 +2,7 @@
 
 ## Resources
 
-1. [Donald Feury's Tutorial][donald_feury_1]
+1. [Donald Feury's Tutorial on Cutting, Frozen Frames and Metadata][donald_feury_1]
 
 
 [donald_feury_1]: https://youtu.be/simSapaQOCE
