@@ -122,15 +122,16 @@ nmap <F5> :source ~/.config/nvim/init.vim<CR>
 
 nnoremap <SPACE> <Nop>
 let g:mapleader = "\<Space>"
-nmap <leader>w :w!<CR>
-nmap <leader>q :q!<CR>
-nmap <leader>wq :wq!<CR>
-nmap <leader>n :NERDTreeToggle<CR>
-nmap <leader>v :vs<CR>
-nmap <leader>h :sp<CR>
+nmap <leader>w <cmd>w!<CR>
+nmap <leader>q <cmd>q!<CR>
+nmap <leader>wq <cmd>wq!<CR>
+nmap <leader>n <cmd>NERDTreeToggle<CR>
+nmap <leader>v <cmd>vs<CR>
+nmap <leader>h <cmd>sp<CR>
 nmap <leader>o o<Esc>k
 nmap <leader>O O<Esc>j
-nmap <leader>P :Prettier<CR>
+nmap <leader>P <cmd>Prettier<CR>
+nmap <leader>nh <cmd>noh<CR>
 
 nmap [b :bnext<CR>
 nmap ]b :bprevious<CR>
