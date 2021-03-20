@@ -61,10 +61,11 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
       -- Basic
       ((modm .|. shiftMask, xK_Return), spawn $ XMonad.terminal conf)
     , ((modm .|. shiftMask, xK_c     ), kill)
-    , ((modm              , xK_b     ), spawn "brave")
+    , ((modm              , xK_b     ), spawn brave)
     , ((modm              , xK_p     ), shellPrompt myXPConfig)
     , ((modm              , xK_d     ), spawn deadKeysLayout)
     , ((modm              , xK_u     ), spawn usLayout)
+    , ((modm              , xK_r     ), spawn ranger)
       --------------------------------------------------------------------------
       -- Window Management
     , ((modm,               xK_space ), sendMessage NextLayout)
@@ -94,7 +95,10 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
       --------------------------------------------------------------------------
     ]
 
+-- Commands
 restartRecompile = "xmonad --recompile; xmonad --restart"
 deadKeysLayout   = "setxkbmap -layout us -variant intl; xmodmap ~/.Xmodmap"
 usLayout         = "setxkbmap -layout us; xmodmap ~/.Xmodmap"
+ranger           = "konsole -e ranger"
+brave            = "brave"
 --------------------------------------------------------------------------------
