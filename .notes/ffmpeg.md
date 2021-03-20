@@ -21,6 +21,18 @@ Probing to see if everything went as expected:
 ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 sample.mp4
 ```
 
+## Concatenate Videos
+
+Note that, if you don't have the **same video and audio encodings**, the following won't work &mdash; use another strategy then.
+
+1. Create a text file (`.txt`) with an ordered list of the files you want to concatenate.
+1. Concatenate them using:
+    ```sh
+    ffmpeg -f concat -i list.txt -c copy concat-sample.mp4
+    ```
+
+`.ts` files allow for file-like concatenation.
+
 ## Frozen Frames Filter
 
 ```sh
