@@ -33,6 +33,14 @@ Note that, if you don't have the **same video and audio encodings**, the followi
 
 `.ts` files allow for file-like concatenation.
 
+## Converting Videos to Other Formats
+
+An example:
+
+```sh
+ffmpeg -i input.mkv output.mp4
+```
+
 ## Frozen Frames Filter
 
 ```sh
