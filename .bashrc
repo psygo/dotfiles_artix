@@ -46,6 +46,7 @@ alias grep="grep --color=auto"
 alias cat="bat"
 alias trc="transmission-cli"
 alias tremca="tremc -- -a"
+alias ztr="zathura"
 
 alias p="sudo pacman"
 alias pi="sudo pacman -Syu"
@@ -66,4 +67,6 @@ alias README="vim ~/README.md"
 alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io/"
 alias brnhk="cd ~/Code/BrasilNihonKiin/nihonkiin.com.br/"
 alias courses="cd ~/Code/Courses/"
+
+alias note-tmp="vim ~/Notes/tmp"
 #--------------------------------------------------------------------------------

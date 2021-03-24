@@ -66,6 +66,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm              , xK_d     ), spawn deadKeysLayout)
     , ((modm              , xK_u     ), spawn usLayout)
     , ((modm              , xK_r     ), spawn ranger)
+    , ((modm              , xK_Print ), spawn screenshot)
       --------------------------------------------------------------------------
       -- Window Management
     , ((modm,               xK_space ), sendMessage NextLayout)
@@ -101,4 +102,5 @@ deadKeysLayout   = "setxkbmap -layout us -variant intl; xmodmap ~/.Xmodmap"
 usLayout         = "setxkbmap -layout us; xmodmap ~/.Xmodmap"
 ranger           = "konsole -e ranger"
 brave            = "brave"
+screenshot       = "scrot ~/Pictures/Screenshots/screenshot.png"
 --------------------------------------------------------------------------------
