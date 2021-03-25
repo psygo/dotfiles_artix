@@ -8,7 +8,7 @@ These are my configuration files for Linux, I focus a lot on minimalism. Anyway,
 - [XMonad][xmonad] as a Window Manager
 - ~~dmenu~~ `XMonad.Prompt` as an application launcher
 - ranger as an in-terminal file manager
-- Nemo as my GUI file manager &mdash #shameless
+- Nemo as my GUI file manager &mdash; #shameless
 - Brave as my default browser
 - Zathura as a Vim-like way of viewing PDFs &mdash; though Okular is still a big part of my workflow
 
