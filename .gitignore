@@ -5,6 +5,7 @@
 !.gitignore
 !.bash_profile
 !.bashrc
+!.imwheelrc
 !.config/
 #-------------------------------------------------------------------------------
 !.xinitrc
