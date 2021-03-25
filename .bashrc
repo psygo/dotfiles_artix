@@ -67,6 +67,9 @@ alias README="vim ~/README.md"
 alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io/"
 alias brnhk="cd ~/Code/BrasilNihonKiin/nihonkiin.com.br/"
 alias courses="cd ~/Code/Courses/"
+alias lab="cd ~/Code/Lab/"
+alias notes="cd ~/Notes/"
+alias scripts="cd ~/.scripts/"
 
-alias note-tmp="vim ~/Notes/tmp"
+alias note-tmp="cd ~/Notes/Tmp/ && vim"
 #--------------------------------------------------------------------------------
