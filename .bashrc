@@ -72,4 +72,5 @@ alias notes="cd ~/Notes/"
 alias scripts="cd ~/.scripts/"
 
 alias note-tmp="cd ~/Notes/Tmp/ && vim"
+alias cn="~/.scripts/create_note.sh"
 #--------------------------------------------------------------------------------
