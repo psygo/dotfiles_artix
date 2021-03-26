@@ -1,10 +1,12 @@
 #!/bin/bash
 
 TITLE=$1
-TRIPLE_LINE="\n\n\n"
+DOUBLE_LINE="\n\n"
 
 touch "${TITLE}.md" || exit 1
 
-printf "# ${TITLE}${TRIPLE_LINE}Tags: ${TRIPLE_LINE}" >> "${TITLE}.md" || exit 2
+printf "# ${TITLE}${DOUBLE_LINE}Tags: ${DOUBLE_LINE}\n" >> "${TITLE}.md" || exit 2
+
+nvim "${TITLE}.md"
 
 exit 0

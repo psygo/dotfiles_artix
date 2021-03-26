@@ -21,7 +21,7 @@ COMPLETE_PATH="${PATH_COLOR}${CURRENT_PATH}"
 COMPLETE_BRANCH="${BRANCH_COLOR}\$(${BRANCH})"
 COMPLETE_ROOT_OR_NOT="${ROOT_OR_NOT_COLOR}${ROOT_OR_NOT}"
 
-export PS1=" ${COMPLETE_PATH} ${COMPLETE_BRANCH} ${COMPLETE_ROOT_OR_NOT} ${TEXT_RESET}"
+export PS1=" ${COMPLETE_PATH} ${COMPLETE_BRANCH} ${TEXT_RESET}"
 
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
 export PATH="${PATH}:/home/philippe/Code/Flutter/bin"
@@ -72,5 +72,5 @@ alias notes="cd ~/Notes/"
 alias scripts="cd ~/.scripts/"
 
 alias note-tmp="cd ~/Notes/Tmp/ && vim"
-alias cn="~/.scripts/create_note.sh"
+alias cn="bash ~/.scripts/create_note.sh"
 #--------------------------------------------------------------------------------
