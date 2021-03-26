@@ -5,6 +5,6 @@ TRIPLE_LINE="\n\n\n"
 
 touch "${TITLE}.md" || exit 1
 
-printf "# ${TITLE}${TRIPLE_LINE}Tag: ${TRIPLE_LINE}" >> "${TITLE}.md" || exit 2
+printf "# ${TITLE}${TRIPLE_LINE}Tags: ${TRIPLE_LINE}" >> "${TITLE}.md" || exit 2
 
 exit 0
