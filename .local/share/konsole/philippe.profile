@@ -1,7 +1,7 @@
 [Appearance]
 ColorScheme=One Dark
 DimmValue=31
-Font=Fira Code,11,-1,5,57,0,0,0,0,0,Medium
+Font=Hasklig,11,-1,5,63,0,0,0,0,0,Semibold
 TabColor=128,128,128
 UseFontLineChararacters=true
 

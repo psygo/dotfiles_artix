@@ -36,6 +36,7 @@ Plug 'kshenoy/vim-signature'
 Plug 'prettier/vim-prettier', {
     \ 'do': 'yarn install',
     \ 'for': ['javascript', 'typescript', 'css','scss', 'json', 'markdown', 'yaml', 'html'] }
+Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'turbio/bracey.vim'
 
@@ -70,6 +71,7 @@ let g:limelight_conceal_ctermfg = 'gray'
 let g:highlightedyank_highlight_duration = 500
 let g:indentLine_char_list = ['|', '┊', '┆', '¦']
 set termguicolors
+let g:vim_markdown_folding_disabled = 1
 
 " Dart Configs
 let g:lsc_auto_map = v:true
