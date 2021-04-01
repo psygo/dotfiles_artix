@@ -1,6 +1,6 @@
 # My Dotfiles
 
-These are my configuration files for Linux, I focus a lot on minimalism. Anyway, I currently use:
+These are my configuration files for Linux; I focus a lot on minimalism. Anyway, I currently use:
 
 - Konsole as my terminal &mdash; mostly because it supports font ligatures
 - Neovim
