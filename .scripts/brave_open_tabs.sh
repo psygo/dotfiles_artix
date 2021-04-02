@@ -2,6 +2,7 @@
 
 # A script for opening a list of links with the Brave browser.
 # The links should be one-liners in a text file.
+#
 # Exit codes:
 #
 # 1. `brave` couldn't open the links.
