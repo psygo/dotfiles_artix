@@ -24,11 +24,11 @@ main = do
           let commands  = zipWith  (++) (braveCmdListGenerator numLinks) links
           mapM callCommand commands
 
-braveCmdListGenerator  :: Int -> [String]
-braveCmdListGenerator   = appendNewWindowToFirst . replicateBrave
+braveCmdListGenerator        :: Int -> [String]
+braveCmdListGenerator         = appendNewWindowToFirst . replicateBrave
 
-replicateBrave         :: Int -> [String]
-replicateBrave n        = replicate n "brave "
+replicateBrave               :: Int -> [String]
+replicateBrave              n = replicate n "brave "
 
 appendNewWindowToFirst       :: [String] -> [String]
 appendNewWindowToFirst (x:xs) = (x ++ "--new-window "):xs
