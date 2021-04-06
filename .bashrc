@@ -15,6 +15,7 @@ CURRENT_PATH="\w"
 BRANCH="git status >/dev/null 2>&1 && git branch --show-current"
 ROOT_OR_NOT="\$"
 TEXT_RESET="\[\e[00m\]"
+USER="\u"
 
 COMPLETE_TIME="${TIME_COLOR}${TIME}"
 COMPLETE_PATH="${PATH_COLOR}${CURRENT_PATH}"

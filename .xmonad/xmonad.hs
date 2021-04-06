@@ -71,6 +71,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
       -- Window Management
     , ((modm,               xK_space ), sendMessage NextLayout)
     , ((modm,               xK_Tab   ), windows W.focusDown)
+    , ((modm .|. shiftMask, xK_Tab   ), windows W.focusUp)
     , ((modm,               xK_j     ), windows W.focusDown)
     , ((modm,               xK_k     ), windows W.focusUp)
     , ((modm,               xK_m     ), windows W.focusMaster)
