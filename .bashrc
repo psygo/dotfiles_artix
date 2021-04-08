@@ -54,6 +54,10 @@ alias pi="sudo pacman -Syu"
 alias pq="sudo pacman -Ss"
 alias pr="sudo pacman -Rns"
 
+alias yi="yay -Syu"
+alias yq="yay -Ss"
+alias yr="yay -Rns"
+
 alias github_ssh="eval \$(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
 
 alias bashrc="vim ~/.bashrc"
