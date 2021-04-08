@@ -1,1 +1,11 @@
 let blacklists = ["https://www.youtube.com/*"]
+
+site '*://*.twitter.com/*' {
+      unmap j
+      unmap k
+      unmap n
+}
+
+site '*://*.udemy.com/*' {
+      unmap f
+}
