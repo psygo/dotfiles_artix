@@ -9,8 +9,8 @@
 #------------------------------------------------------------------------------
 [alias]
   # Committing
-  aac          = !git add -A && git commit -m
-  coa          = aac
+  c            = commit
+  coa          = !git add -A && git commit -m
   lca          = !git add -A && git commit
   # Status
   st           = status --short
