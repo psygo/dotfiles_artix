@@ -5,6 +5,16 @@ export VISUAL="nvim"
 export TERMINAL="konsole"
 export BROWSER="brave"
 
+# PATH and Other Bin Pointer Variables
+export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
+export PATH="${PATH}:/home/philippe/Code/Flutter/bin"
+export PATH="${PATH}:/home/philippe/.emacs.d/bin"
+export DART_SDK="/home/philippe/Code/Flutter/bin/dart"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+export FZF_DEFAULT_OPS="--extended"
+
+# PS1
 TIME_COLOR="\[\e[01;38;5;011m\]"
 PATH_COLOR="\[\e[01;38;5;002m\]"
 BRANCH_COLOR="\[\e[01;38;5;033m\]"
@@ -23,24 +33,19 @@ COMPLETE_BRANCH="${BRANCH_COLOR}\$(${BRANCH})"
 COMPLETE_ROOT_OR_NOT="${ROOT_OR_NOT_COLOR}${ROOT_OR_NOT}"
 
 export PS1="${COMPLETE_PATH} ${COMPLETE_BRANCH} ${TEXT_RESET}"
-
-export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
-export PATH="${PATH}:/home/philippe/Code/Flutter/bin"
-export PATH="${PATH}:/home/philippe/.emacs.d/bin"
-export DART_SDK="/home/philippe/Code/Flutter/bin/dart"
-
-[ -f ~/.fzf.bash ] && source ~/.fzf.bash
-export FZF_DEFAULT_OPS="--extended"
 #--------------------------------------------------------------------------------
+# Some Terminal Settings
 shopt -s autocd
 HISTSIZE= HISTFILESIZE=
 set -o vi
 bind -m vi-insert '"\C-x\C-e": edit-and-execute-command'
 #--------------------------------------------------------------------------------
+# Proper Vim Redirection
 alias vim="nvim"
 alias vi="nvim"
 alias oldvim="vim"
 
+# Useful Terminal CLI Tools
 alias cls="clear"
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
@@ -48,7 +53,10 @@ alias cat="bat"
 alias trc="transmission-cli"
 alias tremca="tremc -- -a"
 alias ztr="zathura"
+alias duq="du -BM -d1"
+alias github_ssh="eval \$(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
 
+# Package Managers
 alias p="sudo pacman"
 alias pi="sudo pacman -Syu"
 alias pq="sudo pacman -Ss"
@@ -58,8 +66,7 @@ alias yi="yay -Syu"
 alias yq="yay -Ss"
 alias yr="yay -Rns"
 
-alias github_ssh="eval \$(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
-
+# Core Dotfiles Editings
 alias bashrc="vim ~/.bashrc"
 alias gitconfig="vim ~/.gitconfig"
 alias gitignore="vim ~/.gitignore"
@@ -69,6 +76,7 @@ alias xinitrc="vim ~/.xinitrc"
 alias zathurarc="vim ~/.config/zathura/zathurarc"
 alias README="vim ~/README.md"
 
+# Folders
 alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io/"
 alias brnhk="cd ~/Code/BrasilNihonKiin/nihonkiin.com.br/"
 alias courses="cd ~/Code/Courses/"
@@ -76,6 +84,7 @@ alias lab="cd ~/Code/Lab/"
 alias notes="cd ~/Notes/"
 alias scripts="cd ~/.scripts/"
 
+# Notetaking
 alias note-tmp="cd ~/Notes/Tmp/ && vim"
 alias cn="bash ~/.scripts/create_note.sh"
 #--------------------------------------------------------------------------------
