@@ -1,20 +1,23 @@
 [user]
-  name     = Philippe Fanaro
-  email    = philippefanaro@gmail.com
-[alias]
-  aac      = !git add -A && git commit -m
-  coa      = aac
-  lca      = !git add -A && git commit
-  st       = !git status --short
-  pom      = !git push origin master
-  puom     = !git pull origin master
-  ql       = !git log --oneline -n 5
-[color]
-  ui       = true
+  name         = Philippe Fanaro
+  email        = philippefanaro@gmail.com
 [core]
-  editor   = nvim
+  editor       = nvim
+  autocrlf     = input
+[alias]
+  aac          = !git add -A && git commit -m
+  coa          = aac
+  lca          = !git add -A && git commit
+  st           = !git status --short
+  pom          = !git push origin master
+  puom         = !git pull origin master
+  ql           = !git log --oneline -n 5
+[gc]
+  reflogExpire = never
+[color]
+  ui           = true
 [filter "lfs"]
-  clean    = git-lfs clean -- %f
-  smudge   = git-lfs smudge -- %f
-  process  = git-lfs filter-process
-  required = true
+  clean        = git-lfs clean -- %f
+  smudge       = git-lfs smudge -- %f
+  process      = git-lfs filter-process
+  required     = true
