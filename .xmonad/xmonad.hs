@@ -16,7 +16,7 @@ import XMonad.Prompt.FuzzyMatch
 
 import XMonad.Layout.ThreeColumns
 --------------------------------------------------------------------------------
-main = xmonad defaultConfig
+main = xmonad def
         { modMask            = mod4Mask
         , terminal           = "konsole"
         , borderWidth        = 3
