@@ -1,23 +1,38 @@
+#------------------------------------------------------------------------------
 [user]
   name         = Philippe Fanaro
   email        = philippefanaro@gmail.com
+#------------------------------------------------------------------------------
 [core]
   editor       = nvim
   autocrlf     = input
+#------------------------------------------------------------------------------
 [alias]
+  # Committing
   aac          = !git add -A && git commit -m
   coa          = aac
   lca          = !git add -A && git commit
-  st           = !git status --short
-  pom          = !git push origin master
-  puom         = !git pull origin master
-  ql           = !git log --oneline -n 5
+  # Status
+  st           = status --short
+  lq           = log --oneline -n
+  lq5          = log --oneline -n 5
+  ls           = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+  ll           = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+  ld           = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+  lds          = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short
+  # Pushing and Pulling
+  pom          = push origin master
+  puom         = pull origin master
+#------------------------------------------------------------------------------
 [gc]
   reflogExpire = never
+#------------------------------------------------------------------------------
 [color]
   ui           = true
+#------------------------------------------------------------------------------
 [filter "lfs"]
   clean        = git-lfs clean -- %f
   smudge       = git-lfs smudge -- %f
   process      = git-lfs filter-process
   required     = true
+#------------------------------------------------------------------------------
