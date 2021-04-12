@@ -47,6 +47,7 @@ alias oldvim="vim"
 
 # Useful Terminal CLI Tools
 alias cls="clear"
+alias get-prop-name="xprop | grep CLASS"
 alias poweroff="sudo poweroff"
 alias reboot="sudo reboot"
 alias ls="ls --color=auto"
