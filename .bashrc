@@ -47,6 +47,8 @@ alias oldvim="vim"
 
 # Useful Terminal CLI Tools
 alias cls="clear"
+alias poweroff="sudo poweroff"
+alias reboot="sudo reboot"
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 alias cat="bat"
