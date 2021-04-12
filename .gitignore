@@ -24,6 +24,7 @@
 
 !.config/nvim/
 !.config/nvim/init.vim
+!.config/nvim/coc-settings.json
 
 !.config/ranger/
 !.config/ranger/rc.conf
