@@ -104,5 +104,6 @@ deadKeysLayout   = "setxkbmap -layout us -variant intl; xmodmap ~/.Xmodmap"
 usLayout         = "setxkbmap -layout us; xmodmap ~/.Xmodmap"
 ranger           = "konsole -e ranger"
 brave            = "brave"
+firefox          = "firefox"
 screenshot       = "scrot ~/Pictures/Screenshots/screenshot.png"
 --------------------------------------------------------------------------------
