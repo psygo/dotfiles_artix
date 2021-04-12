@@ -76,7 +76,7 @@ alias vimrc="vim ~/.config/nvim/init.vim"
 alias xmonadrc="vim ~/.xmonad/xmonad.hs"
 alias xinitrc="vim ~/.xinitrc"
 alias zathurarc="vim ~/.config/zathura/zathurarc"
-alias zathurarc="vim ~/.imwheelrc"
+alias imwheelrc="vim ~/.imwheelrc"
 alias README="vim ~/README.md"
 
 # Folders
