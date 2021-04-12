@@ -62,6 +62,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
       ((modm .|. shiftMask, xK_Return), spawn $ XMonad.terminal conf)
     , ((modm .|. shiftMask, xK_c     ), kill)
     , ((modm              , xK_b     ), spawn brave)
+    , ((modm              , xK_f     ), spawn firefox)
     , ((modm              , xK_p     ), shellPrompt myXPConfig)
     , ((modm              , xK_d     ), spawn deadKeysLayout)
     , ((modm              , xK_u     ), spawn usLayout)
