@@ -91,4 +91,7 @@ alias scripts="cd ~/.scripts/"
 # Notetaking
 alias note-tmp="cd ~/Notes/Tmp/ && vim"
 alias cn="bash ~/.scripts/create_note.sh"
+
+# Flutter & Dart
+alias dartfmt="flutter dartfmt"
 #--------------------------------------------------------------------------------
