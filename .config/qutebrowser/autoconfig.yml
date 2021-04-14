@@ -12,3 +12,9 @@ settings:
     global: dark
   content.notifications:
     https://www.reddit.com: false
+  statusbar.show:
+    global: always
+  tabs.show:
+    global: always
+  tabs.title.format:
+    global: '{index}:{current_title}'
