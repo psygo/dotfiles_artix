@@ -26,6 +26,9 @@
 !.config/nvim/init.vim
 !.config/nvim/coc-settings.json
 
+!.config/qutebrowser/
+!.config/qutebrowser/config.py
+
 !.config/ranger/
 !.config/ranger/rc.conf
 
