@@ -9,6 +9,19 @@ dracula.draw.blood(c, {
     }
 })
 
+c.url.searchengines = {
+    'DEFAULT': 'https://www.searx.bar/search?q={}',
+    'am':  'https://www.amazon.com/s?k={}',
+    'aw': 'https://wiki.archlinux.org/?search={}',
+    'g': 'https://www.google.com/search?q={}',
+    'h': 'https://hoogle.haskell.org/?hoogle={}',
+    're': 'https://www.reddit.com/r/{}',
+    'sx':  'https://www.searx.bar/search?q={}',
+    'ub': 'https://www.urbandictionary.com/define.php?term={}',
+    'yt': 'https://www.youtube.com/results?search_query={}',
+    'w': 'https://en.wikipedia.org/wiki/{}',
+}
+
 config.bind('yo', 'yank inline [{title}]({url})')
 config.bind('t', 'set-cmd-text -s :open -t')
 config.bind('M', 'hint links spawn mpv {hint-url}')
