@@ -78,6 +78,7 @@ alias xmonadrc="vim ~/.xmonad/xmonad.hs"
 alias xinitrc="vim ~/.xinitrc"
 alias zathurarc="vim ~/.config/zathura/zathurarc"
 alias imwheelrc="vim ~/.imwheelrc"
+alias qutebrowserrc="vim ~/.config/qutebrowser/config.py"
 alias README="vim ~/README.md"
 
 # Folders
