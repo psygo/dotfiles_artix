@@ -12,8 +12,7 @@ import dracula.draw
 #   qute://help/settings.html
 
 # Change the argument to True to still load settings configured via autoconfig.yml
-config.set("colors.webpage.darkmode.enabled", True)
-# config.load_autoconfig(True)
+config.load_autoconfig(True)
 
 dracula.draw.blood(c, {
     'spacing': {
@@ -21,3 +20,11 @@ dracula.draw.blood(c, {
         'horizontal': 8
     }
 })
+
+config.bind('yo', 'yank inline [{title}]({url})')
+config.bind('t', 'set-cmd-text -s :open -t')
+config.bind('M', 'hint links spawn mpv {hint-url}')
+config.bind('Z', 'hint links spawn konsole -e youtube-dl {hint-url}')
+config.bind('xb', 'config-cycle statusbar.show always never')
+config.bind('xt', 'config-cycle tabs.show always never')
+config.bind('xx', 'config-cycle statusbar.show always never; config-cycle statusbar.show always never')

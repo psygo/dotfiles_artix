@@ -28,6 +28,7 @@
 
 !.config/qutebrowser/
 !.config/qutebrowser/config.py
+!.config/qutebrowser/autoconfig.yml
 
 !.config/ranger/
 !.config/ranger/rc.conf
