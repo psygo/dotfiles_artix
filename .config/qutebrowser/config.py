@@ -9,6 +9,8 @@ dracula.draw.blood(c, {
     }
 })
 
+c.url.default_page = 'https://www.searx.bar/'
+
 c.url.searchengines = {
     'DEFAULT': 'https://www.searx.bar/search?q={}',
     'am':      'https://www.amazon.com/s?k={}',
@@ -17,7 +19,7 @@ c.url.searchengines = {
     'g':       'https://www.google.com/search?q={}',
     'h':       'https://hoogle.haskell.org/?hoogle={}',
     'l':       'https://www.linguee.pt/portugues-ingles/search?source=auto&query={}',
-    'lbry':    'https://lbry.tv/$/search?q=%s',
+    'lbry':    'https://lbry.tv/$/search?q={}',
     'libgen':  'http://libgen.rs/search.php?req={}',
     'od':      'https://odysee.com/$/search?q={}',
     'pr':      'https://thepiratebay.org/search.php?q={}',
