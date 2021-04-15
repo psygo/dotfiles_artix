@@ -63,6 +63,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_c     ), kill)
     , ((modm              , xK_b     ), spawn brave)
     , ((modm              , xK_f     ), spawn firefox)
+    , ((modm              , xK_t     ), spawn qutebrowser)
     , ((modm              , xK_p     ), shellPrompt myXPConfig)
     , ((modm              , xK_d     ), spawn deadKeysLayout)
     , ((modm              , xK_u     ), spawn usLayout)
@@ -105,5 +106,6 @@ usLayout         = "setxkbmap -layout us; xmodmap ~/.Xmodmap"
 ranger           = "konsole -e ranger"
 brave            = "brave"
 firefox          = "firefox"
+qutebrowser      = "qutebrowser"
 screenshot       = "scrot ~/Pictures/Screenshots/screenshot.png"
 --------------------------------------------------------------------------------
