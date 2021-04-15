@@ -5,23 +5,25 @@ import dracula.draw
 
 config.load_autoconfig(False)
 
-c.search.ignore_case = 'always'
-c.colors.webpage.darkmode.enabled = True
-c.colors.webpage.preferred_color_scheme = 'dark'
+# Misc
 config.set('content.notifications', True, 'https://www.reddit.com')
+c.search.ignore_case = 'always'
 c.statusbar.show = 'always'
-c.tabs.show = 'always'
-c.tabs.title.format = '{index}: {current_title}'
 c.auto_save.session = True
 c.confirm_quit = ["downloads"]
 c.content.ssl_strict = True
 c.downloads.location.directory = "/home/philippe/Downloads/"
 c.editor.command = ["konsole", "-e", "vim '{}'"]
+# Colors & Media
 monospace = "8px 'Fira Code'"
+c.colors.webpage.preferred_color_scheme = 'dark'
+c.colors.webpage.darkmode.enabled = True
+# Tabs
+c.tabs.title.format = '{index}: {current_title}'
+c.tabs.show = 'always'
 c.tabs.background = True
 c.tabs.last_close = "close"
 c.tabs.select_on_remove = "prev"
-
 #-------------------------------------------------------------------------------
 # Themes
 
