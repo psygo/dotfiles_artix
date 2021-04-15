@@ -3,8 +3,24 @@ import dracula.draw
 #-------------------------------------------------------------------------------
 # Browser Configs
 
-config.load_autoconfig(True)
+config.load_autoconfig(False)
+
 c.search.ignore_case = 'always'
+c.colors.webpage.darkmode.enabled = True
+c.colors.webpage.preferred_color_scheme = 'dark'
+config.set('content.notifications', True, 'https://www.reddit.com')
+c.statusbar.show = 'always'
+c.tabs.show = 'always'
+c.tabs.title.format = '{index}: {current_title}'
+c.auto_save.session = True
+c.confirm_quit = ["downloads"]
+c.content.ssl_strict = True
+c.downloads.location.directory = "/home/philippe/Downloads/"
+c.editor.command = ["konsole", "-e", "vim '{}'"]
+monospace = "8px 'Fira Code'"
+c.tabs.background = True
+c.tabs.last_close = "close"
+c.tabs.select_on_remove = "prev"
 
 #-------------------------------------------------------------------------------
 # Themes
@@ -49,11 +65,12 @@ toggle_tabs      = 'config-cycle tabs.show always never'
 
 #config.bind('f',  'hint links :open -t {hint-url}')
 #config.bind('F',  'hint links :open {hint-url}')
-config.bind('yo', 'yank inline "[{title}][url][url]: {url}"')
-config.bind('t',  'set-cmd-text -s :open -t')
-config.bind('M',  'hint links spawn mpv {hint-url}')
-config.bind('Z',  'hint links spawn konsole -e youtube-dl {hint-url}')
-config.bind('xt', toggle_tabs)
-config.bind('xb', toggle_statusbar)
-config.bind('xx', f'{toggle_tabs};; {toggle_statusbar}')
+config.bind('<ctrl+shift+x>', 'tab-pin')
+config.bind('yo',             'yank inline "[{title}][url][url]: {url}"')
+config.bind('t',              'set-cmd-text -s :open -t')
+config.bind('M',              'hint links spawn mpv {hint-url}')
+config.bind('Z',              'hint links spawn konsole -e youtube-dl {hint-url}')
+config.bind('xt',             toggle_tabs)
+config.bind('xb',             toggle_statusbar)
+config.bind('xx',             f'{toggle_tabs};; {toggle_statusbar}')
 #-------------------------------------------------------------------------------
