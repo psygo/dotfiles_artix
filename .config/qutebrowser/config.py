@@ -66,6 +66,10 @@ c.url.searchengines = {
 toggle_statusbar = 'config-cycle statusbar.show always never'
 toggle_tabs      = 'config-cycle tabs.show always never'
 
+player_div = 'document.querySelector("#movie_player")'
+
+config.bind('(',             f'jseval -q {player_div}.focus()')
+config.bind(')',             f'jseval -q {player_div}.blur()')
 config.bind('f',              'hint all tab')
 config.bind('F',              'hint all current')
 config.bind('<ctrl+shift+x>', 'tab-pin')
@@ -75,7 +79,7 @@ config.bind('yo',             'yank inline "[{title}][url][url]: {url}"')
 config.bind('t',              'set-cmd-text -s :open -t')
 config.bind('M',              'hint links spawn mpv {hint-url}')
 config.bind('Z',              'hint links spawn konsole -e youtube-dl {hint-url}')
-config.bind('xt',             toggle_tabs)
-config.bind('xb',             toggle_statusbar)
-config.bind('xx',             f'{toggle_tabs};; {toggle_statusbar}')
+config.bind('xt',              toggle_tabs)
+config.bind('xb',              toggle_statusbar)
+config.bind('xx',           f'{toggle_tabs};; {toggle_statusbar}')
 #-------------------------------------------------------------------------------
