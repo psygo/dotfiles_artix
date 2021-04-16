@@ -29,6 +29,9 @@
 !.config/qutebrowser/
 !.config/qutebrowser/config.py
 !.config/qutebrowser/autoconfig.yml
+!.config/qutebrowser/quickmarks
+!.config/qutebrowser/bookmarks/
+!.config/qutebrowser/bookmarks/urls
 
 !.config/ranger/
 !.config/ranger/rc.conf
