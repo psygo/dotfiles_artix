@@ -12,14 +12,14 @@ c.statusbar.show = 'always'
 c.auto_save.session = True
 c.confirm_quit = ["downloads"]
 c.content.ssl_strict = True
-c.downloads.location.directory = "/home/philippe/Downloads/"
-c.editor.command = ["konsole", "-e", "vim '{}'"]
+c.downloads.location.directory = '/home/philippe/Downloads/'
+c.editor.command = ['konsole', '-e', 'vim "{}"']
 # Colors & Media
-monospace = "8px 'Fira Code'"
+monospace = '8px "Fira Code"'
 c.colors.webpage.preferred_color_scheme = 'dark'
 c.colors.webpage.darkmode.enabled = True
 # Tabs
-c.tabs.title.format = '{index}: {current_title}'
+c.tabs.title.format = '{index} {current_title}'
 c.tabs.show = 'always'
 c.tabs.background = True
 c.tabs.last_close = "close"
@@ -67,7 +67,10 @@ toggle_tabs      = 'config-cycle tabs.show always never'
 
 #config.bind('f',  'hint links :open -t {hint-url}')
 #config.bind('F',  'hint links :open {hint-url}')
+#config.bind('<ctrl+shift+d>', ':set colors.webpage.darkmode.enabled true')
 config.bind('<ctrl+shift+x>', 'tab-pin')
+config.bind('<alt+left>',     'back')
+config.bind('<alt+right>',    'back')
 config.bind('yo',             'yank inline "[{title}][url][url]: {url}"')
 config.bind('t',              'set-cmd-text -s :open -t')
 config.bind('M',              'hint links spawn mpv {hint-url}')
