@@ -52,6 +52,7 @@ c.url.searchengines = {
     'lbry':     'https://lbry.tv/$/search?q={}',
     'libgen':   'http://libgen.rs/search.php?req={}',
     'od':       'https://odysee.com/$/search?q={}',
+    'p':        'https://pub.dev/packages?q={}',
     'pr':       'https://thepiratebay.org/search.php?q={}',
     're':       'https://www.reddit.com/r/{}',
     'sx':       'https://www.searx.bar/search?q={}',
@@ -65,8 +66,8 @@ c.url.searchengines = {
 toggle_statusbar = 'config-cycle statusbar.show always never'
 toggle_tabs      = 'config-cycle tabs.show always never'
 
-config.bind('f',  'hint all tab')
-config.bind('F',  'hint all current')
+config.bind('f',              'hint all tab')
+config.bind('F',              'hint all current')
 config.bind('<ctrl+shift+x>', 'tab-pin')
 config.bind('<alt+left>',     'back')
 config.bind('<alt+right>',    'back')

@@ -3,7 +3,7 @@
 export EDITOR="nvim"
 export VISUAL="nvim"
 export TERMINAL="konsole"
-export BROWSER="brave"
+export BROWSER="qutebrowser"
 
 # PATH and Other Bin Pointer Variables
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
