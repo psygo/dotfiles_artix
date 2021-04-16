@@ -283,16 +283,6 @@ https://developer.android.com/studio/build/application-id.html Set the applicati
 https://fireship.io/lessons/advanced-flutter-firebase/ Flutter Provider with Firebase
 https://pub.dev/flutter/favorites Page 1 | Flutter Favorite packages
 https://github.com/FirebaseExtended/flutterfire/blob/master/packages/firebase_auth/firebase_auth/test/firebase_auth_test.dart flutterfire/firebase_auth_test.dart at master · FirebaseExtended/flutterfire
-https://pub.dev/packages/assorted_layout_widgets assorted_layout_widgets | Flutter Package
-https://pub.dev/packages/mono_repo#-analysis-tab- mono_repo | Dart Package
-https://dart.dev/guides/libraries/create-library-packages Creating packages | Dart
-https://flutter.dev/docs/development/packages-and-plugins/developing-packages Developing packages & plugins - Flutter
-https://medium.com/flutterdevs/developing-packages-in-flutter-61a31acf616d Developing packages in Flutter - FlutterDevs - Medium
-https://medium.com/flutter-community/how-to-create-publish-and-manage-flutter-packages-b4f2cd2c6b90 How to Create, Publish and Manage Flutter Packages - Flutter Community - Medium
-https://github.com/atn832/firebase_auth_mocks/blob/master/test/firebase_auth_mocks_test.dart firebase_auth_mocks/firebase_auth_mocks_test.dart at master · atn832/firebase_auth_mocks
-https://www.youtube.com/channel/UCsBjURrPoezykLs9EqgamOA/search?query=create+dart+package Fireship - YouTube
-https://www.youtube.com/playlist?list=PLMYMhzMuvitQ6PBhU8X94xwuvTT40Yk-8 Flutter - YouTube
-https://www.youtube.com/channel/UCYqCZOwHbnPwyjawKfE21wg/featured Tensor Programming - YouTube
 https://flutter.dev/docs/cookbook/persistence/key-value Store key-value data on disk - Flutter
 https://moor.simonbinder.eu/docs/getting-started/ Getting Started | Moor
 https://blog.codeminer42.com/the-dark-side-of-flutter-what-frustrations-should-you-expect-c5d2c9c1ec8c/ The Dark Side of Flutter: What Frustrations Should You Expect? – The Miners
@@ -528,9 +518,6 @@ http://www.paulgraham.com/growth.html Startup = Growth
 https://www.joinef.com/?utm_source=Linkedin&utm_medium=cpc&utm_campaign=Linkedin_Ads&utm_term=Awareness Entrepreneur First - Find a co-founder at the world's leading talent investor
 https://blog.samaltman.com/projects-and-companies Projects and Companies - Sam Altman
 https://www.winwithoutpitching.com/pricingcreativity-videos/ Pricing Creativity Videos – Win Without Pitching
-https://angel.co/ Job search, venture investing & new tech products | AngelList
-https://en.wikipedia.org/wiki/SWOT_analysis SWOT analysis - Wikipedia
-https://pm.stackexchange.com/ Project Management Stack Exchange
 http://www.paulgraham.com/start.html How to Start a Startup
 https://circle.so/ Circle: The modern community platform for creators
 https://www.producthunt.com/posts/circle-12 Circle - The modern community platform for creators | Product Hunt
@@ -617,7 +604,6 @@ http://vxy10.github.io/2016/06/10/intro-MCA/ Multiple Correspondance Analysis (M
 https://datascience.stackexchange.com/questions/10228/gini-impurity-vs-entropy machine learning - Gini Impurity vs Entropy - Data Science Stack Exchange
 https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/ 28 Jupyter Notebook tips, tricks and shortcuts
 https://github.com/Far0n/kaggletils/tree/master/kaggletils kaggletils
-https://www.cyborgus.com/blog/16654/2017-03-27-how-to-stay-out-of-analytic-rabbit-holes-avoiding-investigation-loops-and-their-traps How to stay out of analytic rabbit holes: avoiding investigation loops
 https://mega.nz/#F!OVMGkSRS!vQf2c2BgTKm4DbwU2fFp1w Casa do Código Livros
 https://advancedinstitute.ai/ AI2 – Advanced Institute for Artificial Intelligence
 https://www.datasciencesummit.com.br/ Data Science Summit 2018
@@ -902,7 +888,6 @@ https://www.scoop.it/t/go-board-game Go Board Game | Scoop.it
 http://tactigo.free.fr/j/index.php Les 4 problèmes du jour
 https://m.pc6.com/s/210731 Chinese Baduk App
 https://tsumegodojo.wordpress.com/ Tsumego Dojo – free download tsumego SGF collection for go/baduk/weiqi community
-https://guzumi.de/wgo-plugin/ A Go Plugin for WordPress – Guzumi.de
 https://apps.apple.com/us/app/%E5%BC%88%E5%AE%A2%E5%9B%B4%E6%A3%8B-%E5%B0%BD%E4%BA%AB%E6%A3%8B%E8%B7%AF%E4%BA%BA%E7%94%9F/id988682022 ‎弈客围棋 - 尽享棋路人生 on the App Store
 https://medium.com/@EuroGoHebdo EuroGoHebdo by Patrick Myricest – Medium
 https://xkcd.com/1287/ xkcd: Puzzle
@@ -1107,3 +1092,5 @@ https://fiatleak.com/ fiatleak | us dollar
 https://linktr.ee/feelsgoodmanfilm FEELS GOOD MAN | Linktree
 https://github.com/poteto/hiring-without-whiteboards poteto/hiring-without-whiteboards: ⭐️ Companies that don't have a broken hiring process
 https://hbr.org/2018/07/research-the-average-age-of-a-successful-startup-founder-is-45 Research: The Average Age of a Successful Startup Founder Is 45
+https://unicode-table.com/en/#ethiopic Ethiopic — ✔️ ❤️ ★ Unicode Character Table
+https://livebook.manning.com/book/get-programming-with-haskell/chapter-23/1 Lesson 23. Working with text and Unicode - Get Programming with Haskell
