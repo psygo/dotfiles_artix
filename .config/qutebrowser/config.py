@@ -10,14 +10,14 @@ config.set('content.notifications', True, 'https://www.reddit.com')
 c.search.ignore_case = 'always'
 c.statusbar.show = 'always'
 c.auto_save.session = True
-c.confirm_quit = ["downloads"]
+c.confirm_quit = ['downloads']
 c.content.ssl_strict = True
 c.downloads.location.directory = '/home/philippe/Downloads/'
 c.editor.command = ['konsole', '-e', 'vim "{}"']
 # Colors & Media
 monospace = '8px "Fira Code"'
+c.colors.webpage.darkmode.enabled = True # requires a restart when changed
 c.colors.webpage.preferred_color_scheme = 'dark'
-c.colors.webpage.darkmode.enabled = True
 # Tabs
 c.tabs.title.format = '{index} {current_title}'
 c.tabs.show = 'always'
@@ -65,9 +65,8 @@ c.url.searchengines = {
 toggle_statusbar = 'config-cycle statusbar.show always never'
 toggle_tabs      = 'config-cycle tabs.show always never'
 
-#config.bind('f',  'hint links :open -t {hint-url}')
-#config.bind('F',  'hint links :open {hint-url}')
-#config.bind('<ctrl+shift+d>', ':set colors.webpage.darkmode.enabled true')
+config.bind('f',  'hint all tab')
+config.bind('F',  'hint all current')
 config.bind('<ctrl+shift+x>', 'tab-pin')
 config.bind('<alt+left>',     'back')
 config.bind('<alt+right>',    'back')
