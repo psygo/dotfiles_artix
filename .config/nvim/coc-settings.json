@@ -28,18 +28,6 @@
       "command": "sql-language-server",
       "args" : ["up", "--method", "stdio"],
       "filetypes": ["sql", "mysql"]
-    },
-    "latex": {
-      "command": "/PATH/TO/texlab",
-      "ignoredRootPaths": ["~"],
-      "filetypes": ["tex", "bib", "plaintex", "context"]
-    },
-    "efm": {
-      "command": "efm-langserver",
-      "args": [],
-      // custom config path
-      // "args": ["-c", "/path/to/your/config.yaml"],
-      "filetypes": ["vim", "eruby"]
     }
   }
 }
