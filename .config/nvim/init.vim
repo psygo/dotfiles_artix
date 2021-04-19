@@ -108,6 +108,7 @@ set backspace=indent,eol,start
 set complete-=i
 set smarttab
 set mouse=a
+set colorcolumn=80
 
 au! BufWritePost $MYVIMRC source %
 "-------------------------------------------------------------------------------
