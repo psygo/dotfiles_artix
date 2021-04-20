@@ -6,12 +6,12 @@ import dracula.draw
 config.load_autoconfig(False)
 
 # Misc
-config.set('content.notifications', True, 'https://www.reddit.com')
+config.set('content.notifications.enabled', True, 'https://www.reddit.com')
 c.search.ignore_case = 'always'
 c.statusbar.show = 'always'
 c.auto_save.session = True
 c.confirm_quit = ['downloads']
-c.content.ssl_strict = True
+c.content.tls.certificate_errors = 'block'
 c.downloads.location.directory = '/home/philippe/Downloads/'
 c.editor.command = ['konsole', '-e', 'vim "{}"']
 # Colors & Media

@@ -58,6 +58,7 @@ alias tremca="tremc -- -a"
 alias ztr="zathura"
 alias duq="du -BM -d1"
 alias py="python"
+alias gparted="sudo gparted"
 alias github_ssh="eval \$(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
 
 # Package Managers
