@@ -3,7 +3,7 @@ xset s off
 xset -dpms
 imwheel
 
-pacman -Sy
+pacman -Sy &
 transmission-daemon &
 xmodmap ~/.Xmodmap
 

@@ -39,6 +39,7 @@ shopt -s autocd
 HISTSIZE= HISTFILESIZE=
 set -o vi
 bind -m vi-insert '"\C-x\C-e": edit-and-execute-command'
+shopt -s globstar
 #--------------------------------------------------------------------------------
 # Proper Vim Redirection
 alias vim="nvim"
@@ -60,6 +61,7 @@ alias duq="du -BM -d1"
 alias py="python"
 alias gparted="sudo gparted"
 alias github_ssh="eval \$(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
+alias gssh="github_ssh"
 
 # Package Managers
 alias p="sudo pacman"
