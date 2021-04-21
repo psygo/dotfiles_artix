@@ -84,6 +84,7 @@ config.bind('xb',               toggle_statusbar)
 config.bind('xx',            f'{toggle_tabs};; {toggle_statusbar}')
 config.bind('ba',             'bookmark-add')
 config.bind('bd',             'bookmark-del')
+config.bind('<alt+t>',        'set-cmd-text :tab-give ')
 config.unbind('b')
 config.unbind('m')
 #-------------------------------------------------------------------------------
