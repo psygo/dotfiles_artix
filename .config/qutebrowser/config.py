@@ -66,8 +66,10 @@ c.url.searchengines = {
 toggle_statusbar = 'config-cycle statusbar.show always never'
 toggle_tabs      = 'config-cycle tabs.show always never'
 
-player_div = 'document.querySelector("#movie_player")'
+player_div =  'document.querySelector("#movie_player")'
+player_elem = 'document.querySelector("video")'
 
+config.bind('<alt+r>',         'restart')
 config.bind('(',              f'jseval -q {player_div}.focus()')
 config.bind(')',              f'jseval -q {player_div}.blur()')
 config.bind('f',               'hint all tab')
@@ -85,6 +87,8 @@ config.bind('xx',            f'{toggle_tabs};; {toggle_statusbar}')
 config.bind('ba',             'bookmark-add')
 config.bind('bd',             'bookmark-del')
 config.bind('<alt+t>',        'set-cmd-text :tab-give ')
+config.bind('<',             f'jseval -q {player_elem}.playbackRate-=.25')
+config.bind('>',             f'jseval -q {player_elem}.playbackRate+=.25')
 config.unbind('b')
 config.unbind('m')
 #-------------------------------------------------------------------------------
