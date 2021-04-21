@@ -83,6 +83,7 @@ alias xinitrc="vim ~/.xinitrc"
 alias zathurarc="vim ~/.config/zathura/zathurarc"
 alias imwheelrc="vim ~/.imwheelrc"
 alias qutebrowserrc="vim ~/.config/qutebrowser/config.py"
+alias tremcrc="vim ~/.config/tremc/settings.cfg"
 alias cocrc="vim ~/.config/nvim/coc-settings.json"
 alias README="vim ~/README.md"
 

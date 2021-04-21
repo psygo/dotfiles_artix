@@ -55,3 +55,7 @@ Be careful, because this might delete too much stuff. That said, it could be use
 ```sh
 mediainfo media.mp4
 ```
+
+## Streaming
+
+You can even stream with ffmpeg.

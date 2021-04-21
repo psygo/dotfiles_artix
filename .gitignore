@@ -42,6 +42,9 @@
 !.config/zathura/
 !.config/zathura/zathurarc
 
+!.config/tremc/
+!.config/tremc/settings.cfg
+
 !.config/Sabaki/
 !.config/Sabaki/themes/
 !.config/Sabaki/themes/*
