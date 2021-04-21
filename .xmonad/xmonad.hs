@@ -84,12 +84,12 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm              , xK_period), sendMessage (IncMasterN (-1)))
       --------------------------------------------------------------------------
       -- Workspace and Screen Management
-    , ((modm,               xK_Up    ), DWO.moveTo Next HiddenWS)
-    , ((modm,               xK_Down  ), DWO.moveTo Prev HiddenWS)
+    , ((modm .|. shiftMask, xK_j     ), DWO.moveTo Next HiddenWS)
+    , ((modm .|. shiftMask, xK_k     ), DWO.moveTo Prev HiddenWS)
+    , ((modm .|. shiftMask, xK_l     ), nextScreen)
+    , ((modm .|. shiftMask, xK_h     ), prevScreen)
     , ((modm .|. shiftMask, xK_Up    ), DWO.shiftTo Next HiddenWS)
     , ((modm .|. shiftMask, xK_Down  ), DWO.shiftTo Prev HiddenWS)
-    , ((modm,               xK_Right ), nextScreen)
-    , ((modm,               xK_Left  ), prevScreen)
     , ((modm .|. shiftMask, xK_Right ), shiftNextScreen)
     , ((modm .|. shiftMask, xK_Left  ), shiftPrevScreen)
       --------------------------------------------------------------------------
