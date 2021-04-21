@@ -82,7 +82,8 @@ config.bind('Z',               'hint links spawn konsole -e youtube-dl {hint-url
 config.bind('xt',               toggle_tabs)
 config.bind('xb',               toggle_statusbar)
 config.bind('xx',            f'{toggle_tabs};; {toggle_statusbar}')
+config.bind('ba',             'bookmark-add')
+config.bind('bd',             'bookmark-del')
 config.unbind('b')
 config.unbind('m')
-config.bind('ba',             'bookmark-add')
 #-------------------------------------------------------------------------------
