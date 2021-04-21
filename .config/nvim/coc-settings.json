@@ -28,12 +28,14 @@
       "command": "sql-language-server",
       "args" : ["up", "--method", "stdio"],
       "filetypes": ["sql", "mysql"]
-    },
-    "markdown": {
-      "filetypes": ["markdown", "md"],
-      "markdownlint.config": {
-         "line-length": 100
-      }
     }
+  },
+  "markdownlint.config": {
+    "default": true,
+    "line-length": false,
+    "no-emphasis-as-header": false,
+    "ul-style": false,
+    "ul-indent": false,
+    "blanks-around-fences": false
   }
 }
