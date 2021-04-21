@@ -94,7 +94,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_Left  ), shiftPrevScreen)
       --------------------------------------------------------------------------
       -- XMonad Management
-    , ((modm .|. shiftMask, xK_q     ), io (exitWith ExitSuccess))
+    , ((modm .|. shiftMask, xK_q     ), io exitSuccess)
     , ((modm              , xK_q     ), spawn restartRecompile)
       --------------------------------------------------------------------------
     ]
