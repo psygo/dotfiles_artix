@@ -88,8 +88,8 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_k     ), DWO.moveTo Prev HiddenWS)
     , ((modm .|. shiftMask, xK_l     ), nextScreen)
     , ((modm .|. shiftMask, xK_h     ), prevScreen)
-    , ((modm .|. shiftMask, xK_Up    ), DWO.shiftTo Next HiddenWS)
-    , ((modm .|. shiftMask, xK_Down  ), DWO.shiftTo Prev HiddenWS)
+    , ((modm .|. shiftMask, xK_Down    ), DWO.shiftTo Next HiddenWS)
+    , ((modm .|. shiftMask, xK_Up  ), DWO.shiftTo Prev HiddenWS)
     , ((modm .|. shiftMask, xK_Right ), shiftNextScreen)
     , ((modm .|. shiftMask, xK_Left  ), shiftPrevScreen)
       --------------------------------------------------------------------------
