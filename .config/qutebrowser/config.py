@@ -7,6 +7,8 @@ config.load_autoconfig(False)
 
 # Misc
 config.set('content.notifications.enabled', True, 'https://www.reddit.com')
+config.set('content.notifications.enabled', False, 'https://calendar.google.com')
+config.set('content.register_protocol_handler', True)
 c.search.ignore_case = 'always'
 c.statusbar.show = 'always'
 c.auto_save.session = True
