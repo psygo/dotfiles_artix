@@ -2,11 +2,13 @@
 
 TITLE=$1
 DOUBLE_LINE="\n\n"
+COMPLETE_PATH="${HOME}/Notes/${TITLE}.md"
 
-touch "${TITLE}.md" || exit 1
+touch "${COMPLETE_PATH}" || exit 1
 
-printf "# ${TITLE}${DOUBLE_LINE}Tags: ${DOUBLE_LINE}\n" >> "${TITLE}.md" || exit 2
+printf "# ${TITLE}${DOUBLE_LINE}Tags: ${DOUBLE_LINE}\n" \
+  >> "${COMPLETE_PATH}" || exit 2
 
-nvim "${TITLE}.md"
+nvim "${COMPLETE_PATH}"
 
 exit 0
