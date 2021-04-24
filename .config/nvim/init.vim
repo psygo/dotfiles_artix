@@ -112,49 +112,6 @@ set colorcolumn=80
 
 au! BufWritePost $MYVIMRC source %
 "-------------------------------------------------------------------------------
-" Remappings
-
-nmap <C-r> :redo<CR>
-
-nmap <C-k> <C-w>k
-nmap <C-j> <C-w>j
-nmap <C-h> <C-w>h
-nmap <C-l> <C-w>l
-
-nmap <F5> :source ~/.config/nvim/init.vim<CR>
-
-nnoremap <SPACE> <Nop>
-let g:mapleader = "\<Space>"
-nmap <leader>w <cmd>w!<CR>
-nmap <leader>q <cmd>q!<CR>
-nmap <leader>wq <cmd>wq!<CR>
-nmap <leader>n <cmd>NERDTreeToggle<CR>
-nmap <leader>v <cmd>vs<CR>
-nmap <leader>h <cmd>sp<CR>
-nmap <leader>o o<Esc>k
-nmap <leader>O O<Esc>j
-nmap <leader>P <cmd>Prettier<CR>
-nmap <leader>nh <cmd>noh<CR>
-
-nmap [b :bnext<CR>
-nmap ]b :bprevious<CR>
-
-nmap <A-f> :Files<CR>
-nmap <A-r> :Rg<CR>
-nmap <A-l> :Lines<CR>
-nmap <A-b> :Buffers<CR>
-
-nnoremap c* *Ncgn
-
-nnoremap <S-Del> a<Del><Esc>
-nnoremap <S-BS> i<BS><Esc>`^
-
-cnoremap vimrc e /home/philippe/.config/nvim/init.vim
-cnoremap bashrc e /home/philippe/.bashrc
-cnoremap xmonadrc e /home/philippe/.xmonad/xmonad.hs
-
-nnoremap gJ gJi <Esc>
-"-------------------------------------------------------------------------------
 " CoC
 
 set updatetime=300
@@ -237,4 +194,47 @@ command! -nargs=? Fold :call     CocAction('fold', <f-args>)
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
+"-------------------------------------------------------------------------------
+" Remappings
+
+nmap <C-r> :redo<CR>
+
+nmap <C-k> <C-w>k
+nmap <C-j> <C-w>j
+nmap <C-h> <C-w>h
+nmap <C-l> <C-w>l
+
+nmap <F5> :source ~/.config/nvim/init.vim<CR>
+
+nnoremap <SPACE> <Nop>
+let g:mapleader = "\<Space>"
+nmap <leader>w <cmd>w!<CR>
+nmap <leader>q <cmd>q!<CR>
+nmap <leader>wq <cmd>wq!<CR>
+nmap <leader>n <cmd>NERDTreeToggle<CR>
+nmap <leader>v <cmd>vs<CR>
+nmap <leader>h <cmd>sp<CR>
+nmap <leader>o o<Esc>k
+nmap <leader>O O<Esc>j
+nmap <leader>P <cmd>Prettier<CR>
+nmap <leader>nh <cmd>noh<CR>
+
+nmap [b :bnext<CR>
+nmap ]b :bprevious<CR>
+
+nmap <A-f> :Files<CR>
+nmap <A-r> :Rg<CR>
+nmap <A-l> :Lines<CR>
+nmap <A-b> :Buffers<CR>
+
+nnoremap c* *Ncgn
+
+nnoremap <S-Del> a<Del><Esc>
+nnoremap <S-BS> i<BS><Esc>`^
+
+cnoremap vimrc e /home/philippe/.config/nvim/init.vim
+cnoremap bashrc e /home/philippe/.bashrc
+cnoremap xmonadrc e /home/philippe/.xmonad/xmonad.hs
+
+nnoremap gJ gJi <Esc>
 "-------------------------------------------------------------------------------

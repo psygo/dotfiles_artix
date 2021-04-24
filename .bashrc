@@ -102,4 +102,8 @@ alias ct="bash ~/.scripts/create_timeblock.sh"
 
 # Flutter & Dart
 alias dartfmt="flutter dartfmt"
+
+# Haskell
+alias cb="cabal new-build"
+alias cnr="cabal new-repl"
 #--------------------------------------------------------------------------------
