@@ -15,6 +15,8 @@ import XMonad.Prompt.Shell
 import XMonad.Prompt.FuzzyMatch
 
 import XMonad.Layout.ThreeColumns
+import XMonad.Layout.Accordion
+import XMonad.Layout.Tabbed
 --------------------------------------------------------------------------------
 main = xmonad def
         { modMask            = mod4Mask
@@ -47,15 +49,20 @@ myXPConfig = def
       , maxComplRows        = Nothing
       }
 --------------------------------------------------------------------------------
-myLayout = tiled ||| Mirror tiled ||| Full ||| threeCol
+myLayout = tiled
+       ||| Mirror tiled
+       ||| Full
+       ||| threeCol
+       ||| Accordion
+       ||| Mirror Accordion
   where
      tiled    = Tall nmaster delta ratio
      nmaster  = 1
      ratio    = 1/2
-     delta    = 2/100
+     delta    = 1/100
      threeCol = ThreeCol 1 (3/100) (1/2)
 --------------------------------------------------------------------------------
-myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
+myKeys conf@XConfig {XMonad.modMask = modm} = M.fromList
     [
       --------------------------------------------------------------------------
       -- Basic
@@ -71,7 +78,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm              , xK_Print ), spawn screenshot)
       --------------------------------------------------------------------------
       -- Window Management
-    , ((modm,               xK_space ), sendMessage NextLayout)
+    , ((modm .|. shiftMask, xK_space ), sendMessage NextLayout)
     , ((modm,               xK_Tab   ), windows W.focusDown)
     , ((modm .|. shiftMask, xK_Tab   ), windows W.focusUp)
     , ((modm,               xK_j     ), windows W.focusDown)
@@ -88,8 +95,8 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     , ((modm .|. shiftMask, xK_k     ), DWO.moveTo Prev HiddenWS)
     , ((modm .|. shiftMask, xK_l     ), nextScreen)
     , ((modm .|. shiftMask, xK_h     ), prevScreen)
-    , ((modm .|. shiftMask, xK_Down    ), DWO.shiftTo Next HiddenWS)
-    , ((modm .|. shiftMask, xK_Up  ), DWO.shiftTo Prev HiddenWS)
+    , ((modm .|. shiftMask, xK_Down  ), DWO.shiftTo Next HiddenWS)
+    , ((modm .|. shiftMask, xK_Up    ), DWO.shiftTo Prev HiddenWS)
     , ((modm .|. shiftMask, xK_Right ), shiftNextScreen)
     , ((modm .|. shiftMask, xK_Left  ), shiftPrevScreen)
       --------------------------------------------------------------------------
