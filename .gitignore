@@ -22,6 +22,9 @@
 !.local/share/konsole/*.colorscheme
 !.local/share/konsole/philippe.profile
 
+!.config/kitty/
+!.config/kitty.conf
+
 !.config/nvim/
 !.config/nvim/init.vim
 !.config/nvim/coc-settings.json

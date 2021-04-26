@@ -20,7 +20,7 @@ import XMonad.Layout.Tabbed
 --------------------------------------------------------------------------------
 main = xmonad def
         { modMask            = mod4Mask
-        , terminal           = "konsole"
+        , terminal           = "kitty"
         , borderWidth        = 3
         , normalBorderColor  = "#dddddd"
         , focusedBorderColor = "ff0000"
@@ -110,7 +110,7 @@ myKeys conf@XConfig {XMonad.modMask = modm} = M.fromList
 restartRecompile = "xmonad --recompile; xmonad --restart"
 deadKeysLayout   = "setxkbmap -layout us -variant intl; xmodmap ~/.Xmodmap"
 usLayout         = "setxkbmap -layout us; xmodmap ~/.Xmodmap"
-ranger           = "konsole -e ranger"
+ranger           = "kitty -e ranger"
 brave            = "brave"
 firefox          = "firefox"
 qutebrowser      = "qutebrowser"
