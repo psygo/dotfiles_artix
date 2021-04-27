@@ -2,7 +2,7 @@
 
 These are my configuration files for Linux; I focus a lot on minimalism. Anyway, I currently use:
 
-- Konsole as my terminal &mdash; mostly because it supports font ligatures
+- Kitty as my terminal, very fast and supports font ligatures
 - Neovim
 - Emacs &mdash; [Doom Emacs][doom_emacs] &mdash;, mostly for some notes in Org-mode &mdash; might fully transition from [Notion][notion]
 - [XMonad][xmonad] as a Window Manager
