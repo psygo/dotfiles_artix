@@ -16,7 +16,7 @@ c.auto_save.session = True
 c.confirm_quit = ['downloads']
 c.content.tls.certificate_errors = 'block'
 c.downloads.location.directory = '/home/philippe/Downloads/'
-c.editor.command = ['konsole', '-e', 'vim "{}"']
+c.editor.command = ['kitty', '-e', 'vim "{}"']
 # Colors & Media
 monospace = '8px "Fira Code"'
 c.colors.webpage.darkmode.enabled = True # requires a restart when changed
