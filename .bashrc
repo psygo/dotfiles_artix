@@ -88,6 +88,7 @@ alias tremcrc="vim ~/.config/tremc/settings.cfg"
 alias cocrc="vim ~/.config/nvim/coc-settings.json"
 alias README="vim ~/README.md"
 alias kittyrc="vim ~/.config/kitty/kitty.conf"
+alias muttrc="vim ~/.config/mutt/muttrc"
 
 # Folders
 alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io/"

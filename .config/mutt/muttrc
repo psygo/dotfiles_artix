@@ -1,7 +1,7 @@
 source "gpg2 -dq ~/.config/mutt/gmail.gpg |"
 
 set sort = "reverse-date-received"
-set signature = "~/.signature"
+set signature = "~/.config/mutt/signature"
 
 set from = "philippefanaro@gmail.com"
 set realname = "Philippe Fanaro"
@@ -13,3 +13,5 @@ set spoolfile = "+INBOX"
 set postponed = "+[Gmail]/Drafts"
 set record = "+[Gmail]/Sent Mail"
 set trash = "+[Gmail]/Trash"
+
+set content_type = "text/html"

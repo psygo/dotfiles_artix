@@ -69,7 +69,7 @@ myKeys conf@XConfig {XMonad.modMask = modm} = M.fromList
       ((modm .|. shiftMask, xK_Return), spawn $ XMonad.terminal conf)
     , ((modm .|. shiftMask, xK_c     ), kill)
     , ((modm              , xK_b     ), spawn brave)
-    , ((modm              , xK_f     ), spawn firefox)
+    , ((modm              , xK_f     ), spawn ferdi)
     , ((modm              , xK_t     ), spawn qutebrowser)
     , ((modm              , xK_p     ), shellPrompt myXPConfig)
     , ((modm              , xK_d     ), spawn deadKeysLayout)
@@ -113,6 +113,7 @@ usLayout         = "setxkbmap -layout us; xmodmap ~/.Xmodmap"
 ranger           = "kitty -e ranger"
 brave            = "brave"
 firefox          = "firefox"
+ferdi            = "ferdi"
 qutebrowser      = "qutebrowser"
 screenshot       = "scrot ~/Pictures/Screenshots/screenshot.png"
 --------------------------------------------------------------------------------

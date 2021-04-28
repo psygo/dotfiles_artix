@@ -50,6 +50,7 @@
 
 !.config/mutt/
 !.config/mutt/muttrc
+!.config/mutt/signature
 
 !.config/Sabaki/
 !.config/Sabaki/themes/
