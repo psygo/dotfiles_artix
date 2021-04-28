@@ -48,6 +48,9 @@
 !.config/tremc/
 !.config/tremc/settings.cfg
 
+!.config/mutt/
+!.config/mutt/muttrc
+
 !.config/Sabaki/
 !.config/Sabaki/themes/
 !.config/Sabaki/themes/*

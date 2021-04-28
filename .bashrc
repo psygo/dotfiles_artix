@@ -60,6 +60,7 @@ alias zth="zathura"
 alias duq="du -BM -d1"
 alias py="python"
 alias gparted="sudo gparted"
+alias nm="neomutt"
 alias github_ssh="eval \$(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
 alias gssh="github_ssh"
 

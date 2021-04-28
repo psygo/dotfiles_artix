@@ -1,0 +1,15 @@
+source "gpg2 -dq ~/.config/mutt/gmail.gpg |"
+
+set sort = "reverse-date-received"
+set signature = "~/.signature"
+
+set from = "philippefanaro@gmail.com"
+set realname = "Philippe Fanaro"
+set imap_user = "philippefanaro@gmail.com"
+set smtp_url = "smtps://philippefanaro@smtp.gmail.com"
+
+set folder = "imaps://imap.gmail.com/"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+set record = "+[Gmail]/Sent Mail"
+set trash = "+[Gmail]/Trash"
