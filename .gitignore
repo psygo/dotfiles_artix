@@ -39,9 +39,6 @@
 !.config/ranger/
 !.config/ranger/rc.conf
 
-!.doom.d/
-!.doom.d/*
-
 !.config/zathura/
 !.config/zathura/zathurarc
 
