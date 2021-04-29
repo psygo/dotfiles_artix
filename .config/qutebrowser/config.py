@@ -92,6 +92,7 @@ config.bind('bd',             'bookmark-del')
 config.bind('<alt+t>',        'set-cmd-text :tab-give ')
 config.bind('<',             f'jseval {player_elem}.playbackRate-=.25')
 config.bind('>',             f'jseval {player_elem}.playbackRate+=.25')
+config.bind('ss',             'set-cmd-text -s :session-save -o')
 config.unbind('b')
 config.unbind('m')
 #-------------------------------------------------------------------------------
