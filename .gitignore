@@ -29,6 +29,8 @@
 !.config/nvim/init.vim
 !.config/nvim/coc-settings.json
 
+!.emacs
+
 !.config/qutebrowser/
 !.config/qutebrowser/config.py
 !.config/qutebrowser/autoconfig.yml
