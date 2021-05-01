@@ -113,6 +113,8 @@
 (use-package evil-magit
   :after magit)
 
+(use-package forge) ;; use forge-pull to sync issues and PRs
+
 (use-package counsel
   :bind (("M-x" . counsel-M-x)
 	 ("C-x b" . counsel-ibuffer)
@@ -161,6 +163,8 @@
 (use-package ivy-rich
   :init
   (ivy-rich-mode 1))
+
+(use-package org)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
