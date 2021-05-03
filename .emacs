@@ -17,7 +17,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit evil-magit forge atom-one-dark-theme dracula-theme))
+   '(counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit evil-magit forge atom-one-dark-theme dracula-theme))
  '(tetris-x-colors
    [[229 192 123]
     [97 175 239]
@@ -26,6 +26,15 @@
     [152 195 121]
     [198 120 221]
     [86 182 194]]))
+
+(use-package auto-package-update
+  :custom
+  (auto-package-update-interval 7)
+  (auto-package-update-prompt-before-update t)
+  (auto-package-update-hide-results t)
+  :config
+  (auto-package-update-maybe)
+  (auto-package-update-at-time "09:00"))
 ;;-------------------------------------------------------------------------------
 ;; Emacs Configs
 
@@ -35,6 +44,9 @@
 (tooltip-mode -1)
 (set-fringe-mode 10)
 (menu-bar-mode -1)
+
+(setq scroll-step            1
+      scroll-conservatively  10000)
 
 (setq custom-safe-themes t)
 (load-theme 'doom-dracula t)
@@ -88,11 +100,9 @@
   :after evil
   :config (evil-collection-init))
 
-(use-package undo-tree
-  :config
-  (turn-on-undo-tree-mode))
-(define-key evil-normal-state-map (kbd "C-r") 'undo-tree-redo)
-(define-key evil-normal-state-map (kbd "u") 'undo-tree-undo)
+(require 'undo-tree)
+(global-undo-tree-mode)
+(evil-set-undo-system 'undo-tree)
 
 (use-package hydra)
 
@@ -122,9 +132,6 @@
 (use-package magit
   :custom
   (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
-
-;; (use-package evil-magit
-;;   :after magit)
 
 (use-package forge) ;; use forge-pull to sync issues and PRs
 
@@ -184,9 +191,98 @@
  ;; If there is more than one, they won't work right.
  )
 ;;-------------------------------------------------------------------------------
+;; Terminal
+
+(use-package term
+  :config
+  (setq explicit-shell-file-name "bash") ;; Change this to zsh, etc
+  ;;(setq explicit-zsh-args '())         ;; Use 'explicit-<shell>-args for shell-specific args
+
+  ;; Match the default Bash shell prompt.  Update this if you have a custom prompt
+  (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *"))
+
+(use-package eterm-256color
+  :hook (term-mode . eterm-256color-mode))
+;;-------------------------------------------------------------------------------
+;; File Management
+
+(use-package dired
+  :ensure nil
+  :commands (dired dired-jump)
+  :bind (("C-x C-j" . dired-jump))
+  :custom ((dired-listing-switches "-agho --group-directories-first"))
+  :config
+  (evil-collection-define-key 'normal 'dired-mode-map
+    "h" 'dired-single-up-directory
+    "l" 'dired-single-buffer))
+
+(use-package dired-single)
+
+(use-package all-the-icons-dired
+  :hook (dired-mode . all-the-icons-dired-mode))
+
+(use-package dired-open
+  :config
+  ;; Doesn't work as expected!
+  ;;(add-to-list 'dired-open-functions #'dired-open-xdg t)
+  (setq dired-open-extensions '(("png" . "feh")
+                                ("mkv" . "mpv"))))
+
+(use-package dired-hide-dotfiles
+  :hook (dired-mode . dired-hide-dotfiles-mode)
+  :config
+  (evil-collection-define-key 'normal 'dired-mode-map
+    "H" 'dired-hide-dotfiles-mode))
+;;-------------------------------------------------------------------------------
 ;; Languages
 
+;; Markdown
 (use-package markdown-mode)
+
+;; LSP
+(defun efs/lsp-mode-setup ()
+  (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
+  (lsp-headerline-breadcrumb-mode))
+
+(use-package lsp-mode
+  :commands (lsp lsp-deferred)
+  :hook (lsp-mode . efs/lsp-mode-setup)
+  :init
+  (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
+  :config
+  (lsp-enable-which-key-integration t))
+
+(use-package lsp-ui
+  :hook (lsp-mode . lsp-ui-mode)
+  :custom
+  (lsp-ui-doc-position 'bottom))
+
+(use-package lsp-treemacs
+  :after lsp)
+
+;; Better Completion
+(use-package company
+  :after lsp-mode
+  :hook (lsp-mode . company-mode)
+  :bind (:map company-active-map
+         ("<tab>" . company-complete-selection))
+        (:map lsp-mode-map
+         ("<tab>" . company-indent-or-complete-common))
+  :custom
+  (company-minimum-prefix-length 1)
+  (company-idle-delay 0.0))
+
+(use-package company-box
+  :hook (company-mode . company-box-mode))
+
+(use-package lsp-ivy)
+
+;; TypeScript
+(use-package typescript-mode
+  :mode "\\.ts\\'"
+  :hook (typescript-mode . lsp-deferred)
+  :config
+  (setq typescript-indent-level 2))
 ;;-------------------------------------------------------------------------------
 ;; Org Mode
 
