@@ -17,3 +17,7 @@
 "^ferdi$"
     None, Up, Button4, 4
     None, Down, Button5, 4
+
+"^spotify$"
+    None, Up, Button4, 4
+    None, Down, Button5, 4
