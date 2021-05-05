@@ -17,7 +17,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(json-mode yaml-mode git-gutter lsp-haskell haskell-mode yasnippet hover lsp-dart dart-mode counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit forge atom-one-dark-theme dracula-theme))
+   '(drag-stuff dragstuff json-mode yaml-mode git-gutter lsp-haskell haskell-mode yasnippet hover lsp-dart dart-mode counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit forge atom-one-dark-theme dracula-theme))
  '(tetris-x-colors
    [[229 192 123]
     [97 175 239]
@@ -56,7 +56,6 @@
 (global-set-key (kbd "C-M-j") 'counsel-switch-buffer)
 (define-key emacs-lisp-mode-map (kbd "C-x M-t") 'counsel-load-theme)
 
-;; Not working??
 (use-package general
   :config
 ;;  (general-define-key
@@ -72,7 +71,7 @@
     "ts" '(hydra-text-scale/body :which-key "scale text")
     "tt" '(counsel-load-theme :which-key "choose-theme")))
 ;-------------------------------------------------------------------------------
-; Packages
+; General Packages
 
 (use-package fira-code-mode
   :config (global-fira-code-mode))
@@ -133,9 +132,6 @@
   :custom
   (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
 
-(use-package keychain-environment)
-(keychain-refresh-environment)
-
 (use-package forge) ;; use forge-pull to sync issues and PRs
 
 (use-package counsel
@@ -185,6 +181,13 @@
 (use-package ivy-rich
   :init
   (ivy-rich-mode 1))
+
+(use-package drag-stuff)
+(drag-stuff-global-mode 1)
+(define-key drag-stuff-mode-map (drag-stuff--kbd 'k) 'drag-stuff-up)
+(define-key drag-stuff-mode-map (drag-stuff--kbd 'j) 'drag-stuff-down)
+(define-key drag-stuff-mode-map (drag-stuff--kbd 'l) 'drag-stuff-right)
+(define-key drag-stuff-mode-map (drag-stuff--kbd 'h) 'drag-stuff-left)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -311,6 +314,7 @@
 
 ;; Haskell
 (use-package haskell-mode)
+(add-hook 'haskell-mode-hook 'interactive-haskell-mode)
 (use-package lsp-haskell)
 (add-hook 'haskell-mode-hook #'lsp)
 (add-hook 'haskell-literate-mode-hook #'lsp)
