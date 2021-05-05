@@ -38,6 +38,10 @@
 !.config/qutebrowser/bookmarks/
 !.config/qutebrowser/bookmarks/urls
 
+!.config/Ferdi/
+!.config/Ferdi/config/
+!.config/Ferdi/config/settings.json
+
 !.config/ranger/
 !.config/ranger/rc.conf
 
