@@ -17,7 +17,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit evil-magit forge atom-one-dark-theme dracula-theme))
+   '(yasnippet hover lsp-dart dart-mode counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit evil-magit forge atom-one-dark-theme dracula-theme))
  '(tetris-x-colors
    [[229 192 123]
     [97 175 239]
@@ -277,12 +277,25 @@
 
 (use-package lsp-ivy)
 
+(use-package yasnippet
+  :ensure t
+  :config (yas-global-mode)) 
+(use-package yasnippet-snippets)
+
 ;; TypeScript
 (use-package typescript-mode
   :mode "\\.ts\\'"
   :hook (typescript-mode . lsp-deferred)
   :config
   (setq typescript-indent-level 2))
+
+;; Dart
+(use-package dart-mode)
+(use-package lsp-dart
+  :ensure t
+  :hook (dart-mode . lsp))
+(setq lsp-dart-flutter-sdk-dir "/home/philippe/Code/Flutter")
+(use-package hover :ensure t)
 ;;-------------------------------------------------------------------------------
 ;; Org Mode
 
