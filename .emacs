@@ -17,7 +17,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(yasnippet hover lsp-dart dart-mode counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit evil-magit forge atom-one-dark-theme dracula-theme))
+   '(json-mode yaml-mode git-gutter lsp-haskell haskell-mode yasnippet hover lsp-dart dart-mode counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit forge atom-one-dark-theme dracula-theme))
  '(tetris-x-colors
    [[229 192 123]
     [97 175 239]
@@ -133,6 +133,9 @@
   :custom
   (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
 
+(use-package keychain-environment)
+(keychain-refresh-environment)
+
 (use-package forge) ;; use forge-pull to sync issues and PRs
 
 (use-package counsel
@@ -161,7 +164,6 @@
   :init (ivy-mode 1))
 
 (set-face-attribute 'default nil :font "Fira Code Medium" :height 125)
-(global-display-line-numbers-mode)
 (column-number-mode)
 
 (use-package doom-modeline
@@ -233,11 +235,21 @@
   :config
   (evil-collection-define-key 'normal 'dired-mode-map
     "H" 'dired-hide-dotfiles-mode))
+
+(use-package git-gutter
+  :ensure t
+  :hook ((text-mode . git-gutter-mode)
+         (prog-mode . git-gutter-mode))
+  :config
+  (setq git-gutter:update-interval 1))
+(global-display-line-numbers-mode)
 ;;-------------------------------------------------------------------------------
 ;; Languages
 
-;; Markdown
+;; Markdown, YAML, JSON
 (use-package markdown-mode)
+(use-package yaml-mode)
+(use-package json-mode)
 
 ;; LSP
 (defun efs/lsp-mode-setup ()
@@ -298,6 +310,10 @@
 (use-package hover :ensure t)
 
 ;; Haskell
+(use-package haskell-mode)
+(use-package lsp-haskell)
+(add-hook 'haskell-mode-hook #'lsp)
+(add-hook 'haskell-literate-mode-hook #'lsp)
 ;;-------------------------------------------------------------------------------
 ;; Org Mode
 
