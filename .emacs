@@ -248,7 +248,7 @@
   :commands (lsp lsp-deferred)
   :hook (lsp-mode . efs/lsp-mode-setup)
   :init
-  (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
+  (setq lsp-keymap-prefix "C-c l")
   :config
   (lsp-enable-which-key-integration t))
 
@@ -296,6 +296,8 @@
   :hook (dart-mode . lsp))
 (setq lsp-dart-flutter-sdk-dir "/home/philippe/Code/Flutter")
 (use-package hover :ensure t)
+
+;; Haskell
 ;;-------------------------------------------------------------------------------
 ;; Org Mode
 
