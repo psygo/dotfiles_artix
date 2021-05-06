@@ -17,7 +17,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(shm flycheck-haskell flycheck hlint hindent drag-stuff dragstuff json-mode yaml-mode git-gutter lsp-haskell haskell-mode yasnippet hover lsp-dart dart-mode counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit forge atom-one-dark-theme dracula-theme))
+   '(lsp-python-ms python-mode flymake-shellcheck shm flycheck-haskell flycheck hlint hindent drag-stuff dragstuff json-mode yaml-mode git-gutter lsp-haskell haskell-mode yasnippet hover lsp-dart dart-mode counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit forge atom-one-dark-theme dracula-theme))
  '(tetris-x-colors
    [[229 192 123]
     [97 175 239]
@@ -35,8 +35,6 @@
   :config
   (auto-package-update-maybe)
   (auto-package-update-at-time "09:00"))
-
-;; Test comment
 ;;-------------------------------------------------------------------------------
 ;; Emacs Configs
 
@@ -302,6 +300,10 @@
   :config (yas-global-mode))
 (use-package yasnippet-snippets)
 
+;; Shell
+(use-package flymake-shellcheck)
+(add-hook 'sh-mode-hook 'flymake-shellcheck-load)
+
 ;; TypeScript
 (use-package typescript-mode
   :mode "\\.ts\\'"
@@ -328,6 +330,15 @@
 (add-hook 'haskell-mode-hook #'flycheck-haskell-setup)
 (use-package shm)
 (add-hook 'haskell-mode-hook 'structured-haskell-mode)
+
+;; Python
+(use-package python-mode)
+(use-package lsp-python-ms
+  :ensure t
+  :init (setq lsp-python-ms-auto-install-server t)
+  :hook (python-mode . (lambda ()
+                          (require 'lsp-python-ms)
+                          (lsp))))  ; or lsp-deferred
 ;;-------------------------------------------------------------------------------
 ;; Org Mode
 
