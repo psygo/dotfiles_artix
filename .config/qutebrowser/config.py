@@ -21,6 +21,7 @@ c.editor.command = ['kitty', '-e', 'vim "{}"']
 monospace = '8px "Fira Code"'
 c.colors.webpage.darkmode.enabled = True # requires a restart when changed
 c.colors.webpage.preferred_color_scheme = 'dark'
+c.colors.webpage.bg = 'black'
 # Tabs
 c.tabs.title.format = '{index} {current_title}'
 c.tabs.show = 'always'
