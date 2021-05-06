@@ -35,6 +35,8 @@
   :config
   (auto-package-update-maybe)
   (auto-package-update-at-time "09:00"))
+
+;; Test comment
 ;;-------------------------------------------------------------------------------
 ;; Emacs Configs
 
