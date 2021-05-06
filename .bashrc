@@ -9,6 +9,7 @@ export BROWSER="qutebrowser"
 export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
 export PATH="${PATH}:/home/philippe/Code/Flutter/bin"
 export PATH="${PATH}:/home/philippe/.emacs.d/bin"
+export PATH="${PATH}:/home/philippe/.local/bin/ghcid"
 export DART_SDK="/home/philippe/Code/Flutter/bin/dart"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash

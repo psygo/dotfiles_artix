@@ -17,7 +17,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(drag-stuff dragstuff json-mode yaml-mode git-gutter lsp-haskell haskell-mode yasnippet hover lsp-dart dart-mode counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit forge atom-one-dark-theme dracula-theme))
+   '(shm flycheck-haskell flycheck hlint hindent drag-stuff dragstuff json-mode yaml-mode git-gutter lsp-haskell haskell-mode yasnippet hover lsp-dart dart-mode counsel-projectile projectile evil-collection dired-hide-dotfiles dired-open all-the-icons-dired dired-single eterm-256color typescript-mode lsp-ivy company-box company lsp-treemacs lsp-ui lsp-mode fira-code-mode ligature undo-tree visual-fill-column org-bullets general doom-themes counsel ivy-rich which-key rainbow-delimiters doom-modeline ivy evil magit forge atom-one-dark-theme dracula-theme))
  '(tetris-x-colors
    [[229 192 123]
     [97 175 239]
@@ -249,6 +249,9 @@
 ;;-------------------------------------------------------------------------------
 ;; Languages
 
+(use-package flycheck)
+(global-flycheck-mode)
+
 ;; Markdown, YAML, JSON
 (use-package markdown-mode)
 (use-package yaml-mode)
@@ -294,7 +297,7 @@
 
 (use-package yasnippet
   :ensure t
-  :config (yas-global-mode)) 
+  :config (yas-global-mode))
 (use-package yasnippet-snippets)
 
 ;; TypeScript
@@ -318,6 +321,11 @@
 (use-package lsp-haskell)
 (add-hook 'haskell-mode-hook #'lsp)
 (add-hook 'haskell-literate-mode-hook #'lsp)
+(use-package hindent)
+(use-package flycheck-haskell)
+(add-hook 'haskell-mode-hook #'flycheck-haskell-setup)
+(use-package shm)
+(add-hook 'haskell-mode-hook 'structured-haskell-mode)
 ;;-------------------------------------------------------------------------------
 ;; Org Mode
 
