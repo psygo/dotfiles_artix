@@ -76,6 +76,7 @@ myKeys conf@XConfig {XMonad.modMask = modm} = M.fromList
     , ((modm              , xK_d     ), spawn deadKeysLayout)
     , ((modm              , xK_u     ), spawn usLayout)
     , ((modm              , xK_r     ), spawn ranger)
+    , ((modm .|. shiftMask, xK_f     ), spawn krusader)
     , ((modm              , xK_Print ), spawn screenshot)
       --------------------------------------------------------------------------
       -- Window Management
@@ -116,6 +117,7 @@ brave            = "brave"
 firefox          = "firefox"
 emacs            = "emacs"
 ferdi            = "ferdi"
+krusader         = "krusader"
 qutebrowser      = "qutebrowser"
 screenshot       = "scrot ~/Pictures/Screenshots/screenshot.png"
 --------------------------------------------------------------------------------
