@@ -51,6 +51,7 @@
 
 (setq custom-safe-themes t)
 (load-theme 'doom-dracula t)
+(global-visual-line-mode t)
 ;;-------------------------------------------------------------------------------
 ;; Remappings
 
