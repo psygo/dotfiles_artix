@@ -1,6 +1,6 @@
 # My Dotfiles
 
-These are my configuration files for Linux; I focus a lot on minimalism. Anyway, I currently use:
+These are my configuration files for Linux &mdash; I'm currently using the Artix distro &mdash;; I focus a lot on minimalism. Anyway, I currently use:
 
 - Kitty as my terminal, very fast and supports font ligatures
 - Neovim as my in-terminal editor
