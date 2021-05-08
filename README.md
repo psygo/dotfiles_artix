@@ -6,8 +6,8 @@ These are my configuration files for Linux; I focus a lot on minimalism. Anyway,
 - Neovim as my in-terminal editor
 - Emacs as my editor for software projects
     - With Evil Mode
-- [XMonad][xmonad] as a Window Manager
-- `XMonad.Prompt` as an application launcher
+- XMonad as a Window Manager
+- XMonad's Prompt as an application launcher
 - ranger as an in-terminal file manager
 - Nemo as my GUI file manager &mdash; #shameless
 - Qutebrowser as my default browser
@@ -21,4 +21,3 @@ I also use some custom command-line programs which help create a more modern env
 [bat]: https://github.com/sharkdp/bat
 [exa]: https://github.com/ogham/exa
 [fzf]: https://github.com/junegunn/fzf
-[xmonad]: https://xmonad.org/
