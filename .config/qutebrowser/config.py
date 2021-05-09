@@ -9,6 +9,8 @@ config.load_autoconfig(False)
 config.set('content.notifications.enabled', False, 'https://www.reddit.com')
 config.set('content.notifications.enabled', False, 'https://calendar.google.com')
 config.set('content.notifications.enabled', False, 'https://facebook.com')
+config.set('content.media.audio_capture', True, 'https://meet.google.com')
+config.set('content.media.video_capture', True, 'https://meet.google.com')
 config.set('content.register_protocol_handler', True)
 c.search.ignore_case = 'always'
 c.statusbar.show = 'always'
