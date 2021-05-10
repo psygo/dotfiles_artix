@@ -39,6 +39,8 @@
 ;;-------------------------------------------------------------------------------
 ;; Emacs Configs
 
+(setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
+
 (setq inhibit-startup-message t)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
@@ -335,8 +337,8 @@
 (use-package hindent)
 (use-package flycheck-haskell)
 (add-hook 'haskell-mode-hook #'flycheck-haskell-setup)
-(use-package shm)
-(add-hook 'haskell-mode-hook 'structured-haskell-mode)
+;;(use-package shm)
+;;(add-hook 'haskell-mode-hook 'structured-haskell-mode)
 
 ;; Python
 (use-package python-mode)
