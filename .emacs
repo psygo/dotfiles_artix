@@ -39,7 +39,13 @@
 ;;-------------------------------------------------------------------------------
 ;; Emacs Configs
 
-(setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
+(setq backup-directory-alist
+        `((".*" . ,temporary-file-directory)))
+(setq auto-save-file-name-transforms
+        `((".*" ,temporary-file-directory t)))
+(setq create-lockfiles nil)
+
+(setq-default indent-tabs-mode nil)
 
 (setq inhibit-startup-message t)
 (scroll-bar-mode -1)
@@ -62,8 +68,8 @@
 
 (use-package general
   :config
-;;  (general-define-key
-;;    "C-M-j" 'counsel-switch-buffer)
+  (general-define-key
+    "C-M-j" 'counsel-switch-buffer)
 
   (general-create-definer rune/leader-keys
     :keymaps '(normal insert visual emacs)
@@ -78,7 +84,8 @@
 ; General Packages
 
 (use-package fira-code-mode
-  :config (global-fira-code-mode))
+  :config (global-fira-code-mode)
+  :custom (fira-code-mode-disabled-ligatures '("x")))
 
 (use-package evil
   :init
@@ -163,7 +170,7 @@
          ("C-d" . ivy-reverse-i-search-kill))
   :init (ivy-mode 1))
 
-(set-face-attribute 'default nil :font "Fira Code Medium" :height 125)
+(set-face-attribute 'default nil :font "Fira Code" :weight 'medium :height 142)
 (column-number-mode)
 
 (use-package doom-modeline
