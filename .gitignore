@@ -55,6 +55,10 @@
 !.config/mutt/muttrc
 !.config/mutt/signature
 
+!.config/Code/
+!.config/Code/User/
+!.config/Code/User/settings.json
+
 !.config/Sabaki/
 !.config/Sabaki/themes/
 !.config/Sabaki/themes/*
