@@ -7,6 +7,7 @@ These are my configuration files for Linux &mdash; I'm currently using the [Arti
 - [Neovim](https://github.com/neovim/neovim) as my in-terminal editor
 - [Emacs](https://www.gnu.org/software/emacs/) as my editor for software projects
     - With [Evil Mode](https://github.com/emacs-evil/evil)
+    - [VS Code](https://github.com/microsoft/vscode) as a backup editor
 - [XMonad](https://xmonad.org/) as a Window Manager
 - [`XMonad.Prompt`](https://hackage.haskell.org/package/xmonad-contrib-0.16/docs/XMonad-Prompt.html) as an application launcher
 - [ranger](https://github.com/ranger/ranger) as an in-terminal file manager
