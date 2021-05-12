@@ -95,6 +95,8 @@
   (setq evil-want-C-i-jump nil)
   :config
   (evil-mode 1)
+  (define-key evil-insert-state-map (kbd "C-S-v") 'yank)
+  (define-key evil-normal-state-map (kbd "C-S-v") 'yank)
   (define-key evil-insert-state-map (kbd "C-g") 'evil-normal-state)
   (define-key evil-insert-state-map (kbd "C-h") 'evil-delete-backward-char-and-join)
 
