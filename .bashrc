@@ -2,7 +2,8 @@
 #--------------------------------------------------------------------------------
 export EDITOR="nvim"
 export VISUAL="nvim"
-export TERMINAL="konsole"
+export TERMINAL="kitty"
+export TERM="kitty"
 export BROWSER="qutebrowser"
 
 # PATH and Other Bin Pointer Variables

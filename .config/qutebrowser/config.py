@@ -63,6 +63,7 @@ c.url.searchengines = {
     ':re':       'https://www.reddit.com/r/{}',
     ':sx':       'https://www.searx.bar/search?q={}',
     ':ub':       'https://www.urbandictionary.com/define.php?term={}',
+    ':u':        'https://www.udemy.com/courses/search/?src={}',
     ':yt':       'https://www.youtube.com/results?search_query={}',
     ':w':        'https://en.wikipedia.org/wiki/{}',
 }
