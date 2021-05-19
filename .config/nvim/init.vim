@@ -39,6 +39,7 @@ Plug 'prettier/vim-prettier', {
 Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'turbio/bracey.vim'
+Plug 'sjl/gundo.vim'
 
 " Dart
 Plug 'dart-lang/dart-vim-plugin'
