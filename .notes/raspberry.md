@@ -16,3 +16,8 @@ Most of the solutions to common problems have solutions here:
 ```sh
 sudo apt install snapd
 ```
+
+A better way of doing this is by going through OwnYourBits' tutorial/script:
+
+- [Install Nextcloud on a RaspberryPi to create your own google drive at home! // 4K Tutorial - YouTube](https://www.youtube.com/watch?v=5aGKWkGTmAw)
+- [NextCloudPi, a ready to use NextCloud image for Raspberry Pi – Own your bits](https://ownyourbits.com/2017/02/13/nextcloud-ready-raspberry-pi-image/)
