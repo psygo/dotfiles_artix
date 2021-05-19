@@ -267,6 +267,7 @@
 
 ;; Markdown, YAML, JSON
 (use-package markdown-mode)
+(setq markdown-fontify-code-blocks-natively t)
 (use-package yaml-mode)
 (use-package json-mode)
 

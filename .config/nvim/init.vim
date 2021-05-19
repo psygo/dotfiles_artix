@@ -111,6 +111,11 @@ set mouse=a
 set colorcolumn=80
 
 au! BufWritePost $MYVIMRC source %
+
+" Cursor
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+autocmd InsertEnter,InsertLeave * set cul!
 "-------------------------------------------------------------------------------
 " CoC
 

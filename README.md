@@ -14,7 +14,7 @@ These are my configuration files for Linux &mdash; I'm currently using the [Arti
 - [Krusader](https://krusader.org/) as my GUI file manager
     - And [Nemo](https://github.com/linuxmint/nemo) for quick stuff
 - [qutebrowser](https://github.com/qutebrowser/qutebrowser) as my default browser
-    - [Brave](https://brave.com/) with [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en)cVim, is my backup
+    - [Brave](https://brave.com/) with [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en), is my backup
 - [Zathura](https://pwmt.org/projects/zathura/) as a Vim-like way of viewing PDFs
     - However [Okular](https://okular.kde.org/) is still a big part of my workflow, specially when it comes to long books
 - [Ferdi](https://getferdi.com/) as my messenger-unifying browser.

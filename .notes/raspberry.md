@@ -12,3 +12,7 @@ Most of the solutions to common problems have solutions here:
 
 - You can configure `fail2ban`, which bans people trying to brute force their way into your server.
 - There's also `automount`, which lets you use an external hard drive as the source for space.
+
+```sh
+sudo apt install snapd
+```
