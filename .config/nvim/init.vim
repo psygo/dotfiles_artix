@@ -40,6 +40,7 @@ Plug 'plasticboy/vim-markdown'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 Plug 'turbio/bracey.vim'
 Plug 'sjl/gundo.vim'
+Plug 'gelisam/git-slides'
 
 " Dart
 Plug 'dart-lang/dart-vim-plugin'
