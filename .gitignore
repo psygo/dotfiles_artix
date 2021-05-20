@@ -1,21 +1,26 @@
 #-------------------------------------------------------------------------------
 *
 #-------------------------------------------------------------------------------
+# Git
+
 !.gitattributes
 !.gitconfig
 !.gitignore
-!.bash_profile
-!.bashrc
-!.imwheelrc
-!.cvimrc
-!.config/
 #-------------------------------------------------------------------------------
+# X11 and Window Manager (XMonad)
+
+!.imwheelrc
 !.xinitrc
 !.Xmodmap
 
 !.xmonad/
 !.xmonad/xmonad.hs
 #-------------------------------------------------------------------------------
+# Terminal Emulators
+
+!.bash_profile
+!.bashrc
+
 !.local/
 !.local/share/
 !.local/share/konsole/
@@ -24,12 +29,12 @@
 
 !.config/kitty/
 !.config/kitty/kitty.conf
+#-------------------------------------------------------------------------------
+# Apps
 
-!.config/nvim/
-!.config/nvim/init.vim
-!.config/nvim/coc-settings.json
+!.config/
 
-!.emacs
+!.cvimrc
 
 !.config/qutebrowser/
 !.config/qutebrowser/config.py
@@ -55,28 +60,47 @@
 !.config/mutt/muttrc
 !.config/mutt/signature
 
-!.config/Code/
-!.config/Code/User/
-!.config/Code/User/settings.json
-
 !.config/Sabaki/
 !.config/Sabaki/themes/
 !.config/Sabaki/themes/*
 #-------------------------------------------------------------------------------
+# Security
+
 !.ssh/
 !.ssh/config
 #-------------------------------------------------------------------------------
+# Notes and My Helper Docs
+
 !README.md
 !.notes/
 !.notes/*
 #-------------------------------------------------------------------------------
+# Automation Scripts
+
 !.scripts/
 !.scripts/*
 .scripts/db/
 .scripts/bin/
 .scripts/*.db
 #-------------------------------------------------------------------------------
+# Code
+
+!.config/nvim/
+!.config/nvim/init.vim
+!.config/nvim/coc-settings.json
+
 !.config/coc/
 !.config/coc/ultisnips/
 !.config/coc/ultisnips/*
+
+!.emacs
+
+!.config/Code/
+!.config/Code/User/
+!.config/Code/User/settings.json
+#-------------------------------------------------------------------------------
+# Haskell
+
+!.stack/
+!.stack/config.yml
 #-------------------------------------------------------------------------------
