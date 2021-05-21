@@ -77,8 +77,8 @@ player_div =  'document.querySelector("#movie_player")'
 player_elem = 'document.querySelector("video")'
 
 config.bind('<alt+r>',         'restart')
-config.bind('(',              f'jseval -q {player_div}.focus()')
-config.bind(')',              f'jseval -q {player_div}.blur()')
+config.bind('(',              f'jseval -q {player_elem}.focus()')
+config.bind(')',              f'jseval -q {player_elem}.blur()')
 config.bind('f',               'hint all tab')
 config.bind('F',               'hint all current')
 config.bind('<ctrl+shift+x>',  'tab-pin')
