@@ -74,11 +74,12 @@ toggle_statusbar = 'config-cycle statusbar.show always never'
 toggle_tabs      = 'config-cycle tabs.show always never'
 
 player_div =  'document.querySelector("#movie_player")'
+player_div_or_elem = 'document.querySelector("#movie_player, video")'
 player_elem = 'document.querySelector("video")'
 
 config.bind('<alt+r>',         'restart')
-config.bind('(',              f'jseval -q {player_elem}.focus()')
-config.bind(')',              f'jseval -q {player_elem}.blur()')
+config.bind('(',              f'jseval -q {player_div_or_elem}.focus()')
+config.bind(')',              f'jseval -q {player_div_or_elem}.blur()')
 config.bind('f',               'hint all tab')
 config.bind('F',               'hint all current')
 config.bind('<ctrl+shift+x>',  'tab-pin')
