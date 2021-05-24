@@ -18,5 +18,6 @@ These are my configuration files for Linux &mdash; I'm currently using the [Arti
 - [Zathura](https://pwmt.org/projects/zathura/) as a Vim-like way of viewing PDFs
     - However [Okular](https://okular.kde.org/) is still a big part of my workflow, specially when it comes to long books
 - [Ferdi](https://getferdi.com/) as my messenger-unifying browser.
+- [Sabaki](https://sabaki.yichuanshen.de/) as my Go SGF editor.
 
 I also use some custom command-line programs which help create a more modern environment, like Rust's [`exa`](https://github.com/ogham/exa) and [`bat`](https://github.com/sharkdp/bat). Another strong recommendation I have is the amazing [`fzf`](https://github.com/junegunn/fzf) multi-tool, which also happens to have strong Vim integration through a plugin.
