@@ -7,4 +7,5 @@ pacman -Sy &
 transmission-daemon &
 xmodmap ~/.Xmodmap
 
-xmonad
+awesome
+# xmonad

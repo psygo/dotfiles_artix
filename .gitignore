@@ -7,7 +7,11 @@
 !.gitconfig
 !.gitignore
 #-------------------------------------------------------------------------------
-# X11 and Window Manager (XMonad)
+# General Stuff
+
+!.config/
+#-------------------------------------------------------------------------------
+# X11 and Window Managers (XMonad and Awesome)
 
 !.imwheelrc
 !.xinitrc
@@ -15,6 +19,9 @@
 
 !.xmonad/
 !.xmonad/xmonad.hs
+
+!.config/awesome/
+!.config/awesome/rc.lua
 #-------------------------------------------------------------------------------
 # Terminal Emulators
 
@@ -32,7 +39,6 @@
 #-------------------------------------------------------------------------------
 # Apps
 
-!.config/
 
 !.cvimrc
 
