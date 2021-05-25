@@ -9,6 +9,7 @@ These are my configuration files for Linux &mdash; I'm currently using the [Arti
     - With [Evil Mode](https://github.com/emacs-evil/evil)
     - [VS Code](https://github.com/microsoft/vscode) as a backup editor
 - [XMonad](https://xmonad.org/) as a Window Manager
+    - [Awesome](https://github.com/awesomeWM/awesome) is my alternative, backup window manager, mostly for when XMonad breaks, which happens sometimes after an update.
 - [`XMonad.Prompt`](https://hackage.haskell.org/package/xmonad-contrib-0.16/docs/XMonad-Prompt.html) as an application launcher
 - [ranger](https://github.com/ranger/ranger) as an in-terminal file manager
 - [Krusader](https://krusader.org/) as my GUI file manager
