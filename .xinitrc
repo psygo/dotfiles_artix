@@ -8,3 +8,5 @@ transmission-daemon &
 xmodmap ~/.Xmodmap
 
 exec ${HOME}/.xmonad/xmonad-x86_64-linux
+# exec xmonad
+# exec awesome
