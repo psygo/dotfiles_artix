@@ -19,6 +19,7 @@
 
 !.xmonad/
 !.xmonad/xmonad.hs
+!.xmonad/build
 
 !.config/awesome/
 !.config/awesome/rc.lua
