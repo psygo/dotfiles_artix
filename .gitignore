@@ -54,7 +54,7 @@
 !.local/share/qutebrowser/
 !.local/share/qutebrowser/sessions/
 !.local/share/qutebrowser/sessions/*.yml
-!.local/share/qutebrowser/sessions/_autosave.yml
+.local/share/qutebrowser/sessions/_autosave.yml
 
 !.config/Ferdi/
 !.config/Ferdi/config/

@@ -37,6 +37,8 @@ COMPLETE_BRANCH="${BRANCH_COLOR}\$(${BRANCH})"
 COMPLETE_ROOT_OR_NOT="${ROOT_OR_NOT_COLOR}${ROOT_OR_NOT}"
 
 export PS1="${COMPLETE_PATH} ${COMPLETE_BRANCH} ${TEXT_RESET}"
+
+source /usr/share/nvm/init-nvm.sh
 #--------------------------------------------------------------------------------
 # Some Terminal Settings
 shopt -s autocd
