@@ -1,0 +1,168 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAMzAAAAAAAACf8AAAQ3AAADNgAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAM2AAAA
+    AwAACfwAAAQ0
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-05-11T06:31:25'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: odysee.com
+      url: https://odysee.com/
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2021-05-11T06:32:32'
+      pinned: true
+      title: YouTube
+      url: https://www.youtube.com/
+    - last_visited: '2021-05-11T06:32:32'
+      pinned: true
+      title: YouTube
+      url: https://www.youtube.com/feed/history
+    - last_visited: '2021-05-11T06:39:15'
+      pinned: true
+      title: YouTube
+      url: https://www.youtube.com/
+    - last_visited: '2021-05-11T09:29:37'
+      pinned: true
+      title: YouTube
+      url: https://www.youtube.com/
+    - active: true
+      last_visited: '2021-05-11T13:51:22'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: YouTube
+      url: https://www.youtube.com/
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-05-11T06:32:58'
+      pinned: false
+      title: Watch later - YouTube
+      url: https://www.youtube.com/playlist?list=WL
+    - active: true
+      last_visited: '2021-05-11T06:32:58'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Vladimir Vapnik: Predicates, Invariants, and the Essence of Intelligence
+        | Lex Fridman Podcast #71 - YouTube'
+      url: https://www.youtube.com/watch?v=bQa7hpUpMzM&list=WL&index=1
+      zoom: 1.0
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAQAAAAAAAAACf8AAAQ3AAAEAwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAQDAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - history:
+    - last_visited: '2021-05-11T06:45:42'
+      original-url: http://github.com/
+      pinned: true
+      title: GitHub
+      url: https://github.com/
+    - last_visited: '2021-05-11T13:22:22'
+      pinned: true
+      title: 'FanaroEngineering/fanaro.io: Where I expose cool stuff about Go (Baduk
+        or Weiqi), programming, productivity, philosophy, etc.'
+      url: https://github.com/FanaroEngineering/fanaro.io
+    - last_visited: '2021-05-11T13:23:07'
+      pinned: true
+      title: Issues · FanaroEngineering/fanaro.io
+      url: https://github.com/FanaroEngineering/fanaro.io/issues
+    - active: true
+      last_visited: '2021-05-11T13:23:07'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'FanaroEngineering/fanaro.io: Where I expose cool stuff about Go (Baduk
+        or Weiqi), programming, productivity, philosophy, etc.'
+      url: https://github.com/FanaroEngineering/fanaro.io
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-05-11T06:41:13'
+      original-url: https://www.searx.bar/
+      pinned: true
+      title: searx
+      url: https://searx.bar/
+    - last_visited: '2021-05-11T06:42:38'
+      pinned: true
+      title: 'Fully replace evil-integration · Issue #60 · emacs-evil/evil-collection'
+      url: https://github.com/emacs-evil/evil-collection/issues/60
+    - last_visited: '2021-05-11T06:43:38'
+      pinned: true
+      title: 'reddit: the front page of the internet'
+      url: https://www.reddit.com/
+    - active: true
+      last_visited: '2021-05-11T06:49:23'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Philippe Fanaro (u/Fanaro009) - Reddit
+      url: https://www.reddit.com/user/Fanaro009
+      zoom: 1.0
+    - last_visited: '2021-05-11T06:49:14'
+      pinned: true
+      title: 'A Historical Quote, from Pyrrhus of Epirus, I found very fitting to
+        Go, albeit not at all related to it at first : baduk'
+      url: https://www.reddit.com/r/baduk/comments/kylls2/a_historical_quote_from_pyrrhus_of_epirus_i_found/
+  - history:
+    - active: true
+      last_visited: '2021-05-11T06:49:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'A Historical Quote, from Pyrrhus of Epirus, I found very fitting to
+        Go, albeit not at all related to it at first : baduk'
+      url: https://www.reddit.com/r/baduk/comments/kylls2/a_historical_quote_from_pyrrhus_of_epirus_i_found/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-11T06:59:27'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1910
+      title: Pyrrhus of Epirus - Wikipedia
+      url: https://en.wikipedia.org/wiki/Pyrrhus_of_Epirus
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-11T06:52:11'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 400
+      title: 'Does anyone have a link to an article of a pro commenting on this "trick"
+        play? : baduk'
+      url: https://www.reddit.com/r/baduk/comments/iz5388/does_anyone_have_a_link_to_an_article_of_a_pro/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-11T06:52:36'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 5298
+      title: Alakazam is back! • Life In 19x19
+      url: https://www.lifein19x19.com/viewtopic.php?p=161730#p161730
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-11T14:56:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Waltheri's go pattern search - find position in pro games
+      url: http://ps.waltheri.net/448510/
+      zoom: 1.0

@@ -1,0 +1,106 @@
+windows:
+- geometry: !!binary |
+    AdnQywADAAAAAAOzAAAAAAAACf8AAAQ3AAADggAAACMAAAoAAAAEOAAAAAAABAAACgAAAAO2AAAA
+    AwAACfwAAAQ0
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-05-26T11:07:43'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: odysee.com
+      url: https://odysee.com/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-26T09:31:32'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: YouTube
+      url: https://www.youtube.com/
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-05-26T11:53:06'
+      pinned: false
+      title: qutebrowser sessions where are they saved - searx
+      url: https://searx.bar/search?q=qutebrowser%20sessions%20where%20are%20they%20saved
+    - active: true
+      last_visited: '2021-05-26T11:53:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: qutebrowser sessions where are they saved - Google Search
+      url: https://www.google.com/search?q=qutebrowser%20sessions%20where%20are%20they%20saved
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-26T11:53:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Locating saved sessions? : qutebrowser'
+      url: https://www.reddit.com/r/qutebrowser/comments/ekfwz0/locating_saved_sessions/
+      zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAACf8AAAQ3AAAAAwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAADAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-26T11:51:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '24 Days of GHC Extensions: Welcome!'
+      url: https://ocharles.org.uk/posts/2014-12-01-24-days-of-ghc-extensions.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-26T11:51:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'zfoh/HaskellerZ: Notes and files from HaskellerZ meetups.'
+      url: https://github.com/zfoh/HaskellerZ
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-26T11:51:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Three Layer Haskell Cake
+      url: https://www.parsonsmatt.org/2018/03/22/three_layer_haskell_cake.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-26T11:51:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'graninas/software-design-in-haskell: Software Design in Haskell. A structured
+        set of materials. How to build real-world applications in Haskell.'
+      url: https://github.com/graninas/software-design-in-haskell
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-26T11:51:53'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: What I Wish I Knew When Learning Haskell 2.5 ( Stephen Diehl )
+      url: http://dev.stephendiehl.com/hask/
+      zoom: 1.0

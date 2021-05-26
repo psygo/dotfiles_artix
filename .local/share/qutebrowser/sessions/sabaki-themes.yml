@@ -1,0 +1,172 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAABP8AAAQ3AAAAAwAAAAMAAAT8AAAENAAAAAAAAAAACgAAAAADAAAA
+    AwAABPwAAAQ0
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-05-24T07:27:39'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: theme-photorealistic/styles.css at master · SabakiHQ/theme-photorealistic
+      url: https://github.com/SabakiHQ/theme-photorealistic/blob/master/src/styles.css
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-24T07:27:40'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Sabaki/create-themes.md at master · SabakiHQ/Sabaki
+      url: https://github.com/SabakiHQ/Sabaki/blob/master/docs/guides/create-themes.md
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-24T07:27:40'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Shudan/docs at master · SabakiHQ/Shudan
+      url: https://github.com/SabakiHQ/Shudan/tree/master/docs#styling
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-24T07:27:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Designs
+      url: https://fanaro.io/pages/designs.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-24T07:27:43'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Free online Go game | CGS
+      url: https://colorgoserver.com/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-24T07:27:40'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Sabaki/theme-directory.md at master · SabakiHQ/Sabaki
+      url: https://github.com/SabakiHQ/Sabaki/blob/master/docs/guides/theme-directory.md
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-24T07:27:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Play Go at online-go.com! | OGS
+      url: https://online-go.com/joseki/39
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-05-24T08:01:16'
+      pinned: true
+      title: 'FanaroEngineering/fanaro_sabaki_theme_collection: Fanaro Sabaki Theme
+        Collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection
+    - last_visited: '2021-05-24T08:01:16'
+      pinned: true
+      title: Issues · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+    - last_visited: '2021-05-24T08:01:19'
+      original-url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new/choose
+      pinned: true
+      title: New Issue · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new
+    - last_visited: '2021-05-24T08:02:02'
+      pinned: true
+      title: 'Script for Packaging All of The Themes into a Release · Issue #5 · FanaroEngineering/fanaro_sabaki_theme_collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/5
+    - last_visited: '2021-05-24T08:02:02'
+      pinned: true
+      title: Issues · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+    - last_visited: '2021-05-24T08:02:04'
+      original-url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new/choose
+      pinned: true
+      title: New Issue · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new
+    - last_visited: '2021-05-24T08:02:20'
+      pinned: true
+      title: 'Squared Theme · Issue #6 · FanaroEngineering/fanaro_sabaki_theme_collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/6
+    - last_visited: '2021-05-24T08:02:21'
+      pinned: true
+      title: Issues · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+    - last_visited: '2021-05-24T08:02:27'
+      pinned: true
+      title: 'Bookish Theme · Issue #4 · FanaroEngineering/fanaro_sabaki_theme_collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/4
+    - last_visited: '2021-05-24T08:02:31'
+      pinned: true
+      title: Issues · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+    - last_visited: '2021-05-24T08:02:35'
+      pinned: true
+      title: 'Outlined Theme · Issue #3 · FanaroEngineering/fanaro_sabaki_theme_collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/3
+    - last_visited: '2021-05-24T08:02:42'
+      pinned: true
+      title: Issues · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+    - last_visited: '2021-05-24T08:04:40'
+      pinned: true
+      title: 'FanaroEngineering/fanaro_sabaki_theme_collection: Fanaro Sabaki Theme
+        Collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection
+    - last_visited: '2021-05-24T08:05:24'
+      pinned: true
+      title: 'FanaroEngineering/fanaro_sabaki_theme_collection: Fanaro''s Sabaki Theme
+        Collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection
+    - last_visited: '2021-05-24T08:05:26'
+      pinned: true
+      title: Issues · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+    - last_visited: '2021-05-24T08:05:29'
+      original-url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new/choose
+      pinned: true
+      title: New Issue · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new
+    - last_visited: '2021-05-24T08:06:04'
+      pinned: true
+      title: 'Subdued Theme · Issue #7 · FanaroEngineering/fanaro_sabaki_theme_collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/7
+    - active: true
+      last_visited: '2021-05-24T08:07:51'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'FanaroEngineering/fanaro_sabaki_theme_collection: Fanaro''s Sabaki Theme
+        Collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-24T08:08:14'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Help with Some Styling Variables for Themes · Issue #789 · SabakiHQ/Sabaki'
+      url: https://github.com/SabakiHQ/Sabaki/issues/789
+      zoom: 1.0

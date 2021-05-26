@@ -1,0 +1,42 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAANmAAAAAAAACf8AAAQ3AAADaQAAAAMAAAn8AAAENAAAAAAAAAAACgAAAANpAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - active: true
+    history:
+    - last_visited: '2021-05-10T07:33:02'
+      pinned: false
+      title: 'Raspberry Pi Internet Monitor : 25 Steps (with Pictures) - Instructables'
+      url: https://www.instructables.com/Raspberry-Pi-Internet-Monitor/
+    - last_visited: '2021-05-10T08:13:27'
+      original-url: https://www.instructables.com/Raspberry-Pi-Internet-Monitor/
+      pinned: false
+      title: Login - Instructables
+      url: https://www.instructables.com/account/login/
+    - last_visited: '2021-05-10T08:13:50'
+      original-url: https://www.instructables.com/account/login/
+      pinned: false
+      title: Complete Registration - Instructables
+      url: https://www.instructables.com/account/complete/
+    - active: true
+      last_visited: '2021-05-10T08:14:15'
+      original-url: https://www.instructables.com/account/complete/
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 34440
+      title: 'Raspberry Pi Internet Monitor : 25 Steps (with Pictures) - Instructables'
+      url: https://www.instructables.com/Raspberry-Pi-Internet-Monitor/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-10T13:19:41'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Bandwidth Monitor : 7 Steps (with Pictures) - Instructables'
+      url: https://www.instructables.com/Bandwidth-Monitor/
+      zoom: 1.0

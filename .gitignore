@@ -10,6 +10,8 @@
 # General Stuff
 
 !.config/
+!.local/
+!.local/share/
 #-------------------------------------------------------------------------------
 # X11 and Window Managers (XMonad and Awesome)
 
@@ -49,6 +51,9 @@
 !.config/qutebrowser/quickmarks
 !.config/qutebrowser/bookmarks/
 !.config/qutebrowser/bookmarks/urls
+!.local/share/qutebrowser/
+!.local/share/qutebrowser/sessions/
+!.local/share/qutebrowser/sessions/*.yml
 
 !.config/Ferdi/
 !.config/Ferdi/config/

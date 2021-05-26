@@ -1,0 +1,501 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAOZAAAAAAAACf8AAAQ3AAAAAwAAABQAAAn8AAAERQAAAAAABAAACgAAAAOcAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - history:
+    - last_visited: '2021-05-22T06:36:50'
+      pinned: true
+      title: odysee.com
+      url: https://odysee.com/
+    - last_visited: '2021-05-22T09:32:50'
+      pinned: true
+      title: odysee.com
+      url: https://odysee.com/$/search?q=veritasium
+    - last_visited: '2021-05-22T09:33:01'
+      pinned: true
+      title: Veritasium
+      url: https://odysee.com/@veritasium:f
+    - last_visited: '2021-05-22T09:33:06'
+      pinned: true
+      title: odysee.com
+      url: https://odysee.com/
+    - last_visited: '2021-05-22T12:51:01'
+      pinned: true
+      title: odysee.com
+      url: https://odysee.com/
+    - active: true
+      last_visited: '2021-05-22T14:12:49'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: odysee.com
+      url: https://odysee.com/
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2021-05-22T12:14:24'
+      pinned: true
+      title: YouTube
+      url: https://www.youtube.com/
+    - last_visited: '2021-05-22T12:14:24'
+      pinned: true
+      title: YouTube
+      url: https://www.youtube.com/
+    - active: true
+      last_visited: '2021-05-22T15:48:40'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: YouTube
+      url: https://www.youtube.com/
+      zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAAAAAPMAAAAAAAACf8AAAQ3AAADzwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAPPAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - history:
+    - last_visited: '2021-05-22T08:09:13'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6615634?start=0#content
+    - last_visited: '2021-05-22T08:15:11'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6615634#overview
+    - last_visited: '2021-05-22T08:15:11'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6615634#content
+    - last_visited: '2021-05-22T08:15:25'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6615634#overview
+    - active: true
+      last_visited: '2021-05-22T08:15:26'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6615634#content
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2021-05-22T06:48:08'
+      pinned: true
+      title: 'Category Theory 6.2: Functors in programming - YouTube'
+      url: https://www.youtube.com/watch?v=EO86S2EZssc&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=13
+    - last_visited: '2021-05-22T06:48:08'
+      pinned: true
+      title: 'Category Theory 7.1: Functoriality, bifunctors - YouTube'
+      url: https://www.youtube.com/watch?v=pUQ0mmbIdxs&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=13
+    - last_visited: '2021-05-22T07:35:32'
+      pinned: true
+      title: 'Category Theory 7.2: Monoidal Categories, Functoriality of ADTs, Profunctors
+        - YouTube'
+      url: https://www.youtube.com/watch?v=wtIKd8AhJOc&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=14
+    - last_visited: '2021-05-22T08:29:18'
+      pinned: true
+      title: 'Category Theory 8.1: Function objects, exponentials - YouTube'
+      url: https://www.youtube.com/watch?v=REqRzMI26Nw&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=15
+    - active: true
+      last_visited: '2021-05-22T13:21:57'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Category Theory 8.2: Type algebra, Curry-Howard-Lambek isomorphism -
+        YouTube'
+      url: https://www.youtube.com/watch?v=iXZR1v3YN-8&list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_&index=16
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-22T06:35:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: '24 Days of GHC Extensions: Welcome!'
+      url: https://ocharles.org.uk/posts/2014-12-01-24-days-of-ghc-extensions.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-22T06:35:51'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'zfoh/HaskellerZ: Notes and files from HaskellerZ meetups.'
+      url: https://github.com/zfoh/HaskellerZ
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-22T06:35:50'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Three Layer Haskell Cake
+      url: https://www.parsonsmatt.org/2018/03/22/three_layer_haskell_cake.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-22T06:35:50'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'graninas/software-design-in-haskell: Software Design in Haskell. A structured
+        set of materials. How to build real-world applications in Haskell.'
+      url: https://github.com/graninas/software-design-in-haskell
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-22T06:35:50'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: What I Wish I Knew When Learning Haskell 2.5 ( Stephen Diehl )
+      url: http://dev.stephendiehl.com/hask/
+      zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAAAAAT9/////QAACfwAAAQ0AAAFAAAAAAAAAAn5AAAEMQAAAAAAAAAACgAAAAUAAAAA
+    AAAACfkAAAQx
+  tabs:
+  - active: true
+    history:
+    - last_visited: '2021-05-22T10:40:35'
+      original-url: https://www.searx.bar/
+      pinned: true
+      title: searx
+      url: https://searx.bar/
+    - last_visited: '2021-05-22T10:40:48'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6615634#content
+    - last_visited: '2021-05-22T10:53:17'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6615634#overview
+    - last_visited: '2021-05-22T10:53:26'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6615634#content
+    - last_visited: '2021-05-22T10:56:00'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660446#content
+    - last_visited: '2021-05-22T10:56:58'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6659158#content
+    - last_visited: '2021-05-22T10:57:28'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6659242#content
+    - last_visited: '2021-05-22T10:57:36'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6666106#content
+    - last_visited: '2021-05-22T10:57:45'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6659248#content
+    - last_visited: '2021-05-22T10:57:55'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6661444#content
+    - last_visited: '2021-05-22T10:58:50'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660460#content
+    - last_visited: '2021-05-22T11:02:27'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660648#content
+    - last_visited: '2021-05-22T12:59:25'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660652#content
+    - last_visited: '2021-05-22T13:00:30'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660656#content
+    - last_visited: '2021-05-22T13:00:39'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660662#content
+    - last_visited: '2021-05-22T13:00:55'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660664#content
+    - last_visited: '2021-05-22T13:01:02'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/quiz/335866#content
+    - last_visited: '2021-05-22T14:47:32'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660668#content
+    - last_visited: '2021-05-22T14:47:59'
+      pinned: true
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660668#overview
+    - active: true
+      last_visited: '2021-05-22T14:50:02'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Haskell: Data Analysis Made Easy | Udemy'
+      url: https://www.udemy.com/course/haskell-data-analysis-made-easy/learn/lecture/6660670#overview
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-05-22T13:02:31'
+      original-url: http://retrosheet.org/
+      pinned: false
+      title: Retrosheet
+      url: https://www.retrosheet.org/
+    - last_visited: '2021-05-22T14:14:08'
+      pinned: false
+      title: Retrosheet
+      url: https://www.retrosheet.org/#
+    - active: true
+      last_visited: '2021-05-22T14:14:11'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Retrosheet Game Logs
+      url: https://www.retrosheet.org/gamelogs/index.html
+      zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAAAAA8AAAAC0AAAE/8AAAQ3AAAPAwAAAtMAABP8AAAENAAAAAEAAAAACgAAAA8DAAAC
+    0wAAE/wAAAQ0
+  tabs:
+  - history:
+    - last_visited: '2021-05-22T14:42:14'
+      original-url: https://www.searx.bar/
+      pinned: false
+      title: searx
+      url: https://searx.bar/
+    - last_visited: '2021-05-22T14:42:16'
+      pinned: false
+      title: Home Page - Select or create a notebook
+      url: http://localhost:8889/tree
+    - active: true
+      last_visited: '2021-05-22T14:42:22'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: analysis/
+      url: http://localhost:8889/tree/analysis
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-05-22T14:42:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Baseball - Jupyter Notebook
+      url: http://localhost:8889/notebooks/analysis/Baseball.ipynb
+      zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAAA7IAAAQ3AAAAAwAAAAMAAAOvAAAENAAAAAAAAAAACgAAAAADAAAA
+    AwAAA68AAAQ0
+  tabs:
+  - history:
+    - last_visited: '2021-05-22T17:49:35'
+      pinned: true
+      title: 'SabakiHQ/theme-photorealistic: A theme with photorealistic stones for
+        Sabaki.'
+      url: https://github.com/SabakiHQ/theme-photorealistic
+    - last_visited: '2021-05-22T18:57:12'
+      pinned: true
+      title: theme-photorealistic/src at master · SabakiHQ/theme-photorealistic
+      url: https://github.com/SabakiHQ/theme-photorealistic/tree/master/src
+    - active: true
+      last_visited: '2021-05-22T19:01:19'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 948
+      title: 'SabakiHQ/theme-photorealistic: A theme with photorealistic stones for
+        Sabaki.'
+      url: https://github.com/SabakiHQ/theme-photorealistic
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-22T19:16:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 359
+      title: Sabaki/create-themes.md at master · SabakiHQ/Sabaki
+      url: https://github.com/SabakiHQ/Sabaki/blob/master/docs/guides/create-themes.md
+      zoom: 1.0
+    - last_visited: '2021-05-22T19:14:07'
+      pinned: false
+      title: 'SabakiHQ/Sabaki: An elegant Go board and SGF editor for a more civilized
+        age.'
+      url: https://github.com/SabakiHQ/Sabaki
+  - history:
+    - active: true
+      last_visited: '2021-05-22T19:16:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Shudan/docs at master · SabakiHQ/Shudan
+      url: https://github.com/SabakiHQ/Shudan/tree/master/docs#styling
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-22T17:28:39'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 300
+      title: Color Hunt - Neon Color Palettes
+      url: https://colorhunt.co/palettes/neon
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-05-22T17:30:08'
+      original-url: http://fanaro.io/
+      pinned: false
+      title: fanaro.io
+      url: https://fanaro.io/
+    - active: true
+      last_visited: '2021-05-22T17:30:12'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Designs
+      url: https://fanaro.io/pages/designs.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-05-22T17:40:30'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 1860
+      title: Free online Go game | CGS
+      url: https://colorgoserver.com/
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-05-22T21:18:30'
+      original-url: https://www.searx.bar/search?q=sabaki%20themes
+      pinned: false
+      title: sabaki themes - searx
+      url: https://searx.bar/search?q=sabaki%20themes
+    - active: true
+      last_visited: '2021-05-22T21:18:34'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Sabaki/theme-directory.md at master · SabakiHQ/Sabaki
+      url: https://github.com/SabakiHQ/Sabaki/blob/master/docs/guides/theme-directory.md
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2021-05-22T20:06:52'
+      original-url: http://github.com/
+      pinned: true
+      title: GitHub
+      url: https://github.com/
+    - last_visited: '2021-05-22T20:07:01'
+      pinned: true
+      title: 'FanaroEngineering/youtube_infra: Infraestrutura código-aberto do meu
+        canal de YouTube. E também do podcast feito com @GugaJedi, que, a princípio,
+        estará no meu canal.'
+      url: https://github.com/FanaroEngineering/youtube_infra
+    - last_visited: '2021-05-22T20:07:03'
+      pinned: true
+      title: Fanaro Engineering
+      url: https://github.com/FanaroEngineering
+    - last_visited: '2021-05-22T20:07:12'
+      pinned: true
+      title: Create a New Repository
+      url: https://github.com/organizations/FanaroEngineering/repositories/new
+    - last_visited: '2021-05-22T20:08:19'
+      pinned: true
+      title: 'FanaroEngineering/fanaro_sabaki_theme_collection: Fanaro Sabaki Theme
+        Collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection
+    - last_visited: '2021-05-22T20:08:49'
+      pinned: true
+      title: 'FanaroEngineering/fanaro_sabaki_theme_collection: Fanaro Sabaki Theme
+        Collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection
+    - last_visited: '2021-05-22T20:08:49'
+      pinned: true
+      title: Issues · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+    - last_visited: '2021-05-22T20:08:57'
+      original-url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new/choose
+      pinned: true
+      title: New Issue · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new
+    - last_visited: '2021-05-22T20:09:31'
+      original-url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+      pinned: true
+      title: 'Create a Table of Thumbnails on README · Issue #1 · FanaroEngineering/fanaro_sabaki_theme_collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/1
+    - last_visited: '2021-05-22T20:09:33'
+      original-url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new/choose
+      pinned: true
+      title: New Issue · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new
+    - last_visited: '2021-05-22T20:09:51'
+      original-url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+      pinned: true
+      title: 'Squared Theme · Issue #2 · FanaroEngineering/fanaro_sabaki_theme_collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/2
+    - last_visited: '2021-05-22T20:09:53'
+      original-url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new/choose
+      pinned: true
+      title: New Issue · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new
+    - last_visited: '2021-05-22T20:10:11'
+      pinned: true
+      title: 'Outlined Theme · Issue #3 · FanaroEngineering/fanaro_sabaki_theme_collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/3
+    - last_visited: '2021-05-22T20:12:09'
+      pinned: true
+      title: 'FanaroEngineering/fanaro_sabaki_theme_collection: Fanaro Sabaki Theme
+        Collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection
+    - last_visited: '2021-05-22T21:19:14'
+      pinned: true
+      title: Issues · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues
+    - last_visited: '2021-05-22T21:19:17'
+      original-url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new/choose
+      pinned: true
+      title: New Issue · FanaroEngineering/fanaro_sabaki_theme_collection
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/new
+    - last_visited: '2021-05-22T21:19:38'
+      pinned: true
+      title: 'Bookish Theme · Issue #4 · FanaroEngineering/fanaro_sabaki_theme_collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection/issues/4
+    - active: true
+      last_visited: '2021-05-22T21:19:38'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'FanaroEngineering/fanaro_sabaki_theme_collection: Fanaro Sabaki Theme
+        Collection'
+      url: https://github.com/FanaroEngineering/fanaro_sabaki_theme_collection
+      zoom: 1.0
