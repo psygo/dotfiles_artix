@@ -7,5 +7,4 @@ pacman -Sy &
 transmission-daemon &
 xmodmap ~/.Xmodmap
 
-awesome
-# xmonad
+exec ${HOME}/.xmonad/xmonad-x86_64-linux
