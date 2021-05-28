@@ -97,6 +97,7 @@ alias cocrc="vim ~/.config/nvim/coc-settings.json"
 alias README="vim ~/README.md"
 alias kittyrc="vim ~/.config/kitty/kitty.conf"
 alias muttrc="vim ~/.config/mutt/muttrc"
+alias ghcrc="vim ~/.ghc/ghci.conf"
 
 # Folders
 alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io/"
