@@ -12,8 +12,6 @@
 !.config/
 !.local/
 !.local/share/
-
-!.pacman_mirrorlist
 #-------------------------------------------------------------------------------
 # X11 and Window Managers (XMonad and Awesome)
 
