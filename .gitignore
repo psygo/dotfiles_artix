@@ -48,6 +48,7 @@
 !.config/qutebrowser/config.py
 !.config/qutebrowser/autoconfig.yml
 !.config/qutebrowser/quickmarks
+!.config/qutebrowser/my_theme.css
 !.config/qutebrowser/bookmarks/
 !.config/qutebrowser/bookmarks/urls
 !.local/share/qutebrowser/

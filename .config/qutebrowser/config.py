@@ -100,4 +100,11 @@ config.bind('>',             f'jseval {player_elem}.playbackRate+=.25')
 config.bind('ss',             'set-cmd-text -s :session-save -o')
 config.unbind('b')
 config.unbind('m')
+
+config.bind(',ex', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/experimental.css ""')
+config.bind(',ap', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/solarized/css/apprentice/apprentice-all-sites.css ""')
+config.bind(',dr', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/solarized/css/darculized/darculized-all-sites.css ""')
+config.bind(',gr', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/solarized/css/gruvbox/gruvbox-all-sites.css ""')
+config.bind(',sd', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/solarized/css/solarized-dark/solarized-dark-all-sites.css ""')
+config.bind(',sl', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/solarized/css/solarized-light/solarized-light-all-sites.css ""')
 #-------------------------------------------------------------------------------

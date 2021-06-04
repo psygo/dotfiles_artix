@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAWzAAAAAAAACf8AAAIbAAADggAAACMAAAoAAAAEOAAAAAAABAAACgAAAAW2AAAA
-    AwAACfwAAAIY
+    AdnQywADAAAAAAAAAAAAAAAABbIAAAQ3AAADggAAACMAAAoAAAAEOAAAAAAABAAACgAAAAADAAAA
+    AwAABa8AAAQ0
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:15'
+      last_visited: '2021-06-04T10:49:01'
       pinned: true
       scroll-pos:
         x: 0
@@ -14,9 +14,10 @@ windows:
       title: odysee.com
       url: https://odysee.com/
       zoom: 1.0
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-04T11:16:15'
+      last_visited: '2021-06-04T10:49:00'
       pinned: true
       scroll-pos:
         x: 0
@@ -24,20 +25,17 @@ windows:
       title: YouTube
       url: https://www.youtube.com/
       zoom: 1.0
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-04T11:16:40'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Was I Wrong About Bujinkan? - YouTube
-      url: https://www.youtube.com/watch?v=KW29sU-XHNw
-      zoom: 1.0
   - history:
+    - last_visited: '2021-06-04T11:08:55'
+      pinned: false
+      title: 'reddit: the front page of the internet'
+      url: https://www.reddit.com/
+    - last_visited: '2021-06-04T11:09:11'
+      pinned: false
+      title: Philippe Fanaro (u/Fanaro009) - Reddit
+      url: https://www.reddit.com/user/Fanaro009
     - active: true
-      last_visited: '2021-06-04T11:16:17'
+      last_visited: '2021-06-04T11:09:15'
       pinned: false
       scroll-pos:
         x: 0
@@ -53,7 +51,7 @@ windows:
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-04T11:16:15'
+      last_visited: '2021-06-04T10:49:01'
       pinned: false
       scroll-pos:
         x: 0
@@ -63,7 +61,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:16'
+      last_visited: '2021-06-04T10:49:02'
       pinned: false
       scroll-pos:
         x: 0
@@ -73,7 +71,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:16'
+      last_visited: '2021-06-04T10:49:02'
       pinned: false
       scroll-pos:
         x: 0
@@ -83,7 +81,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:17'
+      last_visited: '2021-06-04T10:49:04'
       pinned: false
       scroll-pos:
         x: 0
@@ -93,7 +91,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:16'
+      last_visited: '2021-06-04T10:49:02'
       pinned: false
       scroll-pos:
         x: 0
@@ -103,7 +101,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:16'
+      last_visited: '2021-06-04T10:49:02'
       pinned: false
       scroll-pos:
         x: 0
@@ -114,7 +112,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:15'
+      last_visited: '2021-06-04T10:49:02'
       pinned: false
       scroll-pos:
         x: 0
