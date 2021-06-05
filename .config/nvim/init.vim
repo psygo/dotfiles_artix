@@ -48,7 +48,10 @@ Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
 Plug 'natebosch/dartlang-snippets'
 
-" Themes
+" Haskell
+Plug 'alx741/vim-hindent'
+
+"" Themes
 Plug 'joshdick/onedark.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'vim-airline/vim-airline'

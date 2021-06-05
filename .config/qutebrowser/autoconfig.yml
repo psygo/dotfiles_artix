@@ -6,5 +6,9 @@
 
 config_version: 2
 settings:
-  content.user_stylesheets:
-    global: ~/.config/qutebrowser/experimental.css
+  content.notifications.enabled:
+    https://www.netflix.com: true
+  statusbar.show:
+    global: always
+  tabs.show:
+    global: always
