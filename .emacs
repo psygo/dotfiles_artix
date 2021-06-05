@@ -349,6 +349,7 @@
 ;; Haskell
 (use-package haskell-mode)
 (add-hook 'haskell-mode-hook 'interactive-haskell-mode)
+(custom-set-variables '(haskell-process-type 'stack-ghci))
 (use-package lsp-haskell)
 (add-hook 'haskell-mode-hook #'lsp)
 (add-hook 'haskell-literate-mode-hook #'lsp)
