@@ -66,6 +66,8 @@ c.url.searchengines = {
     ':u':        'https://www.udemy.com/courses/search/?src={}',
     ':yt':       'https://www.youtube.com/results?search_query={}',
     ':w':        'https://en.wikipedia.org/wiki/{}',
+    ':wfr':       'https://fr.wikipedia.org/wiki/{}',
+    ':wpt':       'https://pt.wikipedia.org/wiki/{}',
 }
 #-------------------------------------------------------------------------------
 # Shortcuts
