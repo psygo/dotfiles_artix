@@ -1,0 +1,110 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAACf8AAAQ3AAAAAwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAADAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-05T09:35:48'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'brick: A declarative terminal user interface library'
+      url: https://hackage.haskell.org/package/brick
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-05T09:35:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Brick.AttrMap
+      url: https://hackage.haskell.org/package/brick-0.62/docs/Brick-AttrMap.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-05T09:35:48'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'jtdaugherty/brick: A declarative Unix terminal UI programming library
+        written in Haskell'
+      url: https://github.com/jtdaugherty/brick
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-05T09:35:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: brick/programs-screenshots.md at master · jtdaugherty/brick
+      url: https://github.com/jtdaugherty/brick/blob/master/docs/programs-screenshots.md
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-05T09:35:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: brick/guide.rst at master · jtdaugherty/brick
+      url: https://github.com/jtdaugherty/brick/blob/master/docs/guide.rst
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-05T09:35:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: brick/AttrDemo.hs at master · jtdaugherty/brick
+      url: https://github.com/jtdaugherty/brick/blob/master/programs/AttrDemo.hs
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-05T09:35:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'samtay/conway: A terminal interface for Conway''s Game of Life'
+      url: https://github.com/samtay/conway
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-05T09:35:47'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Building Terminal User Interfaces with Haskell - YouTube
+      url: https://www.youtube.com/watch?v=qbDQdXfcaO8
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-05T09:35:47'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'F(by) 2020 - Tom Sydney Kerckhove: Writing a text editor in Haskell
+        with Brick - YouTube'
+      url: https://www.youtube.com/watch?v=Kmf3lnln1BI
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-05T09:35:48'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: writing-a-text-editor-in-haskell-with-brick/package.yaml at master ·
+        NorfairKing/writing-a-text-editor-in-haskell-with-brick
+      url: https://github.com/NorfairKing/writing-a-text-editor-in-haskell-with-brick/blob/master/text-editor/package.yaml
+      zoom: 1.0
