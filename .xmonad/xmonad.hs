@@ -79,6 +79,7 @@ myKeys conf@XConfig {XMonad.modMask = modm} = M.fromList
     , ((modm .|. shiftMask, xK_f     ), spawn krusader)
     , ((modm              , xK_Print ), spawn screenshot)
     , ((modm              , xK_z     ), spawn zathura)
+    , ((modm              , xK_o     ), spawn okular)
       --------------------------------------------------------------------------
       -- Window Management
     , ((modm .|. shiftMask, xK_space ), sendMessage NextLayout)
@@ -122,4 +123,5 @@ krusader         = "krusader"
 qutebrowser      = "qutebrowser"
 screenshot       = "scrot ~/Pictures/Screenshots/screenshot.png"
 zathura          = "zathura"
+okular           = "okular"
 --------------------------------------------------------------------------------
