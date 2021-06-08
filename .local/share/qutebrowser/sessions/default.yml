@@ -1,12 +1,11 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAWzAAAAAAAACf8AAAIbAAADggAAACMAAAoAAAAEOAAAAAAABAAACgAAAAW2AAAA
-    AwAACfwAAAIY
+- geometry: !!binary |
+    AdnQywADAAAAAANmAAABaAAACf8AAALPAAADggAAACMAAAoAAAAEOAAAAAAABAAACgAAAANpAAAB
+    awAACfwAAALM
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:15'
+      last_visited: '2021-06-07T20:01:07'
       pinned: true
       scroll-pos:
         x: 0
@@ -16,7 +15,28 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:15'
+      last_visited: '2021-06-07T20:01:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: A First Look At Two Editions Of Peux OS (Xfce, XMonad)
+      url: https://odysee.com/@DistroTube:2/a-first-look-at-two-editions-of-peux-os:3
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-07T20:01:25'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'What Is Decentralization: The Future Of Tech?'
+      url: https://odysee.com/@BrodieRobertson:5/what-is-decentralization-the-future-of:5
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-07T20:01:06'
       pinned: true
       scroll-pos:
         x: 0
@@ -24,101 +44,173 @@ windows:
       title: YouTube
       url: https://www.youtube.com/
       zoom: 1.0
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-04T11:16:40'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Was I Wrong About Bujinkan? - YouTube
-      url: https://www.youtube.com/watch?v=KW29sU-XHNw
-      zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:17'
+      last_visited: '2021-06-07T20:01:06'
       pinned: false
       scroll-pos:
         x: 0
-        y: 0
-      title: 'How to Add Domain Specific Settings (CSS) into `config.py`? Is it possible?
-        : qutebrowser'
-      url: https://www.reddit.com/r/qutebrowser/comments/nro172/how_to_add_domain_specific_settings_css_into/
+        y: 80
+      title: Mitchellian rants and outbursts - David Mitchell on Would I Lie to You?
+        - YouTube
+      url: https://www.youtube.com/watch?v=iG6YaY_7ge0
       zoom: 1.0
 - geometry: !!binary |
-    AdnQywADAAAAAAAAAAAAAAAABbIAAAQ3AAAAAwAAAAMAAAWvAAAENAAAAAAAAAAACgAAAAADAAAA
-    AwAABa8AAAQ0
+    AdnQywADAAAAAAoAAAAAAAAADv8AAAQ3AAAKAwAAAAMAAA78AAAENAAAAAEAAAAACgAAAAoDAAAA
+    AwAADvwAAAQ0
   tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-07T20:01:07'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: hid-examples/Main.hs at master · bravit/hid-examples
+      url: https://github.com/bravit/hid-examples/blob/master/ch02/radar/Main.hs
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-07T20:01:08'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: scanl - Hoogle
+      url: https://hoogle.haskell.org/?hoogle=scanl
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-07T20:01:07'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Typeclassopedia - HaskellWiki
+      url: https://wiki.haskell.org/Typeclassopedia
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-07T20:01:06'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: BlazeHtml - Tutorial
+      url: https://jaspervdj.be/blaze/tutorial.html
+      zoom: 1.0
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-04T11:16:15'
+      last_visited: '2021-06-07T20:01:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'brick: A declarative terminal user interface library'
-      url: https://hackage.haskell.org/package/brick
+      title: 'Lucid: templating DSL for HTML'
+      url: https://chrisdone.com/posts/lucid/
+      zoom: 1.0
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAANmAAAAAAAACf8AAAQ3AAADaQAAAAMAAAn8AAAENAAAAAAAAAAACgAAAANpAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-07T20:01:09'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Library - Google Drive
+      url: https://drive.google.com/drive/u/0/folders/1A51pF843z2ysMpdHbT0ePQDssZRERczd
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:16'
+      last_visited: '2021-06-07T20:01:13'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Tmp
+      url: https://www.notion.so/psygo/Tmp-aa87fb79582c4b3e8f7309e1b35fce70?p=7cccc9e6e27c4a12a3fe11b8562cb473
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2021-06-07T20:01:07'
+      pinned: false
+      title: Library Genesis
+      url: http://libgen.rs/search.php?req=liquid+love&open=0&res=25&view=simple&phrase=1&column=identifier
+    - last_visited: '2021-06-07T20:01:50'
+      pinned: false
+      title: Library Genesis
+      url: http://libgen.rs/search.php?req=liquid%20love
+    - last_visited: '2021-06-07T20:02:57'
+      pinned: false
+      title: Library Genesis
+      url: http://libgen.rs/search.php?req=bescherelle&open=0&res=25&view=simple&phrase=1&column=def
+    - active: true
+      last_visited: '2021-06-07T20:03:37'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: brick/samtay-tutorial.md at master · jtdaugherty/brick
-      url: https://github.com/jtdaugherty/brick/blob/master/docs/samtay-tutorial.md
+      title: libgen.rs/search.php?&req=bescherelle&phrase=1&view=simple&column=def&sort=def&sortmode=ASC&page=2
+      url: http://libgen.rs/search.php?&req=bescherelle&phrase=1&view=simple&column=def&sort=def&sortmode=ASC&page=2
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:16'
+      last_visited: '2021-06-07T20:03:05'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'samtay/conway: A terminal interface for Conway''s Game of Life'
-      url: https://github.com/samtay/conway
+      title: 'Library Genesis: Bescherelle - La Grammaire pour tous'
+      url: http://libgen.rs/book/index.php?md5=556E3DDCE84879CF8DA74E796B5CA070
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-06-07T20:01:58'
+      pinned: false
+      title: 'Library Genesis: Zygmunt Bauman - Liquid Love: On the Frailty of Human
+        Bonds'
+      url: http://libgen.rs/book/index.php?md5=336071E756D41D93EBBC29B3415C1466
+    - active: true
+      last_visited: '2021-06-07T20:02:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: library.lol/main/336071E756D41D93EBBC29B3415C1466
+      url: http://library.lol/main/336071E756D41D93EBBC29B3415C1466
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:17'
+      last_visited: '2021-06-07T20:01:06'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Crazy question: Terminal within a Brick interface?'
-      url: https://groups.google.com/g/brick-users/c/0NT_nOX3sR4
+      title: The Pirate Bay - The galaxy's most resilient bittorrent site
+      url: https://thepiratebay.org/search.php?q=nothomb&cat=0
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:16'
+      last_visited: '2021-06-07T20:01:09'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: brick/guide.rst at master · jtdaugherty/brick
-      url: https://github.com/jtdaugherty/brick/blob/master/docs/guide.rst
+      title: Les aventures du brave soldat Švejk - Jaroslav Hasek - Gallimard - ebook
+        (ePub) - Librairie Gallimard PARIS
+      url: https://www.gallimardnumerique.com/ebook/9782072649219-les-aventures-du-brave-soldat-vejk-jaroslav-hasek/
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-04T11:16:16'
+      last_visited: '2021-06-07T20:01:10'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'jtdaugherty/brick: A declarative Unix terminal UI programming library
-        written in Haskell'
-      url: https://github.com/jtdaugherty/brick
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2021-06-04T11:16:15'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: tetris/Game.hs at master · samtay/tetris
-      url: https://github.com/samtay/tetris/blob/master/src/UI/Game.hs
+      title: 'Librarians: the profession and beyond'
+      url: https://www.reddit.com/r/librarians/
       zoom: 1.0
