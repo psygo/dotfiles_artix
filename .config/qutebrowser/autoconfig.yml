@@ -6,8 +6,6 @@
 
 config_version: 2
 settings:
-  content.notifications.enabled:
-    https://www.netflix.com: true
   statusbar.show:
     global: always
   tabs.show:
