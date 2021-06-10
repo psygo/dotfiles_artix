@@ -24,6 +24,7 @@
   pom          = push origin master
   pfm          = push fork master
   puom         = pull origin master
+  rm-submodule = rm --cached
 #------------------------------------------------------------------------------
 [gc]
   reflogExpire = never
