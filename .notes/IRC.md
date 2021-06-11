@@ -28,7 +28,7 @@ Connect to a network:
 Another form of connecting can be found in [this Haskell IRC example tutorial](https://wiki.haskell.org/IRC_channel):
 
 ```console
-$ irssi -c irc.libera.chat:6697 -n myname -w mypassword
+$ irssi -c irc.libera.chat -n <nick> -w <password>
   /join #haskell
 ```
 

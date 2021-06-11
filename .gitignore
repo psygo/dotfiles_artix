@@ -73,6 +73,9 @@
 !.config/mutt/muttrc
 !.config/mutt/signature
 
+!.irssi/
+!.irssi/config
+
 !.config/Sabaki/
 !.config/Sabaki/themes/
 !.config/Sabaki/themes/*
