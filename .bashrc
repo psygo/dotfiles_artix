@@ -99,6 +99,7 @@ alias kittyrc="vim ~/.config/kitty/kitty.conf"
 alias muttrc="vim ~/.config/mutt/muttrc"
 alias emacsrc="vim ~/.emacs"
 alias ghcirc="vim ~/.ghc/ghci.conf"
+alias irssirc="vim ~/.irssi/config"
 
 # Folders
 alias fanaro_io="cd ~/Code/FanaroEngineering/fanaro.io/"
