@@ -60,7 +60,7 @@ c.url.searchengines = {
     ':od':       'https://odysee.com/$/search?q={}',
     ':p':        'https://pub.dev/packages?q={}',
     ':pr':       'https://thepiratebay.org/search.php?q={}',
-    ':re':       'https://www.reddit.com/r/{}',
+    ':re':       'https://www.reddit.com/search/?q={}',
     ':sx':       'https://www.searx.bar/search?q={}',
     ':ub':       'https://www.urbandictionary.com/define.php?term={}',
     ':u':        'https://www.udemy.com/courses/search/?src={}',
