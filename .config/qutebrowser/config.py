@@ -9,6 +9,7 @@ config.load_autoconfig(False)
 config.set('content.notifications.enabled', False, 'https://www.reddit.com')
 config.set('content.notifications.enabled', False, 'https://calendar.google.com')
 config.set('content.notifications.enabled', False, 'https://facebook.com')
+config.set('content.notifications.enabled', False, 'https://youtube.com')
 config.set('content.media.audio_capture', True, 'https://meet.google.com')
 config.set('content.media.video_capture', True, 'https://meet.google.com')
 config.set('content.register_protocol_handler', True)
@@ -18,7 +19,7 @@ c.auto_save.session = True
 c.confirm_quit = ['downloads']
 c.content.tls.certificate_errors = 'block'
 c.downloads.location.directory = '/home/philippe/Downloads/'
-c.editor.command = ['kitty', 'vim', '"{}"']
+c.editor.command = ['kitty', 'nvim', '{}']
 # Colors & Media
 monospace = '8px "Fira Code"'
 c.colors.webpage.darkmode.enabled = True # requires a restart when changed

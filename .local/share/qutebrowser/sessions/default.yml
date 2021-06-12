@@ -1,11 +1,12 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAANmAAABaAAACf8AAALPAAADggAAACMAAAoAAAAEOAAAAAAABAAACgAAAANpAAAB
-    awAACfwAAALM
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAMw/////QAACfwAAAIYAAADggAAACMAAAoAAAAEOAAAAAAABAAACgAAAAMzAAAA
+    AAAACfkAAAIV
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:07'
+      last_visited: '2021-06-12T07:47:07'
       pinned: true
       scroll-pos:
         x: 0
@@ -15,28 +16,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:07'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: A First Look At Two Editions Of Peux OS (Xfce, XMonad)
-      url: https://odysee.com/@DistroTube:2/a-first-look-at-two-editions-of-peux-os:3
-      zoom: 1.0
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-07T20:01:25'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'What Is Decentralization: The Future Of Tech?'
-      url: https://odysee.com/@BrodieRobertson:5/what-is-decentralization-the-future-of:5
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2021-06-07T20:01:06'
+      last_visited: '2021-06-12T07:46:59'
       pinned: true
       scroll-pos:
         x: 0
@@ -46,22 +26,143 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:06'
+      last_visited: '2021-06-12T07:46:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Somehow, MoviePass Got Worse: Diabolical Tactics Uncovered! - News Dump
+        - YouTube'
+      url: https://www.youtube.com/watch?v=CubwRGM-Src
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:46:59'
       pinned: false
       scroll-pos:
         x: 0
         y: 80
-      title: Mitchellian rants and outbursts - David Mitchell on Would I Lie to You?
-        - YouTube
-      url: https://www.youtube.com/watch?v=iG6YaY_7ge0
+      title: Inflation Is Going CRAZY. But the government WANTS it. - YouTube
+      url: https://www.youtube.com/watch?v=dgDbuovQTv4
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-12T07:47:03'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 1633
+      title: 'How do you conditionally unbind shortcuts? : qutebrowser'
+      url: https://www.reddit.com/r/qutebrowser/comments/nxgono/how_do_you_conditionally_unbind_shortcuts/h1geia9/?context=3
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:46:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: linux hibernate - YouTube
+      url: https://www.youtube.com/results?search_query=linux+hibernate
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:47:49'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 540
+      title: Arch Linux + Grub | Setup Hibernation - YouTube
+      url: https://www.youtube.com/watch?v=Xek3TGKzLWw&t=343s
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:47:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: arch linux hibernate - searx
+      url: https://searx.bar/search?q=arch%20linux%20hibernate
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:47:03'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Can''t get hibernate to work? : archlinux'
+      url: https://www.reddit.com/r/archlinux/comments/85q84q/cant_get_hibernate_to_work/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:47:03'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Cannot restore session after hibernation : linuxquestions'
+      url: https://www.reddit.com/r/linuxquestions/comments/7swvyb/cannot_restore_session_after_hibernation/?utm_source=reddit-android
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:47:01'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: artix openrc hibernate - searx
+      url: https://searx.bar/search?q=artix%20openrc%20hibernate
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:47:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Power management (i.e. hibernation/shutdown) hangs on forever.
+      url: https://forum.artixlinux.org/index.php/topic,2252.0.html
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:47:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Suspend and hibernate - Gentoo Wiki
+      url: https://wiki.gentoo.org/wiki/Suspend_and_hibernate
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:47:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Power management/Suspend and hibernate - ArchWiki
+      url: https://wiki.archlinux.org/title/Power_management/Suspend%20and%20hibernate
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:47:09'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Wiki | Main / Artix Wiki Main Page | Search Results
+      url: https://wiki.artixlinux.org/?q=hibernate&n=Main.HomePage&action=search
       zoom: 1.0
 - geometry: !!binary |
-    AdnQywADAAAAAAoAAAAAAAAADv8AAAQ3AAAKAwAAAAMAAA78AAAENAAAAAEAAAAACgAAAAoDAAAA
-    AwAADvwAAAQ0
+    AdnQywADAAAAAAAAAAAAAAAAAzIAAAQ3AAAAAwAAAAMAAAMvAAAENAAAAAAAAAAACgAAAAADAAAA
+    AwAAAy8AAAQ0
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:07'
+      last_visited: '2021-06-12T07:47:00'
       pinned: true
       scroll-pos:
         x: 0
@@ -71,146 +172,93 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:08'
+      last_visited: '2021-06-12T07:47:14'
       pinned: true
       scroll-pos:
         x: 0
         y: 0
-      title: scanl - Hoogle
-      url: https://hoogle.haskell.org/?hoogle=scanl
+      title: maybe applicative - Hoogle
+      url: https://hoogle.haskell.org/?hoogle=maybe+applicative&scope=set%3Astackage
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:07'
-      pinned: false
+      last_visited: '2021-06-12T07:47:07'
+      pinned: true
       scroll-pos:
         x: 0
         y: 0
       title: Typeclassopedia - HaskellWiki
       url: https://wiki.haskell.org/Typeclassopedia
       zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2021-06-07T20:01:06'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: BlazeHtml - Tutorial
-      url: https://jaspervdj.be/blaze/tutorial.html
-      zoom: 1.0
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-07T20:01:06'
+      last_visited: '2021-06-12T07:47:00'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Lucid: templating DSL for HTML'
-      url: https://chrisdone.com/posts/lucid/
-      zoom: 1.0
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAANmAAAAAAAACf8AAAQ3AAADaQAAAAMAAAn8AAAENAAAAAAAAAAACgAAAANpAAAA
-    AwAACfwAAAQ0
-  tabs:
-  - history:
-    - active: true
-      last_visited: '2021-06-07T20:01:09'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Library - Google Drive
-      url: https://drive.google.com/drive/u/0/folders/1A51pF843z2ysMpdHbT0ePQDssZRERczd
+      title: Haskell/Category theory - Wikibooks, open books for an open world
+      url: https://en.wikibooks.org/wiki/Haskell/Category_theory
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:13'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Tmp
-      url: https://www.notion.so/psygo/Tmp-aa87fb79582c4b3e8f7309e1b35fce70?p=7cccc9e6e27c4a12a3fe11b8562cb473
-      zoom: 1.0
-  - active: true
-    history:
-    - last_visited: '2021-06-07T20:01:07'
-      pinned: false
-      title: Library Genesis
-      url: http://libgen.rs/search.php?req=liquid+love&open=0&res=25&view=simple&phrase=1&column=identifier
-    - last_visited: '2021-06-07T20:01:50'
-      pinned: false
-      title: Library Genesis
-      url: http://libgen.rs/search.php?req=liquid%20love
-    - last_visited: '2021-06-07T20:02:57'
-      pinned: false
-      title: Library Genesis
-      url: http://libgen.rs/search.php?req=bescherelle&open=0&res=25&view=simple&phrase=1&column=def
-    - active: true
-      last_visited: '2021-06-07T20:03:37'
+      last_visited: '2021-06-12T07:47:00'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: libgen.rs/search.php?&req=bescherelle&phrase=1&view=simple&column=def&sort=def&sortmode=ASC&page=2
-      url: http://libgen.rs/search.php?&req=bescherelle&phrase=1&view=simple&column=def&sort=def&sortmode=ASC&page=2
+      title: 'Abstraction, intuition, and the “monad tutorial fallacy” | blog :: Brent
+        -> [String]'
+      url: https://byorgey.wordpress.com/2009/01/12/abstraction-intuition-and-the-monad-tutorial-fallacy/
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-07T20:03:05'
+      last_visited: '2021-06-12T07:46:59'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Library Genesis: Bescherelle - La Grammaire pour tous'
-      url: http://libgen.rs/book/index.php?md5=556E3DDCE84879CF8DA74E796B5CA070
-      zoom: 1.0
-  - history:
-    - last_visited: '2021-06-07T20:01:58'
-      pinned: false
-      title: 'Library Genesis: Zygmunt Bauman - Liquid Love: On the Frailty of Human
-        Bonds'
-      url: http://libgen.rs/book/index.php?md5=336071E756D41D93EBBC29B3415C1466
-    - active: true
-      last_visited: '2021-06-07T20:02:02'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: library.lol/main/336071E756D41D93EBBC29B3415C1466
-      url: http://library.lol/main/336071E756D41D93EBBC29B3415C1466
+      title: Sets — containers 0.5.10.2 documentation
+      url: https://haskell-containers.readthedocs.io/en/latest/set.html#short-example
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:06'
+      last_visited: '2021-06-12T07:47:00'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: The Pirate Bay - The galaxy's most resilient bittorrent site
-      url: https://thepiratebay.org/search.php?q=nothomb&cat=0
+      title: 'summoner :: Kowainik'
+      url: https://kowainik.github.io/projects/summoner
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:09'
+      last_visited: '2021-06-12T07:46:59'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Les aventures du brave soldat Švejk - Jaroslav Hasek - Gallimard - ebook
-        (ePub) - Librairie Gallimard PARIS
-      url: https://www.gallimardnumerique.com/ebook/9782072649219-les-aventures-du-brave-soldat-vejk-jaroslav-hasek/
+      title: Pointfree.io
+      url: http://pointfree.io/
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-07T20:01:10'
+      last_visited: '2021-06-12T07:47:07'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: 'Librarians: the profession and beyond'
-      url: https://www.reddit.com/r/librarians/
+      title: Lambdabot - HaskellWiki
+      url: https://wiki.haskell.org/Lambdabot
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T07:46:59'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: KataCatalogue - Coding Dojo
+      url: http://codingdojo.org/KataCatalogue/
       zoom: 1.0
