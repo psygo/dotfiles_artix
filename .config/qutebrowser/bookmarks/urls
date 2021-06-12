@@ -1229,3 +1229,6 @@ https://cstheory.stackexchange.com/questions/1539/whats-new-in-purely-functional
 http://archive.fo/9sQhq Re: Instances for Set of Functor Traversable?
 http://blog.sigfpe.com/2008/12/mother-of-all-monads.html A Neighborhood of Infinity: The Mother of all Monads
 https://stackoverflow.com/questions/7460809/can-someone-explain-the-traverse-function-in-haskell traversal - Can someone explain the traverse function in Haskell? - Stack Overflow
+https://mail.haskell.org/pipermail/libraries/2007-May/007486.html why is Data.Set not a Monad?
+https://medium.com/twelve-days-of-monad/day-5-set-these-are-harder-than-youd-first-expect-7dd0eb5ae8d8 Day 5: Set — Harder Than You Might Expect | by Ben Clifford | Twelve Monads of Christmas | Medium
+https://stackoverflow.com/questions/16155336/what-can-arrows-do-that-monads-cant haskell - What can Arrows do that Monads can't? - Stack Overflow
