@@ -5,7 +5,7 @@ import dracula.draw
 
 config.load_autoconfig(False)
 
-# Misc
+# Notifications and Other Media Configs per Site
 config.set('content.notifications.enabled', False, 'https://www.reddit.com')
 config.set('content.notifications.enabled', False, 'https://calendar.google.com')
 config.set('content.notifications.enabled', False, 'https://facebook.com')
@@ -13,6 +13,9 @@ config.set('content.notifications.enabled', False, 'https://youtube.com')
 config.set('content.media.audio_capture', True, 'https://meet.google.com')
 config.set('content.media.video_capture', True, 'https://meet.google.com')
 config.set('content.register_protocol_handler', True)
+
+# Misc
+c.tabs.mode_on_change = 'restore'
 c.search.ignore_case = 'always'
 c.statusbar.show = 'always'
 c.auto_save.session = True
@@ -20,11 +23,13 @@ c.confirm_quit = ['downloads']
 c.content.tls.certificate_errors = 'block'
 c.downloads.location.directory = '/home/philippe/Downloads/'
 c.editor.command = ['kitty', 'nvim', '{}']
+
 # Colors & Media
 monospace = '8px "Fira Code"'
 c.colors.webpage.darkmode.enabled = True # requires a restart when changed
 c.colors.webpage.preferred_color_scheme = 'dark'
 c.colors.webpage.bg = 'black'
+
 # Tabs
 c.tabs.title.format = '{index} {current_title}'
 c.tabs.show = 'always'
@@ -108,6 +113,7 @@ config.unbind('d')
 config.unbind('r')
 config.bind('<ctrl+r>',       'reload')
 
+# Themes Shortcuts
 config.bind(',ex', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/experimental.css ""')
 config.bind(',ap', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/solarized/css/apprentice/apprentice-all-sites.css ""')
 config.bind(',dr', 'config-cycle content.user_stylesheets ~/.config/qutebrowser/solarized/css/darculized/darculized-all-sites.css ""')

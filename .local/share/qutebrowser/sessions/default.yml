@@ -1,12 +1,12 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAMw/////QAACfwAAAIYAAADggAAACMAAAoAAAAEOAAAAAAABAAACgAAAAMzAAAA
-    AAAACfkAAAIV
+    AdnQywADAAAAAAMw/////QAACfwAAAQ0AAADggAAACMAAAoAAAAEOAAAAAAABAAACgAAAAMzAAAA
+    AAAACfkAAAQx
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:07'
+      last_visited: '2021-06-12T08:07:26'
       pinned: true
       scroll-pos:
         x: 0
@@ -16,7 +16,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:46:59'
+      last_visited: '2021-06-12T07:51:08'
       pinned: true
       scroll-pos:
         x: 0
@@ -24,9 +24,10 @@ windows:
       title: YouTube
       url: https://www.youtube.com/
       zoom: 1.0
-  - history:
+  - active: true
+    history:
     - active: true
-      last_visited: '2021-06-12T07:46:59'
+      last_visited: '2021-06-12T07:51:08'
       pinned: false
       scroll-pos:
         x: 0
@@ -36,29 +37,26 @@ windows:
       url: https://www.youtube.com/watch?v=CubwRGM-Src
       zoom: 1.0
   - history:
+    - last_visited: '2021-06-12T07:51:10'
+      pinned: true
+      title: 'How do you conditionally unbind shortcuts? : qutebrowser'
+      url: https://www.reddit.com/r/qutebrowser/comments/nxgono/how_do_you_conditionally_unbind_shortcuts/h1geia9/?context=3
+    - last_visited: '2021-06-12T08:05:52'
+      pinned: true
+      title: Philippe Fanaro (u/Fanaro009) - Reddit
+      url: https://www.reddit.com/user/Fanaro009
     - active: true
-      last_visited: '2021-06-12T07:46:59'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 80
-      title: Inflation Is Going CRAZY. But the government WANTS it. - YouTube
-      url: https://www.youtube.com/watch?v=dgDbuovQTv4
-      zoom: 1.0
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-12T07:47:03'
+      last_visited: '2021-06-12T08:06:03'
       pinned: true
       scroll-pos:
         x: 0
-        y: 1633
+        y: 2711
       title: 'How do you conditionally unbind shortcuts? : qutebrowser'
-      url: https://www.reddit.com/r/qutebrowser/comments/nxgono/how_do_you_conditionally_unbind_shortcuts/h1geia9/?context=3
+      url: https://www.reddit.com/r/qutebrowser/comments/nxgono/how_do_you_conditionally_unbind_shortcuts/
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:46:59'
+      last_visited: '2021-06-12T07:51:08'
       pinned: false
       scroll-pos:
         x: 0
@@ -68,7 +66,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:49'
+      last_visited: '2021-06-12T08:01:31'
       pinned: false
       scroll-pos:
         x: 0
@@ -78,7 +76,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:00'
+      last_visited: '2021-06-12T07:51:09'
       pinned: false
       scroll-pos:
         x: 0
@@ -88,7 +86,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:03'
+      last_visited: '2021-06-12T07:51:10'
       pinned: false
       scroll-pos:
         x: 0
@@ -98,7 +96,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:03'
+      last_visited: '2021-06-12T07:51:10'
       pinned: false
       scroll-pos:
         x: 0
@@ -108,7 +106,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:01'
+      last_visited: '2021-06-12T07:51:08'
       pinned: false
       scroll-pos:
         x: 0
@@ -118,7 +116,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:05'
+      last_visited: '2021-06-12T07:51:16'
       pinned: false
       scroll-pos:
         x: 0
@@ -128,7 +126,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:00'
+      last_visited: '2021-06-12T07:51:08'
       pinned: false
       scroll-pos:
         x: 0
@@ -138,7 +136,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:00'
+      last_visited: '2021-06-12T07:51:08'
       pinned: false
       scroll-pos:
         x: 0
@@ -148,7 +146,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:09'
+      last_visited: '2021-06-12T07:51:16'
       pinned: false
       scroll-pos:
         x: 0
@@ -156,13 +154,23 @@ windows:
       title: Wiki | Main / Artix Wiki Main Page | Search Results
       url: https://wiki.artixlinux.org/?q=hibernate&n=Main.HomePage&action=search
       zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-12T08:06:44'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 81128
+      title: Setting reference
+      url: qute://help/settings.html#tabs.mode_on_change
+      zoom: 1.0
 - geometry: !!binary |
     AdnQywADAAAAAAAAAAAAAAAAAzIAAAQ3AAAAAwAAAAMAAAMvAAAENAAAAAAAAAAACgAAAAADAAAA
     AwAAAy8AAAQ0
   tabs:
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:00'
+      last_visited: '2021-06-12T07:51:08'
       pinned: true
       scroll-pos:
         x: 0
@@ -172,7 +180,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:14'
+      last_visited: '2021-06-12T07:51:08'
       pinned: true
       scroll-pos:
         x: 0
@@ -182,7 +190,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:07'
+      last_visited: '2021-06-12T07:51:15'
       pinned: true
       scroll-pos:
         x: 0
@@ -193,7 +201,7 @@ windows:
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-12T07:47:00'
+      last_visited: '2021-06-12T07:51:08'
       pinned: false
       scroll-pos:
         x: 0
@@ -203,7 +211,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:00'
+      last_visited: '2021-06-12T07:51:08'
       pinned: false
       scroll-pos:
         x: 0
@@ -214,7 +222,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:46:59'
+      last_visited: '2021-06-12T07:51:07'
       pinned: false
       scroll-pos:
         x: 0
@@ -224,7 +232,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:00'
+      last_visited: '2021-06-12T07:51:07'
       pinned: false
       scroll-pos:
         x: 0
@@ -234,7 +242,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:46:59'
+      last_visited: '2021-06-12T07:51:07'
       pinned: false
       scroll-pos:
         x: 0
@@ -244,7 +252,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:47:07'
+      last_visited: '2021-06-12T07:51:15'
       pinned: false
       scroll-pos:
         x: 0
@@ -254,7 +262,7 @@ windows:
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-12T07:46:59'
+      last_visited: '2021-06-12T07:51:07'
       pinned: false
       scroll-pos:
         x: 0
