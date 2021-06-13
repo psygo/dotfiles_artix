@@ -7,13 +7,13 @@ config.load_autoconfig(False)
 
 # Notifications and Other Media Configs per Site
 config.set('content.notifications.enabled', False, 'https://www.reddit.com')
-config.set('content.notifications.enabled', False, 'https://calendar.google.com')
-config.set('content.notifications.enabled', False, 'https://facebook.com')
-config.set('content.notifications.enabled', False, 'https://youtube.com')
-config.set('content.notifications.enabled', False, 'https://netflix.com')
-config.set('content.notifications.enabled', False, 'https://thepiratebay.org')
-config.set('content.media.audio_capture', True, 'https://meet.google.com')
-config.set('content.media.video_capture', True, 'https://meet.google.com')
+config.set('content.notifications.enabled', False, 'https://www.calendar.google.com')
+config.set('content.notifications.enabled', False, 'https://www.facebook.com')
+config.set('content.notifications.enabled', False, 'https://www.youtube.com')
+config.set('content.notifications.enabled', False, 'https://www.netflix.com')
+config.set('content.notifications.enabled', False, 'https://www.thepiratebay.org')
+config.set('content.media.audio_capture', True, 'https://www.meet.google.com')
+config.set('content.media.video_capture', True, 'https://www.meet.google.com')
 config.set('content.register_protocol_handler', True)
 
 # Misc
