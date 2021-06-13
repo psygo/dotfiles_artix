@@ -247,4 +247,6 @@ cnoremap bashrc e /home/philippe/.bashrc
 cnoremap xmonadrc e /home/philippe/.xmonad/xmonad.hs
 
 nnoremap gJ gJi <Esc>
+nmap j gj
+nmap k gk
 "-------------------------------------------------------------------------------
