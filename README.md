@@ -22,4 +22,10 @@ These are my configuration files for Linux &mdash; I'm currently using the [Arti
     - [Irssi](https://github.com/irssi/irssi) as my IRC TUI.
 - [Sabaki](https://sabaki.yichuanshen.de/) as my Go SGF editor.
 
+Another very important part of my setup is my organization. For that, besides the usual Linux standard folders, I have some other specific folders &mdash; which I've later on confirmed some other high profile programmers also using &mdash;:
+
+- `~/Code/` for where I put all of coding
+- `~/Notes/` where I store my mostly Markdown notes about various topics. It's currently around 3k+.
+- `~/Library/` is the place where all of my eBooks go. It's my digitized library and so much more. All of my study sessions nowadays are clutter-free in the real life.
+
 I also use some custom command-line programs which help create a more modern environment, like Rust's [`exa`](https://github.com/ogham/exa) and [`bat`](https://github.com/sharkdp/bat). Another strong recommendation I have is the amazing [`fzf`](https://github.com/junegunn/fzf) multi-tool, which also happens to have strong Vim integration through a plugin.
