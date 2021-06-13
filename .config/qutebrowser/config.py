@@ -62,6 +62,7 @@ c.url.searchengines = {
     ':aw':       'https://wiki.archlinux.org/?search={}',
     ':g':        'https://www.google.com/search?q={}',
     ':h':        'https://hoogle.haskell.org/?hoogle={}',
+    ':hw':       'https://wiki.haskell.org/index.php?search={}',
     ':l':        'https://www.linguee.pt/portugues-ingles/search?query={}',
     ':lbry':     'https://lbry.tv/$/search?q={}',
     ':libgen':   'http://libgen.rs/search.php?req={}',

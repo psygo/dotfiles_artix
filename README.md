@@ -29,3 +29,25 @@ Another very important part of my setup is my organization. For that, besides th
 - `~/Library/` is the place where all of my eBooks go. It's my digitized library and so much more. All of my study sessions nowadays are clutter-free in the real life.
 
 I also use some custom command-line programs which help create a more modern environment, like Rust's [`exa`](https://github.com/ogham/exa) and [`bat`](https://github.com/sharkdp/bat). Another strong recommendation I have is the amazing [`fzf`](https://github.com/junegunn/fzf) multi-tool, which also happens to have strong Vim integration through a plugin.
+
+```meta
+                   '                      \u@desktop 
+                  'o'                     ---------- 
+                 'ooo'                    OS: Artix Linux x86_64 
+                'ooxoo'                   Host: B360M GAMING HD 
+               'ooxxxoo'                  Kernel: 5.12.10-artix1-1 
+              'oookkxxoo'                 Uptime: 6 hours, 14 mins 
+             'oiioxkkxxoo'                Packages: 1191 (pacman) 
+            ':;:iiiioxxxoo'               Shell: bash 5.1.8 
+               `'.;::ioxxoo'              Resolution: 2560x1080, 2560x1080 
+          '-.      `':;jiooo'             WM: xmonad 
+         'oooio-..     `'i:io'            Theme: Adwaita-dark [GTK2/3] 
+        'ooooxxxxoio:,.   `'-;'           Icons: HighContrast [GTK2/3] 
+       'ooooxxxxxkkxoooIi:-.  `'          Terminal: kitty 
+      'ooooxxxxxkkkkxoiiiiiji'            CPU: Intel i7-8700 (12) @ 4.600GHz 
+     'ooooxxxxxkxxoiiii:'`     .i'        GPU: NVIDIA GeForce GTX 1060 6GB 
+    'ooooxxxxxoi:::'`       .;ioxo'       Memory: 7875MiB / 32045MiB 
+   'ooooxooi::'`         .:iiixkxxo'
+  'ooooi:'`                `'';ioxxo'                             
+ 'i:'`                          '':io'                            
+```
