@@ -30,6 +30,7 @@ Another very important part of my setup is my organization. For that, besides th
 
 I also use some custom command-line programs which help create a more modern environment, like Rust's [`exa`](https://github.com/ogham/exa) and [`bat`](https://github.com/sharkdp/bat). Another strong recommendation I have is the amazing [`fzf`](https://github.com/junegunn/fzf) multi-tool, which also happens to have strong Vim integration through a plugin.
 
+As an extra, here is [Neofetch](https://github.com/dylanaraps/neofetch)'s output on my machine:
 ```neofetch
                    '                      \u@desktop 
                   'o'                     ---------- 
