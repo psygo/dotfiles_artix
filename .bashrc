@@ -121,4 +121,5 @@ alias dartfmt="flutter dartfmt"
 alias cb="cabal new-build"
 alias cnr="cabal new-repl"
 alias stack-jupyter="stack exec jupyter -- notebook"
+alias ghci="stack ghci"
 #--------------------------------------------------------------------------------
