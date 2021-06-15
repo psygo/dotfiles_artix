@@ -50,6 +50,7 @@ Plug 'natebosch/dartlang-snippets'
 
 " Haskell
 Plug 'alx741/vim-hindent'
+Plug 'aiya000/vim-ghcid-quickfix'
 
 "" Themes
 Plug 'joshdick/onedark.vim'

@@ -114,6 +114,7 @@ config.unbind('b')
 config.unbind('m')
 config.unbind('d')
 config.unbind('r')
+config.unbind('<ctrl+shift+w')
 config.bind('<ctrl+r>',       'reload')
 
 # Themes Shortcuts
