@@ -37,7 +37,7 @@ c.tabs.title.format = '{index} {current_title}'
 c.tabs.show = 'always'
 c.tabs.background = True
 c.tabs.last_close = "close"
-c.tabs.select_on_remove = "prev"
+c.tabs.select_on_remove = "next"
 #-------------------------------------------------------------------------------
 # Themes
 
