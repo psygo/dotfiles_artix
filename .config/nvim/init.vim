@@ -118,6 +118,8 @@ set colorcolumn=80
 
 au! BufWritePost $MYVIMRC source %
 
+let g:syntastic_auto_jump = 0
+
 " Cursor
 let &t_SI = "\e[6 q"
 let &t_EI = "\e[2 q"
