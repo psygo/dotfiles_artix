@@ -18,6 +18,7 @@ These are my configuration files for Linux &mdash; I'm currently using the [Arti
     - [Brave](https://brave.com/) with [cVim](https://chrome.google.com/webstore/detail/cvim/ihlenndgcmojhcghmfjfneahoeklbjjh?hl=en), is my backup
 - [Zathura](https://pwmt.org/projects/zathura/) as a Vim-like way of viewing PDFs
     - However [Okular](https://okular.kde.org/) is still a big part of my workflow, specially when it comes to long books
+    - And [Calibre](https://calibre-ebook.com/) as an ebook file converter.
 - [Ferdi](https://getferdi.com/) as my messenger-unifying browser.
     - [Irssi](https://github.com/irssi/irssi) as my IRC TUI.
 - [Sabaki](https://sabaki.yichuanshen.de/) as my Go SGF editor.
