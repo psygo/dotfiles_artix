@@ -61,6 +61,7 @@ c.url.searchengines = {
     ':ambr':     'https://www.amazon.com.br/s?k={}',
     ':aw':       'https://wiki.archlinux.org/?search={}',
     ':g':        'https://www.google.com/search?q={}',
+    ':git':      'https://github.com/search?q={}',
     ':h':        'https://hoogle.haskell.org/?hoogle={}',
     ':hw':       'https://wiki.haskell.org/index.php?search={}',
     ':l':        'https://www.linguee.pt/portugues-ingles/search?query={}',
@@ -75,8 +76,8 @@ c.url.searchengines = {
     ':u':        'https://www.udemy.com/courses/search/?src={}',
     ':yt':       'https://www.youtube.com/results?search_query={}',
     ':w':        'https://en.wikipedia.org/wiki/{}',
-    ':wfr':       'https://fr.wikipedia.org/wiki/{}',
-    ':wpt':       'https://pt.wikipedia.org/wiki/{}',
+    ':wfr':      'https://fr.wikipedia.org/wiki/{}',
+    ':wpt':      'https://pt.wikipedia.org/wiki/{}',
 }
 #-------------------------------------------------------------------------------
 # Shortcuts
