@@ -1,5 +1,7 @@
 # My Dotfiles
 
+> I've written a [post about this setup on my website](https://fanaro.io/articles/my_dotfiles/my_dotfiles.html), with extra tips and explanations.
+
 These are my configuration files for Linux &mdash; I'm currently using the [Artix](https://artixlinux.org/) distro &mdash;; I focus a lot on minimalism. Anyway, I currently use:
 
 - [Kitty](https://sw.kovidgoyal.net/kitty/) as my terminal, very fast and supports font ligatures
