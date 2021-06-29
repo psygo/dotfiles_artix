@@ -7,7 +7,7 @@ config.load_autoconfig(False)
 
 # Notifications and Other Media Configs per Site
 config.set('content.notifications.enabled', False, 'https://www.reddit.com')
-config.set('content.notifications.enabled', False, 'https://www.calendar.google.com')
+config.set('content.notifications.enabled', False, 'https://calendar.google.com')
 config.set('content.notifications.enabled', False, 'https://www.facebook.com')
 config.set('content.notifications.enabled', False, 'https://www.youtube.com')
 config.set('content.notifications.enabled', False, 'https://www.netflix.com')
