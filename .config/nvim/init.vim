@@ -220,7 +220,7 @@ nmap <C-l> <C-w>l
 nmap <F5> :source ~/.config/nvim/init.vim<CR>
 
 nnoremap <SPACE> <Nop>
-let g:mapleader = "<Space>"
+let g:mapleader = " "
 nmap <leader>w <cmd>w!<CR>
 nmap <leader>q <cmd>q!<CR>
 nmap <leader>wq <cmd>wq!<CR>

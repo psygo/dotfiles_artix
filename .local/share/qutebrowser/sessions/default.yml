@@ -1,6 +1,73 @@
 windows:
 - active: true
   geometry: !!binary |
-    AdnQywADAAAAAAAAAAAAAAAACf8AAAQ3AAAAAwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAADAAAA
+    AdnQywADAAAAAAUAAAAAAAAACf8AAAQ3AAADAwAAABQAAAn8AAAERQAAAAAABAAACgAAAAUDAAAA
     AwAACfwAAAQ0
-  tabs: []
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-06-28T09:05:37'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: odysee.com
+      url: https://odysee.com/
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-28T09:05:36'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: (1) YouTube
+      url: https://www.youtube.com/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-28T09:05:38'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Rob Reid: The Existential Threat of Engineered Viruses and Lab Leaks
+        | Lex Fridman Podcast #193 - YouTube'
+      url: https://www.youtube.com/watch?v=cuD9uNFXnU8&list=WL&index=5
+      zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAAAAABP8AAAQ3AAAAAwAAAAMAAAT8AAAENAAAAAAAAAAACgAAAAADAAAA
+    AwAABPwAAAQ0
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-06-28T09:05:37'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: fanaro.io
+      url: https://fanaro.io/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-28T09:05:39'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Content
+      url: https://github.com/FanaroEngineering/fanaro.io/projects/2
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-06-28T09:05:36'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 127.0.0.1
+      url: http://127.0.0.1:8080/articles/introducao_ao_meu_canal/introducao_ao_meu_canal.html
+      zoom: 1.0
