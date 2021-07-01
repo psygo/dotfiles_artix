@@ -1,4 +1,4 @@
-let blacklists = ["https://www.youtube.com/*"]
+let blacklists = ["https://www.youtube.com/*", "https://www.online-go.com"]
 
 site '*://*.twitter.com/*' {
       unmap j
