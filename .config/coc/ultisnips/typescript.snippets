@@ -10,3 +10,23 @@ snippet comment_ln "Comment Line with Dashes" b
 /*----------------------------------------------------------------------------*/
 endsnippet
 #-------------------------------------------------------------------------------
+# fanaro.io
+
+snippet fanaro_component "A typcical component for fanaro.io" b
+export default class $1 extends HTMLElement {
+	static readonly tag: string = "$2";
+
+	private static readonly template: string = \`
+	$3
+	\`;
+
+	constructor() {
+		super();
+	}
+
+	connectedCallback() {
+		$4
+	}
+}
+endsnippet
+#-------------------------------------------------------------------------------
