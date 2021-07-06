@@ -56,10 +56,11 @@ c.url.start_pages = [my_search_engine]
 c.url.default_page = my_search_engine
 
 c.url.searchengines = {
-    'DEFAULT': f'{my_search_engine}/search?q=' + '{}',
+    'DEFAULT':  f'{my_search_engine}/search?q=' + '{}',
     ':am':       'https://www.amazon.com/s?k={}',
     ':ambr':     'https://www.amazon.com.br/s?k={}',
     ':aw':       'https://wiki.archlinux.org/?search={}',
+    ':col':      'https://www.collinsdictionary.com/us/dictionary/english/{}',
     ':g':        'https://www.google.com/search?q={}',
     ':gh':       'https://github.com/search?q={}',
     ':gr':       'https://goodreads.com/search?q={}',
