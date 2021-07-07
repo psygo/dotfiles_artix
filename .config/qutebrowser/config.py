@@ -50,7 +50,8 @@ dracula.draw.blood(c, {
 #-------------------------------------------------------------------------------
 # Search Engines
 
-my_search_engine = 'https://www.searx.bar'
+# my_search_engine = 'https://www.searx.bar'
+my_search_engine = 'https://search.brave.com'
 
 c.url.start_pages = [my_search_engine]
 c.url.default_page = my_search_engine
@@ -60,12 +61,14 @@ c.url.searchengines = {
     ':am':      'https://www.amazon.com/s?k={}',
     ':ambr':    'https://www.amazon.com.br/s?k={}',
     ':aw':      'https://wiki.archlinux.org/?search={}',
+    ':br':      'https://search.brave.com/search?={}',
     ':col':     'https://www.collinsdictionary.com/us/dictionary/english/{}',
     ':g':       'https://www.google.com/search?q={}',
     ':gh':      'https://github.com/search?q={}',
     ':gr':      'https://goodreads.com/search?q={}',
     ':h':       'https://hoogle.haskell.org/?hoogle={}',
     ':hw':      'https://wiki.haskell.org/index.php?search={}',
+    ':isbn':    'https://isbnsearch.org/search?s={}',
     ':l':       'https://www.linguee.pt/portugues-ingles/search?query={}',
     ':lbry':    'https://lbry.tv/$/search?q={}',
     ':libgen':  'http://libgen.rs/search.php?req={}',
@@ -81,6 +84,7 @@ c.url.searchengines = {
     ':w':       'https://en.wikipedia.org/wiki/{}',
     ':wfr':     'https://fr.wikipedia.org/wiki/{}',
     ':wpt':     'https://pt.wikipedia.org/wiki/{}',
+    ':wq':      'https://en.wikiquote.org/wiki/Special:Search?search={}',
 }
 #-------------------------------------------------------------------------------
 # Shortcuts
