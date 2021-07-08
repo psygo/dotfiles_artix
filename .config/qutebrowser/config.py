@@ -77,6 +77,7 @@ c.url.searchengines = {
     ':pr':      'https://thepiratebay.org/search.php?q={}',
     ':prib':    'https://dicionario.priberam.org/{}',
     ':re':      'https://www.reddit.com/search/?q={}',
+    ':sensei':  'https://senseis.xmp.net/?search={}',
     ':sx':      'https://www.searx.bar/search?q={}',
     ':ub':      'https://www.urbandictionary.com/define.php?term={}',
     ':u':       'https://www.udemy.com/courses/search/?src={}',
