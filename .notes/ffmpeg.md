@@ -21,6 +21,12 @@ Probing to see if everything went as expected:
 ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 sample.mp4
 ```
 
+Export audio:
+
+```sh
+ffmpeg -i sample.avi -q:a 0 -map a sample.mp3
+```
+
 ## Concatenate Videos
 
 Note that, if you don't have the **same video and audio encodings**, the following won't work &mdash; use another strategy then.

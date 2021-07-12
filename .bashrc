@@ -122,4 +122,7 @@ alias cb="cabal new-build"
 alias cnr="cabal new-repl"
 alias stack-jupyter="stack exec jupyter -- notebook"
 alias ghci="stack ghci"
+
+# Video and FFMPEG
+alias video_resolution="ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of csv=s=x:p=0"
 #--------------------------------------------------------------------------------
