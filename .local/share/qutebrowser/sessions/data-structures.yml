@@ -1,0 +1,62 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAATmAAAAAAAACf8AAAQ3AAAE6QAAAAMAAAn8AAAENAAAAAAAAAAACgAAAATpAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - history:
+    - active: true
+      last_visited: '2021-07-13T09:02:33'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Mastering Data Structures & Algorithms using C and C++ | Udemy
+      url: https://www.udemy.com/course/datastructurescncpp/learn/lecture/23244872#content
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-13T09:02:34'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'psygo/problem_solving: A repo for practicing programming problem solving.'
+      url: https://github.com/psygo/problem_solving
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-13T09:02:34'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home | Codewars
+      url: https://www.codewars.com/dashboard
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-13T09:02:33'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: GDB online Debugger | Compiler - Code, Compile, Run, Debug online C,
+        C++
+      url: https://www.onlinegdb.com/
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2021-07-13T17:58:19'
+      pinned: true
+      title: code forces - Brave Search
+      url: https://search.brave.com/search?q=code%20forces
+    - active: true
+      last_visited: '2021-07-13T17:58:23'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Codeforces
+      url: http://codeforces.com/
+      zoom: 1.0
