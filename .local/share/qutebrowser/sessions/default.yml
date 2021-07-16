@@ -1,12 +1,15 @@
 windows:
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAUAAAAAAAAACf8AAAQ3AAADAwAAABQAAAn8AAAERQAAAAAABAAACgAAAAUDAAAA
+- geometry: !!binary |
+    AdnQywADAAAAAAMZAAAAAAAACf8AAAQ3AAADAwAAABQAAAn8AAAERQAAAAAABAAACgAAAAMcAAAA
     AwAACfwAAAQ0
   tabs:
   - history:
+    - last_visited: '2021-07-14T09:33:07'
+      pinned: true
+      title: odysee.com
+      url: https://odysee.com/
     - active: true
-      last_visited: '2021-06-28T09:05:37'
+      last_visited: '2021-07-14T13:48:26'
       pinned: true
       scroll-pos:
         x: 0
@@ -17,43 +20,22 @@ windows:
   - active: true
     history:
     - active: true
-      last_visited: '2021-06-28T09:05:36'
+      last_visited: '2021-07-14T13:46:26'
       pinned: true
       scroll-pos:
         x: 0
-        y: 0
-      title: (1) YouTube
+        y: 400
+      title: YouTube
       url: https://www.youtube.com/
       zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2021-06-28T09:05:38'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'Rob Reid: The Existential Threat of Engineered Viruses and Lab Leaks
-        | Lex Fridman Podcast #193 - YouTube'
-      url: https://www.youtube.com/watch?v=cuD9uNFXnU8&list=WL&index=5
-      zoom: 1.0
-- geometry: !!binary |
-    AdnQywADAAAAAAAAAAAAAAAABP8AAAQ3AAAAAwAAAAMAAAT8AAAENAAAAAAAAAAACgAAAAADAAAA
-    AwAABPwAAAQ0
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAKAAAAAAAAACf8AAAQ3AAACgwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAKDAAAA
+    AwAACfwAAAQ0
   tabs:
-  - active: true
-    history:
-    - active: true
-      last_visited: '2021-06-28T09:05:37'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: fanaro.io
-      url: https://fanaro.io/
-      zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-06-28T09:05:39'
+      last_visited: '2021-07-14T09:33:10'
       pinned: true
       scroll-pos:
         x: 0
@@ -62,12 +44,151 @@ windows:
       url: https://github.com/FanaroEngineering/fanaro.io/projects/2
       zoom: 1.0
   - history:
+    - last_visited: '2021-07-14T09:37:24'
+      pinned: true
+      title: fanaro.io
+      url: http://127.0.0.1:8080/
     - active: true
-      last_visited: '2021-06-28T09:05:36'
+      last_visited: '2021-07-14T14:37:49'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 4551
+      title: Scripted Classes vs Consulting or Private Lessons
+      url: http://127.0.0.1:8080/articles/scripted_classes_vs_private_lessons/scripted_classes_vs_private_lessons.html
+      zoom: 1.5
+  - history:
+    - active: true
+      last_visited: '2021-07-14T15:08:21'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 2174
+      title: 'On Korea: A Brief Summary of My Experience'
+      url: https://fanaro.io/articles/on_korea/on_korea.html#3-my-choice-for-the-main-path
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-07-14T15:12:01'
+      pinned: false
+      title: Channel dashboard - YouTube Studio
+      url: https://studio.youtube.com/channel/UCuUK6AAtvo8cTFOJ3OOg9Mw
+    - active: true
+      last_visited: '2021-07-14T15:12:03'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Channel content - YouTube Studio
+      url: https://studio.youtube.com/channel/UCuUK6AAtvo8cTFOJ3OOg9Mw/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-14T15:25:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: The Master of Go - Wikipedia
+      url: https://en.wikipedia.org/wiki/The_Master_of_Go
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2021-07-14T15:29:59'
+      pinned: false
+      title: My Drive - Google Drive
+      url: https://drive.google.com/drive/u/0/my-drive
+    - last_visited: '2021-07-14T15:30:06'
+      pinned: false
+      title: Library - Google Drive
+      url: https://drive.google.com/drive/u/0/folders/1A51pF843z2ysMpdHbT0ePQDssZRERczd
+    - last_visited: '2021-07-14T15:30:08'
+      pinned: false
+      title: My Drive - Google Drive
+      url: https://drive.google.com/drive/u/0/my-drive
+    - last_visited: '2021-07-14T15:30:09'
+      pinned: false
+      title: Media - Google Drive
+      url: https://drive.google.com/drive/u/0/folders/1FqzjKmPS76XMOfJzJ0HDzizD_gXmiO8g
+    - last_visited: '2021-07-14T15:30:12'
+      pinned: false
+      title: YouTube Channel - Google Drive
+      url: https://drive.google.com/drive/u/0/folders/1V2pMY3bbes4RNEHRYT0Ye1V0CWZENdN1
+    - last_visited: '2021-07-14T15:30:28'
+      pinned: false
+      title: Aulas Típicas vs Aulas Regulares - Google Drive
+      url: https://drive.google.com/drive/u/0/folders/1-U3rOViSWL5IEwBfwhQOIh51ibbi5chK
+    - active: true
+      last_visited: '2021-07-14T15:32:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: YouTube Channel - Google Drive
+      url: https://drive.google.com/drive/u/0/folders/1V2pMY3bbes4RNEHRYT0Ye1V0CWZENdN1
+      zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAAAAATmAAAAAAAACf8AAAQ3AAAE6QAAAAMAAAn8AAAENAAAAAAAAAAACgAAAATpAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-07-14T09:33:07'
       pinned: true
       scroll-pos:
         x: 0
         y: 0
-      title: 127.0.0.1
-      url: http://127.0.0.1:8080/articles/introducao_ao_meu_canal/introducao_ao_meu_canal.html
+      title: Mastering Data Structures & Algorithms using C and C++ | Udemy
+      url: https://www.udemy.com/course/datastructurescncpp/learn/lecture/23244884#content
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-14T09:33:08'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'psygo/problem_solving: A repo for practicing programming problem solving.'
+      url: https://github.com/psygo/problem_solving
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-14T09:33:07'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Home | Codewars
+      url: https://www.codewars.com/dashboard
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-14T09:33:07'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: GDB online Debugger | Compiler - Code, Compile, Run, Debug online C,
+        C++
+      url: https://www.onlinegdb.com/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-14T09:33:08'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Codeforces
+      url: http://codeforces.com/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-14T13:49:19'
+      pinned: true
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Dashboard | HackerRank
+      url: https://www.hackerrank.com/dashboard
       zoom: 1.0
