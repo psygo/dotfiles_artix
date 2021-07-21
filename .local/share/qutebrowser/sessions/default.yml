@@ -1,15 +1,16 @@
 windows:
-- geometry: !!binary |
-    AdnQywADAAAAAAMZAAAAAAAACf8AAAQ3AAADAwAAABQAAAn8AAAERQAAAAAABAAACgAAAAMcAAAA
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAANmAAAAAAAACf8AAAQ3AAADAwAAABQAAAn8AAAERQAAAAAABAAACgAAAANpAAAA
     AwAACfwAAAQ0
   tabs:
   - history:
-    - last_visited: '2021-07-14T09:33:07'
+    - last_visited: '2021-07-21T08:54:15'
       pinned: true
       title: odysee.com
       url: https://odysee.com/
     - active: true
-      last_visited: '2021-07-14T13:48:26'
+      last_visited: '2021-07-21T18:10:23'
       pinned: true
       scroll-pos:
         x: 0
@@ -19,23 +20,166 @@ windows:
       zoom: 1.0
   - active: true
     history:
+    - last_visited: '2021-07-21T13:10:02'
+      pinned: true
+      title: YouTube
+      url: https://www.youtube.com/
+    - last_visited: '2021-07-21T13:10:02'
+      pinned: true
+      title: YouTube
+      url: https://www.youtube.com/
+    - last_visited: '2021-07-21T18:43:21'
+      pinned: true
+      title: Ramsey Dewey - YouTube
+      url: https://www.youtube.com/post/UgxJpKg5_1PGgxMLYZJ4AaABCQ
     - active: true
-      last_visited: '2021-07-14T13:46:26'
+      last_visited: '2021-07-21T18:43:30'
       pinned: true
       scroll-pos:
         x: 0
-        y: 400
+        y: 0
       title: YouTube
       url: https://www.youtube.com/
       zoom: 1.0
-- active: true
-  geometry: !!binary |
-    AdnQywADAAAAAAKAAAAAAAAACf8AAAQ3AAACgwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAKDAAAA
-    AwAACfwAAAQ0
-  tabs:
   - history:
     - active: true
-      last_visited: '2021-07-14T09:33:10'
+      last_visited: '2021-07-21T18:43:35'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Are the Cuban Protests America’s Fault? - YouTube
+      url: https://www.youtube.com/watch?v=xEuYTrHvfcM
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T13:10:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Let's be honest about HEMA - "Historical European Martial Arts" and what
+        it should mean and allow. - YouTube
+      url: https://www.youtube.com/watch?v=ZAzUSeV5NIA
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T17:06:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Death''s Door - Let''s Play Part 1: Lost Cemetary - YouTube'
+      url: https://www.youtube.com/watch?v=LPcaldfhB6M
+      zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAAAAAUAAAAAAAAACf8AAAQ3AAAFAwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAUDAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - active: true
+    history:
+    - active: true
+      last_visited: '2021-07-21T08:54:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 'Does anyone have a link to an article of a pro commenting on this "trick"
+        play? : baduk'
+      url: https://www.reddit.com/r/baduk/comments/iz5388/does_anyone_have_a_link_to_an_article_of_a_pro/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T08:54:32'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Waltheri's go pattern search - find position in pro games
+      url: http://ps.waltheri.net/448510/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T08:54:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 13288
+      title: Alakazam is back! • Life In 19x19
+      url: https://www.lifein19x19.com/viewtopic.php?p=161730#p161730
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-07-21T08:54:24'
+      pinned: false
+      title: Punishing the hane (for beginners) • Life In 19x19
+      url: https://www.lifein19x19.com/forum/viewtopic.php?p=101935#p101935
+    - active: true
+      last_visited: '2021-07-21T15:48:46'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 6464
+      title: Punishing the hane (for beginners) • Life In 19x19
+      url: https://www.lifein19x19.com/forum/viewtopic.php?f=15&t=6155&sid=af8522eda28b7aec4ae9503147891835&start=20
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T15:20:09'
+      original-url: http://senseis.xmp.net/?GoBloopers
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Go Bloopers at Sensei's Library
+      url: https://senseis.xmp.net/?GoBloopers
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T08:54:24'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: How to punish this mistake? • Life In 19x19
+      url: https://www.lifein19x19.com/forum/viewtopic.php?t=10053
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T15:10:56'
+      original-url: http://senseis.xmp.net/?44PointOneSpaceLowPincerInvasionInterception
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: 4-4 point one-space low pincer invasion, interception at Sensei's Library
+      url: https://senseis.xmp.net/?44PointOneSpaceLowPincerInvasionInterception
+      zoom: 1.0
+  - history:
+    - last_visited: '2021-07-21T08:54:15'
+      pinned: false
+      title: 'Nevermeltice: go'
+      url: http://ygami.blogspot.com/search/label/go
+    - active: true
+      last_visited: '2021-07-21T14:36:23'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 8400
+      title: 'Nevermeltice: Joseki Explained: Intro, Star Opening: Part I - "Separated
+        in the Subway"'
+      url: http://ygami.blogspot.com/2014/02/joseki-explained-intro-star-opening.html
+      zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAD////9/////QAAA68AAAQ0AAAAAAAAAAAAAAOsAAAEMQAAAAAAAAAACgAAAAAAAAAA
+    AAAAA6wAAAQx
+  tabs:
+  - history:
+    - last_visited: '2021-07-21T09:11:31'
+      pinned: true
+      title: Brave Search
+      url: https://search.brave.com/
+    - active: true
+      last_visited: '2021-07-21T09:11:35'
       pinned: true
       scroll-pos:
         x: 0
@@ -43,152 +187,134 @@ windows:
       title: Content
       url: https://github.com/FanaroEngineering/fanaro.io/projects/2
       zoom: 1.0
-  - history:
-    - last_visited: '2021-07-14T09:37:24'
+  - active: true
+    history:
+    - last_visited: '2021-07-21T09:56:50'
       pinned: true
       title: fanaro.io
       url: http://127.0.0.1:8080/
     - active: true
-      last_visited: '2021-07-14T14:37:49'
+      last_visited: '2021-07-21T18:23:25'
       pinned: true
       scroll-pos:
         x: 0
-        y: 4551
-      title: Scripted Classes vs Consulting or Private Lessons
-      url: http://127.0.0.1:8080/articles/scripted_classes_vs_private_lessons/scripted_classes_vs_private_lessons.html
-      zoom: 1.5
-  - history:
-    - active: true
-      last_visited: '2021-07-14T15:08:21'
-      pinned: false
-      scroll-pos:
-        x: 0
-        y: 2174
-      title: 'On Korea: A Brief Summary of My Experience'
-      url: https://fanaro.io/articles/on_korea/on_korea.html#3-my-choice-for-the-main-path
+        y: 0
+      title: The Canonical Trick Play
+      url: http://127.0.0.1:8080/articles/canonical_trick_play/canonical_trick_play.html
       zoom: 1.0
+- geometry: !!binary |
+    AdnQywADAAAAAAUAAAAAAAAACf8AAAQ3AAAFAwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAAUDAAAA
+    AwAACfwAAAQ0
+  tabs:
   - history:
-    - last_visited: '2021-07-14T15:12:01'
-      pinned: false
-      title: Channel dashboard - YouTube Studio
-      url: https://studio.youtube.com/channel/UCuUK6AAtvo8cTFOJ3OOg9Mw
     - active: true
-      last_visited: '2021-07-14T15:12:03'
+      last_visited: '2021-07-21T16:46:47'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: Channel content - YouTube Studio
-      url: https://studio.youtube.com/channel/UCuUK6AAtvo8cTFOJ3OOg9Mw/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D
+      title: KOTRA SAO PAULO
+      url: https://www.kotra.or.kr/foreign/kotra/KHENKT200M.html?DEPT_CD=1039418&DEPT_NM=KTC,%20SAO%20PAULO(Div.%20Comercial%20de%20Consulado%20Geral%20da%20Coreia)&NATI_NM=Brazil&DEPT_NM2=SAO%20PAULO&homepage=
       zoom: 1.0
   - history:
     - active: true
-      last_visited: '2021-07-14T15:25:42'
+      last_visited: '2021-07-21T16:47:00'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: The Master of Go - Wikipedia
-      url: https://en.wikipedia.org/wiki/The_Master_of_Go
+      title: Links ÚteisEmbaixada da República da Coreia na República Federativa do
+        Brasil
+      url: https://overseas.mofa.go.kr/br-pt/wpge/m_6128/contents.do
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T16:47:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Embaixada República da Coreia (@embaixadacoreia) • Instagram photos
+        and videos
+      url: https://www.instagram.com/embaixadacoreia/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T16:47:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: embaixada coreana brasil - Brave Search
+      url: https://search.brave.com/search?q=embaixada+coreana+brasil&source=web
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T16:47:02'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 5505
+      title: AsiaColors - Pioneira em diplomacia pública de países da Ásia no Brasil
+      url: http://www.asiacolors.com.br/?fbclid=IwAR3TIXulaM6TIi4eFEEYrMipytHajrIbnheeMpX1RHJdTyHcxITl6Wu9pyA#contact
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T16:47:03'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 316
+      title: AsiaColors | Facebook
+      url: https://www.facebook.com/AsiaColorsBR/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T16:47:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: BrazilKorea - Site sobre a Coreia do Sul e cultura coreana no Brasil
+      url: https://www.brazilkorea.com.br/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-21T16:47:05'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: KOTRA SAO PAULO
+      url: https://www.kotra.or.kr/foreign/kotra/KHENKT200M.html?DEPT_CD=1039418&DEPT_NM=KTC,%20SAO%20PAULO(Div.%20Comercial%20de%20Consulado%20Geral%20da%20Coreia)&NATI_NM=Brazil&DEPT_NM2=SAO%20PAULO&homepage=
       zoom: 1.0
   - active: true
     history:
-    - last_visited: '2021-07-14T15:29:59'
-      pinned: false
-      title: My Drive - Google Drive
-      url: https://drive.google.com/drive/u/0/my-drive
-    - last_visited: '2021-07-14T15:30:06'
-      pinned: false
-      title: Library - Google Drive
-      url: https://drive.google.com/drive/u/0/folders/1A51pF843z2ysMpdHbT0ePQDssZRERczd
-    - last_visited: '2021-07-14T15:30:08'
-      pinned: false
-      title: My Drive - Google Drive
-      url: https://drive.google.com/drive/u/0/my-drive
-    - last_visited: '2021-07-14T15:30:09'
-      pinned: false
-      title: Media - Google Drive
-      url: https://drive.google.com/drive/u/0/folders/1FqzjKmPS76XMOfJzJ0HDzizD_gXmiO8g
-    - last_visited: '2021-07-14T15:30:12'
-      pinned: false
-      title: YouTube Channel - Google Drive
-      url: https://drive.google.com/drive/u/0/folders/1V2pMY3bbes4RNEHRYT0Ye1V0CWZENdN1
-    - last_visited: '2021-07-14T15:30:28'
-      pinned: false
-      title: Aulas Típicas vs Aulas Regulares - Google Drive
-      url: https://drive.google.com/drive/u/0/folders/1-U3rOViSWL5IEwBfwhQOIh51ibbi5chK
     - active: true
-      last_visited: '2021-07-14T15:32:00'
+      last_visited: '2021-07-21T16:47:07'
       pinned: false
       scroll-pos:
         x: 0
         y: 0
-      title: YouTube Channel - Google Drive
-      url: https://drive.google.com/drive/u/0/folders/1V2pMY3bbes4RNEHRYT0Ye1V0CWZENdN1
+      title: KOTRA
+      url: https://www.kotra.or.kr/kh/ftrader/ftraderEng.do
       zoom: 1.0
 - geometry: !!binary |
-    AdnQywADAAAAAATmAAAAAAAACf8AAAQ3AAAE6QAAAAMAAAn8AAAENAAAAAAAAAAACgAAAATpAAAA
-    AwAACfwAAAQ0
+    AdnQywADAAD////9/////QAABPwAAAQ0AAAAAAAAAAAAAAT5AAAEMQAAAAAAAAAACgAAAAAAAAAA
+    AAAABPkAAAQx
   tabs:
   - active: true
     history:
+    - last_visited: '2021-07-21T16:51:15'
+      pinned: true
+      title: Brave Search
+      url: https://search.brave.com/
     - active: true
-      last_visited: '2021-07-14T09:33:07'
+      last_visited: '2021-07-21T16:51:26'
       pinned: true
       scroll-pos:
         x: 0
         y: 0
-      title: Mastering Data Structures & Algorithms using C and C++ | Udemy
-      url: https://www.udemy.com/course/datastructurescncpp/learn/lecture/23244884#content
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2021-07-14T09:33:08'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: 'psygo/problem_solving: A repo for practicing programming problem solving.'
-      url: https://github.com/psygo/problem_solving
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2021-07-14T09:33:07'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Home | Codewars
-      url: https://www.codewars.com/dashboard
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2021-07-14T09:33:07'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: GDB online Debugger | Compiler - Code, Compile, Run, Debug online C,
-        C++
-      url: https://www.onlinegdb.com/
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2021-07-14T09:33:08'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Codeforces
-      url: http://codeforces.com/
-      zoom: 1.0
-  - history:
-    - active: true
-      last_visited: '2021-07-14T13:49:19'
-      pinned: true
-      scroll-pos:
-        x: 0
-        y: 0
-      title: Dashboard | HackerRank
-      url: https://www.hackerrank.com/dashboard
+      title: Empresas Coreanas - Google Sheets
+      url: https://docs.google.com/spreadsheets/d/12BrsRFxYgB51YqK87375G0czXxqWJTN1cJ1W8z-4rvQ/edit#gid=0
       zoom: 1.0
