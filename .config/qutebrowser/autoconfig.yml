@@ -6,5 +6,5 @@
 
 config_version: 2
 settings:
-  content.notifications.enabled:
-    https://www1.thepiratebay3.to: false
+  content.geolocation:
+    https://www.google.com: true

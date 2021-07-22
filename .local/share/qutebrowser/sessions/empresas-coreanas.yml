@@ -1,0 +1,129 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAATMAAAAAAAACf8AAAQ3AAAEzwAAAAMAAAn8AAAENAAAAAAAAAAACgAAAATPAAAA
+    AwAACfwAAAQ0
+  tabs:
+  - history:
+    - last_visited: '2021-07-22T08:54:29'
+      pinned: false
+      title: Links ÚteisEmbaixada da República da Coreia na República Federativa do
+        Brasil
+      url: https://overseas.mofa.go.kr/br-pt/wpge/m_6128/contents.do
+    - active: true
+      last_visited: '2021-07-22T14:10:00'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 368
+      title: Embaixada da República da Coreia na República Federativa do Brasil
+      url: https://overseas.mofa.go.kr/br-pt/index.do
+      zoom: 1.0
+  - active: true
+    history:
+    - last_visited: '2021-07-22T15:02:47'
+      pinned: false
+      title: Embaixada República da Coreia (@embaixadacoreia) • Instagram photos
+        and videos
+      url: https://www.instagram.com/embaixadacoreia/
+    - last_visited: '2021-07-22T15:03:28'
+      pinned: false
+      title: Embaixada República da Coreia (@embaixadacoreia) • Instagram photos
+        and videos
+      url: https://www.instagram.com/embaixadacoreia/
+    - active: true
+      last_visited: '2021-07-22T15:05:42'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Embaixada República da Coreia (@embaixadacoreia) • Instagram photos
+        and videos
+      url: https://www.instagram.com/embaixadacoreia/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-22T14:59:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: AsiaColors - Pioneira em diplomacia pública de países da Ásia no Brasil
+      url: http://www.asiacolors.com.br/?fbclid=IwAR3TIXulaM6TIi4eFEEYrMipytHajrIbnheeMpX1RHJdTyHcxITl6Wu9pyA#contact
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-22T14:59:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: AsiaColors | Facebook
+      url: https://www.facebook.com/AsiaColorsBR/
+      zoom: 1.0
+    - last_visited: '2021-07-22T09:56:21'
+      pinned: false
+      title: Facebook
+      url: https://www.facebook.com/philippe.fanaro/posts/4293193634036554?notif_id=1626700242648288&notif_t=feedback_reaction_generic&ref=notif
+    - last_visited: '2021-07-22T09:56:20'
+      pinned: false
+      title: Watch | Facebook
+      url: https://www.facebook.com/watch
+    - last_visited: '2021-07-22T09:56:18'
+      pinned: false
+      title: Pages | Facebook
+      url: https://www.facebook.com/pages/?category=your_pages&ref=bookmarks
+    - last_visited: '2021-07-22T09:56:17'
+      pinned: false
+      title: Watch | Facebook
+      url: https://www.facebook.com/watch
+    - last_visited: '2021-07-22T09:56:16'
+      pinned: false
+      title: Pages | Facebook
+      url: https://www.facebook.com/pages/?category=your_pages&ref=bookmarks
+    - last_visited: '2021-07-22T09:56:14'
+      pinned: false
+      title: Watch | Facebook
+      url: https://www.facebook.com/watch
+    - last_visited: '2021-07-22T09:56:13'
+      pinned: false
+      title: Facebook
+      url: https://www.facebook.com/
+    - last_visited: '2021-07-22T09:56:07'
+      pinned: false
+      title: Go Brasil | Facebook
+      url: https://www.facebook.com/groups/gobrasil
+  - history:
+    - last_visited: '2021-07-22T08:54:27'
+      pinned: false
+      title: BrazilKorea - Site sobre a Coreia do Sul e cultura coreana no Brasil
+      url: https://www.brazilkorea.com.br/
+    - active: true
+      last_visited: '2021-07-22T14:59:16'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Contate-nos
+      url: https://www.brazilkorea.com.br/contact-us-2/
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-22T14:59:18'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: KOTRA
+      url: https://www.kotra.or.kr/kh/ftrader/ftraderEng.do
+      zoom: 1.0
+  - history:
+    - active: true
+      last_visited: '2021-07-22T08:54:28'
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: KOTRA SAO PAULO
+      url: https://www.kotra.or.kr/foreign/kotra/KHENKT200M.html?DEPT_CD=1039418&DEPT_NM=KTC,%20SAO%20PAULO(Div.%20Comercial%20de%20Consulado%20Geral%20da%20Coreia)&NATI_NM=Brazil&DEPT_NM2=SAO%20PAULO&homepage=
+      zoom: 1.0
