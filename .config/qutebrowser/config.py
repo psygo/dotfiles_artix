@@ -74,7 +74,7 @@ c.url.searchengines = {
     ':libgen':  'http://libgen.rs/search.php?req={}',
     ':od':      'https://odysee.com/$/search?q={}',
     ':pub':     'https://pub.dev/packages?q={}',
-    ':pr':      'https://thepiratebay.org/search.php?q={}',
+    ':pr':      'https://piratebay.party/search/{}',
     ':prib':    'https://dicionario.priberam.org/{}',
     ':re':      'https://www.reddit.com/search/?q={}',
     ':sensei':  'https://senseis.xmp.net/?search={}',
