@@ -66,6 +66,7 @@ c.url.searchengines = {
     ':g':       'https://www.google.com/search?q={}',
     ':gh':      'https://github.com/search?q={}',
     ':gr':      'https://goodreads.com/search?q={}',
+    ':grabcad': 'https://grabcad.com/library?page=1&time=all_time&sort=recent&query={}',
     ':h':       'https://hoogle.haskell.org/?hoogle={}',
     ':hw':      'https://wiki.haskell.org/index.php?search={}',
     ':isbn':    'https://isbnsearch.org/search?s={}',
