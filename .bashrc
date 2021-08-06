@@ -70,6 +70,7 @@ alias clrp="colorpicker"
 alias nm="neomutt"
 alias github_ssh="eval \$(ssh-agent -s) && ssh-add ~/.ssh/github_ssh"
 alias gssh="github_ssh"
+alias mpv="mpv --volume=70"
 
 # Package Managers
 alias p="sudo pacman"
