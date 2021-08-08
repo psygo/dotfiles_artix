@@ -7,4 +7,4 @@
 config_version: 2
 settings:
   content.geolocation:
-    https://www.google.com: true
+    https://baduk.club: true
