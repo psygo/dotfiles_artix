@@ -14,4 +14,4 @@ $ xdg-mime default google-chrome.desktop 'x-scheme-handler/http'
 $ xdg-mime default google-chrome.desktop 'x-scheme-handler/https'
 ```
 
-[But you should use `org.qutebrowser.qutebrowser.desktop` when using `xdg-mime`](xdg-mime default org.qutebrowser.qutebrowser.desktop 'x-scheme-handler/http').
+[But you should use `org.qutebrowser.qutebrowser.desktop` when using `xdg-mime`](https://github.com/qutebrowser/qutebrowser/issues/22).
